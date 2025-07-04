@@ -29,7 +29,7 @@ It creates detailed, original character profiles based on races, classes, region
   "birthsign": "The Shadow",
   "alignment": "Neutral Evil",
   "backstory": "Vael was born in the ash-choked alleys of Balmora..."
-}
+}```
 
 📡 API Endpoint
 GET /generate
