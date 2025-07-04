@@ -19,7 +19,7 @@ It creates detailed, original character profiles based on races, classes, region
 
 ## 🎯 Example Output
 
-json
+```json
 {
   "name": "Vael Seron",
   "race": "Dunmer",
