@@ -30,6 +30,7 @@ It creates detailed, original character profiles based on races, classes, region
   "alignment": "Neutral Evil",
   "backstory": "Vael was born in the ash-choked alleys of Balmora..."
 }
+
 📡 API Endpoint
 GET /generate
 Returns a fully-formed character in JSON.
@@ -43,13 +44,9 @@ Optional query parameters (coming soon):
 
 🧱 Tech Stack
 Backend: Python + Flask
-
 Data Source: JSON → SQLite (future))
-
 API Publishing: RapidAPI (planned)
-
 Premium Features: AI-enhanced bios (future)
-
 Optional Frontend: Next.js / Flask templates
 
 🛡️ License
@@ -57,11 +54,8 @@ Scrollforge API is licensed under the
 CC BY-NC-SA 4.0 license.
 
 This means:
-
 ✅ You're free to use, remix, and share it for non-commercial purposes
-
 ❌ You cannot sell, resell, or deploy this commercially without permission
-
 👑 Credit must be given to the original creator: Vishwassharma38
 
 🧙 About the Project
