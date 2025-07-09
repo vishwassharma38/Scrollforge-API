@@ -77,8 +77,8 @@ def get_race_allies_and_rivals(race, rules, factions):
 
 def filter_deities_by_race(race, deities, rules):
     race_name = race.get("name")
-    allowed = set(rules.get("preferred_deities", {}).get(race_name, []))
-    return [d for d in deities if d["deity"] in allowed]
+    allowed = set(deity.lower() for deity in rules.get("preferred_deities", {}).get(race_name, []))
+    return [d for d in deities if d.get("deity", "").lower() in allowed]
 
 def filter_names_by_race(race, names_data):
     race_name = race.get("name")
