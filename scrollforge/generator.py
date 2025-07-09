@@ -19,13 +19,22 @@ from .filters import (
 
 logger = logging.getLogger(__name__)
 
+# SAFER PATH HANDLING
 BASE_DIR = Path(__file__).resolve().parent
+DATA_DIR = BASE_DIR / 'data'
 
 @lru_cache(maxsize=32)
 def load_json(filename):
-    path = BASE_DIR / 'data' / filename
-    with path.open('r', encoding='utf-8') as file:
-        return json.load(file)
+    path = DATA_DIR / filename
+    if not path.exists():
+        logger.error(f"Missing JSON file: {path}")
+        raise FileNotFoundError(f"Required data file not found: {path}")
+    try:
+        with path.open('r', encoding='utf-8') as file:
+            return json.load(file)
+    except Exception as e:
+        logger.exception(f"Failed to load JSON from: {path}")
+        return {}
 
 def get_random_item(data, key=None):
     item = random.choice(data)
