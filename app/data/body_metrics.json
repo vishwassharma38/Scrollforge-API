@@ -1,0 +1,42 @@
+{
+  "Vaelari": {
+    "height": [185, 200],
+    "weight": [65, 80]
+  },
+  "Mirekin": {
+    "height": [170, 185],
+    "weight": [60, 75]
+  },
+  "Thorneth": {
+    "height": [155, 170],
+    "weight": [45, 60]
+  },
+  "Gryxen": {
+    "height": [165, 180],
+    "weight": [60, 80]
+  },
+  "Ashkai": {
+    "height": [170, 180],
+    "weight": [55, 70]
+  },
+  "Thalorin": {
+    "height": [170, 185],
+    "weight": [65, 90]
+  },
+  "Canari": {
+    "height": [160, 175],
+    "weight": [55, 75]
+  },
+  "Brakyr": {
+    "height": [185, 205],
+    "weight": [85, 115]
+  },
+  "Dravok": {
+    "height": [180, 200],
+    "weight": [90, 125]
+  },
+  "Sularin": {
+    "height": [175, 195],
+    "weight": [70, 95]
+  }
+}

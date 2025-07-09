@@ -1,0 +1,106 @@
+{
+  "invalid_race_faction": {
+    "Vaelari": ["House Veltharn", "Nightshard Company", "Gravediggers"],
+    "Mirekin": ["House Varyss", "The Emberlight Creed"],
+    "Thorneth": ["The Emberlight Creed", "Circle of Veil"],
+    "Gryxen": ["House Veltharn", "Order of the Golden Sigil"],
+    "Ashkai": ["Wardens of Virellia", "House Varyss"],
+    "Thalorin": ["Nightshard Company", "The Quiet Hand"],
+    "Canari": ["Oathblades", "House Varyss"],
+    "Brakyr": ["Order of Stillness", "Circle of Veil"],
+    "Dravok": ["The Emberlight Creed", "Wardens of Virellia"],
+    "Sularin": ["Gravediggers", "Ashborn Rebellion"]
+  },
+
+  "class_faction_allowed": {
+    "Whispercloak": ["The Hollow Coin", "The Quiet Hand", "Nightshard Company"],
+    "Veilpiercer": ["The Quiet Hand", "Crimson Pact", "Ashborn Rebellion"],
+    "Ironblood": ["Iron Kin", "Ashborn Rebellion", "Steelmark Syndicate"],
+    "Runeweaver": [
+      "Order of the Golden Sigil",
+      "Circle of Veil",
+      "Order of Stillness"
+    ],
+    "Gravedigger": ["Gravediggers", "House Veltharn"],
+    "Lifebinder": ["Order of Stillness", "Wardens of Virellia"],
+    "Pathstrider": ["Iron Kin", "Wardens of Virellia", "Ashborn Rebellion"],
+    "Spelltyrant": ["House Varyss", "Wardens of Virellia", "Crimson Pact"]
+  },
+
+  "race_origin_restrictions": {
+    "Vaelari": ["Wastes of Kharuun", "Spinehold", "Ashvale Reach"],
+    "Mirekin": ["Highspire", "Sunveil Expanse", "Stonebarrow Depths"],
+    "Thorneth": ["Frostmere Wilds", "Kruulfen Marsh", "Stormhollow"],
+    "Gryxen": ["Silvershard Coast", "Elderwood"],
+    "Ashkai": ["Deepwell Caverns", "Sunveil Expanse", "Wraithfen"],
+    "Thalorin": ["Virellia", "Duskhollow", "Skyreach Plateau"],
+    "Canari": ["Wraithfen", "Stonebarrow Depths"],
+    "Brakyr": ["Gravetide", "Spinehold"],
+    "Dravok": ["Skyrift", "Riftspire"],
+    "Sularin": ["Molthorn Barrens", "Crimson Wastes"]
+  },
+
+  "class_restrictions": {
+    "Ironblood": ["Brakyr", "Dravok", "Sularin"],
+    "Runeweaver": ["Vaelari", "Gryxen", "Ashkai"],
+    "Whispercloak": ["Canari", "Thalorin", "Mirekin"],
+    "Veilpiercer": ["Ashkai", "Canari", "Thalorin"],
+    "Spelltyrant": ["Brakyr", "Dravok", "Ashkai"],
+    "Pathstrider": ["Thorneth", "Sularin", "Mirekin"],
+    "Gravedigger": ["Ashkai", "Thalorin", "Vaelari"],
+    "Lifebinder": ["Vaelari", "Mirekin", "Gryxen"]
+  },
+
+  "preferred_deities": {
+    "Vaelari": [
+      "Oravyn the Eternal Spiral",
+      "Almereth the Radiant Vow",
+      "Sevrien the Quiet Flame"
+    ],
+    "Mirekin": [
+      "Velmara of the Closing Gate",
+      "Nirvalae of the Open Sky",
+      "Kaervuun of the Crimson Moon"
+    ],
+    "Thorneth": [
+      "Nirvalae of the Open Sky",
+      "Selora the Unseen Muse",
+      "Kaervuun of the Crimson Moon"
+    ],
+    "Gryxen": [
+      "Sevrien the Quiet Flame",
+      "Myrrak the Jester-King",
+      "Maezul the Emberlord"
+    ],
+    "Ashkai": [
+      "Maezul the Emberlord",
+      "Valcyra the Blade-Bride",
+      "Velmara of the Closing Gate"
+    ],
+    "Thalorin": [
+      "Oravyn the Eternal Spiral",
+      "Thalir, Hammer of Mercy",
+      "Velsarion the Maskmaker"
+    ],
+    "Canari": [
+      "Selora the Unseen Muse",
+      "Embralyn the Heartshroud",
+      "Kaervuun of the Crimson Moon"
+    ],
+    "Brakyr": [
+      "Thalir, Hammer of Mercy",
+      "Therros, Crown of Flame",
+      "Zalgen the Forgestrider"
+    ],
+    "Dravok": [
+      "Zalgen the Forgestrider",
+      "Therros, Crown of Flame",
+      "Droskar, Chainfather"
+    ],
+    "Sularin": [
+      "Valcyra the Blade-Bride",
+      "Selora the Unseen Muse",
+      "Velsarion the Maskmaker"
+    ]
+  }
+}

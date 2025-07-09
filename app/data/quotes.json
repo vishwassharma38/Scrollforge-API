@@ -1,0 +1,219 @@
+[
+  { "class": "Ironblood", "quote": "Steel doesn’t flinch — and neither do I." },
+  {
+    "class": "Ironblood",
+    "quote": "My shield has seen more battles than most generals."
+  },
+  { "class": "Ironblood", "quote": "Pain is weakness leaving the body." },
+  {
+    "class": "Ironblood",
+    "quote": "A broken sword still hurts on the way down."
+  },
+  { "class": "Ironblood", "quote": "I don’t need luck. I have armor." },
+  {
+    "class": "Ironblood",
+    "quote": "Honor is earned one broken bone at a time."
+  },
+  { "class": "Ironblood", "quote": "I bleed so others don’t have to." },
+  {
+    "class": "Ironblood",
+    "quote": "If I fall, I’ll take the mountain with me."
+  },
+  { "class": "Ironblood", "quote": "Every scar tells a story I survived." },
+  { "class": "Ironblood", "quote": "The battlefield is my home." },
+  { "class": "Ironblood", "quote": "Axes talk louder than kings." },
+  { "class": "Ironblood", "quote": "I speak in warcries and final blows." },
+
+  {
+    "class": "Runeweaver",
+    "quote": "Magic is the language of the universe, and I am fluent."
+  },
+  { "class": "Runeweaver", "quote": "Wands break, minds do not." },
+  {
+    "class": "Runeweaver",
+    "quote": "Knowledge is fire waiting to be unleashed."
+  },
+  { "class": "Runeweaver", "quote": "Arcane secrets echo in my dreams." },
+  { "class": "Runeweaver", "quote": "Books can burn, but the magic remains." },
+  { "class": "Runeweaver", "quote": "I don’t cast spells — I command them." },
+  { "class": "Runeweaver", "quote": "To master the arcane is to master fate." },
+  { "class": "Runeweaver", "quote": "Mana is life distilled into purpose." },
+  { "class": "Runeweaver", "quote": "I weave flame into thought." },
+  { "class": "Runeweaver", "quote": "Runes remember what mortals forget." },
+  {
+    "class": "Runeweaver",
+    "quote": "Even time bends to the right incantation."
+  },
+  { "class": "Runeweaver", "quote": "Magic is just logic in motion." },
+
+  {
+    "class": "Whispercloak",
+    "quote": "Why fight for gold when you can just take it?"
+  },
+  {
+    "class": "Whispercloak",
+    "quote": "Locks are like riddles — and I love puzzles."
+  },
+  { "class": "Whispercloak", "quote": "The shadows owe me favors." },
+  { "class": "Whispercloak", "quote": "I leave no footprints — just regret." },
+  { "class": "Whispercloak", "quote": "Silence is my weapon." },
+  { "class": "Whispercloak", "quote": "Gold doesn’t ask how it was earned." },
+  {
+    "class": "Whispercloak",
+    "quote": "A true thief is always expected — but never seen."
+  },
+  {
+    "class": "Whispercloak",
+    "quote": "I could steal your boots while you’re running."
+  },
+  {
+    "class": "Whispercloak",
+    "quote": "The best treasures are behind the worst lies."
+  },
+  {
+    "class": "Whispercloak",
+    "quote": "You only notice me when it’s too late."
+  },
+  {
+    "class": "Whispercloak",
+    "quote": "Every noble keeps a secret. I keep it for a price."
+  },
+  {
+    "class": "Whispercloak",
+    "quote": "I don’t need to kill you — just your pride."
+  },
+
+  {
+    "class": "Veilpiercer",
+    "quote": "By the time you hear me, you’re already dead."
+  },
+  {
+    "class": "Veilpiercer",
+    "quote": "Poison is just diplomacy with better results."
+  },
+  {
+    "class": "Veilpiercer",
+    "quote": "A quiet blade is louder than a thousand screams."
+  },
+  { "class": "Veilpiercer", "quote": "I don’t blink — I calculate." },
+  {
+    "class": "Veilpiercer",
+    "quote": "Blood is the ink I sign contracts with."
+  },
+  { "class": "Veilpiercer", "quote": "Death doesn’t knock. It whispers." },
+  {
+    "class": "Veilpiercer",
+    "quote": "The shadows are my allies, not my cover."
+  },
+  { "class": "Veilpiercer", "quote": "Mercy is not in my contract." },
+  { "class": "Veilpiercer", "quote": "One strike, one soul." },
+  { "class": "Veilpiercer", "quote": "I count deaths, not hours." },
+  {
+    "class": "Veilpiercer",
+    "quote": "My guild doesn't leave messages. Just bodies."
+  },
+  {
+    "class": "Veilpiercer",
+    "quote": "Some prayers are answered in silence and blood."
+  },
+
+  {
+    "class": "Spelltyrant",
+    "quote": "I summon storms and swing steel — which would you prefer?"
+  },
+  {
+    "class": "Spelltyrant",
+    "quote": "A sword in one hand, flame in the other."
+  },
+  { "class": "Spelltyrant", "quote": "Why choose between spell and steel?" },
+  { "class": "Spelltyrant", "quote": "My mind burns as fiercely as my blade." },
+  { "class": "Spelltyrant", "quote": "I ignite before I strike." },
+  { "class": "Spelltyrant", "quote": "Armor only slows me if I let it." },
+  {
+    "class": "Spelltyrant",
+    "quote": "I walk between the physical and the ethereal."
+  },
+  { "class": "Spelltyrant", "quote": "Even my wounds crackle with energy." },
+  { "class": "Spelltyrant", "quote": "I duel with spells and scars." },
+  {
+    "class": "Spelltyrant",
+    "quote": "I learned magic at the point of a sword."
+  },
+  { "class": "Spelltyrant", "quote": "Balance is my greatest weapon." },
+  { "class": "Spelltyrant", "quote": "I don’t fight — I overwhelm." },
+
+  {
+    "class": "Pathstrider",
+    "quote": "The forest speaks; I simply follow its wisdom."
+  },
+  { "class": "Pathstrider", "quote": "An arrow doesn’t miss — it chooses." },
+  { "class": "Pathstrider", "quote": "Tracks don’t lie. People do." },
+  {
+    "class": "Pathstrider",
+    "quote": "I know every rustle, every call. This is my land."
+  },
+  { "class": "Pathstrider", "quote": "Bows whisper what swords shout." },
+  {
+    "class": "Pathstrider",
+    "quote": "Nature doesn’t forgive — and neither do I."
+  },
+  {
+    "class": "Pathstrider",
+    "quote": "The wild is honest. Civilization isn't."
+  },
+  {
+    "class": "Pathstrider",
+    "quote": "I breathe with the wind, strike with the storm."
+  },
+  { "class": "Pathstrider", "quote": "My footsteps grow moss behind them." },
+  {
+    "class": "Pathstrider",
+    "quote": "You’ll die not knowing where the arrow came from."
+  },
+  { "class": "Pathstrider", "quote": "I’m not lost — the world is." },
+  { "class": "Pathstrider", "quote": "I can track your regrets." },
+
+  {
+    "class": "Gravedigger",
+    "quote": "Bones remember things the living forget."
+  },
+  { "class": "Gravedigger", "quote": "I don’t fear death. I command it." },
+  { "class": "Gravedigger", "quote": "Every corpse is a tool." },
+  { "class": "Gravedigger", "quote": "Life is temporary. Obedience isn't." },
+  { "class": "Gravedigger", "quote": "The graveyard is my workshop." },
+  {
+    "class": "Gravedigger",
+    "quote": "I raise more allies than you’ll ever meet."
+  },
+  { "class": "Gravedigger", "quote": "The living are so... fragile." },
+  { "class": "Gravedigger", "quote": "I speak in echoes of the dead." },
+  { "class": "Gravedigger", "quote": "Souls are the best currency." },
+  { "class": "Gravedigger", "quote": "Burial is just preparation." },
+  {
+    "class": "Gravedigger",
+    "quote": "I harvest regrets and bind them to bone."
+  },
+  {
+    "class": "Gravedigger",
+    "quote": "I’ve died more times than you’ve slept."
+  },
+
+  {
+    "class": "Lifebinder",
+    "quote": "Where others see wounds, I see chances to defy death."
+  },
+  { "class": "Lifebinder", "quote": "Every life saved is a war won." },
+  { "class": "Lifebinder", "quote": "I mend what swords break." },
+  { "class": "Lifebinder", "quote": "My touch is light. My resolve is not." },
+  { "class": "Lifebinder", "quote": "Healing is the fiercest kind of magic." },
+  {
+    "class": "Lifebinder",
+    "quote": "Divines work through me — I just guide the light."
+  },
+  { "class": "Lifebinder", "quote": "I carry no blade, yet end battles." },
+  { "class": "Lifebinder", "quote": "Pain is fleeting. Mercy endures." },
+  { "class": "Lifebinder", "quote": "The light forgives, even when I cannot." },
+  { "class": "Lifebinder", "quote": "I heal others so I can forget myself." },
+  { "class": "Lifebinder", "quote": "Hope is my most potent spell." },
+  { "class": "Lifebinder", "quote": "I can’t save everyone — but I try." }
+]

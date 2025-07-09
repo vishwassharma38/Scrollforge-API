@@ -1,0 +1,67 @@
+[
+  {
+    "name": "The Ironsoul",
+    "effect": "Grants great strength and physical resilience in battle.",
+    "element": "Ember"
+  },
+  {
+    "name": "The Veilstep",
+    "effect": "Allows the bearer to vanish from sight once per day.",
+    "element": "Shadow"
+  },
+  {
+    "name": "The Runeborn",
+    "effect": "Enhances the speed of arcane regeneration.",
+    "element": "Ether"
+  },
+  {
+    "name": "The Wispwalker",
+    "effect": "Increases agility, luck, and finesse.",
+    "element": "Gale"
+  },
+  {
+    "name": "The Hollow Spark",
+    "effect": "Greatly boosts mana reserves, but increases magical vulnerability.",
+    "element": "Aether"
+  },
+  {
+    "name": "The Nullbrand",
+    "effect": "Bestows immense magicka but disables natural recovery.",
+    "element": "Void"
+  },
+  {
+    "name": "The Mourning Star",
+    "effect": "Revives the fallen and turns the undead once per day.",
+    "element": "Soul"
+  },
+  {
+    "name": "The Thornkissed",
+    "effect": "Can charm or paralyze a foe with a single touch once per day.",
+    "element": "Charm"
+  },
+  {
+    "name": "The Obsidian Throne",
+    "effect": "Grants regeneration and resistance, but increases fire weakness.",
+    "element": "Stone"
+  },
+  {
+    "name": "The Blooming Grace",
+    "effect": "Enhances charisma, poise, and stamina.",
+    "element": "Bloom"
+  },
+  {
+    "name": "The Lockspire",
+    "effect": "Unlocks any barrier and reflects damage once per day.",
+    "element": "Glyph"
+  },
+  {
+    "name": "The Stormhoof",
+    "effect": "Imbues the bearer with unmatched speed and fluidity.",
+    "element": "Wind"
+  },
+  {
+    "name": "The Witherfang",
+    "effect": "Poisons enemies and cleanses disease, but drains health.",
+    "element": "Venom"
+  }
+]

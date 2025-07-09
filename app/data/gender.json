@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Male",
+    "display": "He/Him",
+    "pronouns": {
+      "subject": "He",
+      "object": "him",
+      "possessive": "his",
+      "reflexive": "himself"
+    }
+  },
+  {
+    "label": "Female",
+    "display": "She/Her",
+    "pronouns": {
+      "subject": "She",
+      "object": "her",
+      "possessive": "her",
+      "reflexive": "herself"
+    }
+  },
+  {
+    "label": "Non-Binary",
+    "display": "They/Them",
+    "pronouns": {
+      "subject": "They",
+      "object": "them",
+      "possessive": "their",
+      "reflexive": "themselves"
+    }
+  }
+]

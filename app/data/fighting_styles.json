@@ -1,0 +1,66 @@
+{
+  "Ironblood": [
+    "Shield-and-sword tanking",
+    "Greatsword cleaving",
+    "Axe-and-board brutality",
+    "Berserker-style rage slams",
+    "Hammer crushes",
+    "Blade parries and counters"
+  ],
+  "Runeweaver": [
+    "Spell-slinging from afar",
+    "Staff-based elemental casting",
+    "Runes and sigils",
+    "Magicka surge blasts",
+    "Arcane barrier warfare",
+    "Mystic distance control"
+  ],
+  "Whispercloak": [
+    "Dagger slashes in tight quarters",
+    "Sneaky bowshots from shadows",
+    "Rapid backstabs",
+    "Light-footed escapes",
+    "Pressure point strikes",
+    "Fast dual-daggers"
+  ],
+  "Veilpiercer": [
+    "Silent blade kills",
+    "Poison-coated weapons",
+    "Shadow strikes",
+    "Crossbow precision shots",
+    "Throat slits from above",
+    "Untraceable exits"
+  ],
+  "Spelltyrant": [
+    "Spell and steel combos",
+    "Flame sword sweeps",
+    "Enchanted weapon dueling",
+    "Arcane punch-ups",
+    "Lightning-enhanced slashes",
+    "Fireball follow-ups"
+  ],
+  "Pathstrider": [
+    "Sneaky bowshots from shadows",
+    "Dual-blade mobility",
+    "Long-range archery",
+    "Trapping and tracking",
+    "Poison arrows",
+    "Beast-bonded strikes"
+  ],
+  "Gravedigger": [
+    "Summoning undead minions",
+    "Bone spikes from below",
+    "Soul leech strikes",
+    "Rot magic bursts",
+    "Cursed touch",
+    "Spectral claws"
+  ],
+  "Lifebinder": [
+    "Staff-based defense",
+    "Protective aura combat",
+    "Blinding light strikes",
+    "Ward-based parries",
+    "Magicka burst retaliations",
+    "Unarmed martial arts"
+  ]
+}

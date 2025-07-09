@@ -1,0 +1,34 @@
+{
+  "Ironblood": {
+    "height_mod": 5,
+    "weight_mod": 15
+  },
+  "Runeweaver": {
+    "height_mod": 0,
+    "weight_mod": -10
+  },
+  "Whispercloak": {
+    "height_mod": -5,
+    "weight_mod": -10
+  },
+  "Veilpiercer": {
+    "height_mod": -7,
+    "weight_mod": -12
+  },
+  "Spelltyrant": {
+    "height_mod": 2,
+    "weight_mod": 5
+  },
+  "Pathstrider": {
+    "height_mod": 0,
+    "weight_mod": -5
+  },
+  "Gravedigger": {
+    "height_mod": -2,
+    "weight_mod": -7
+  },
+  "Lifebinder": {
+    "height_mod": 0,
+    "weight_mod": -5
+  }
+}

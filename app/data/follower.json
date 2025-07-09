@@ -1,0 +1,172 @@
+[
+  {
+    "deity": "Oravyn the Eternal Spiral",
+    "domain": "Time and Order",
+    "beliefs": [
+      "Time is sacred and we are its guests",
+      "Order flows in endless, patient cycles",
+      "Destiny whispers to those who wait"
+    ],
+    "devotion_level": "High"
+  },
+  {
+    "deity": "Velmara of the Closing Gate",
+    "domain": "Life and Death",
+    "beliefs": [
+      "Life is a fleeting visitor",
+      "Death is a return, not an end",
+      "Defiling the grave invites ruin"
+    ],
+    "devotion_level": "Medium"
+  },
+  {
+    "deity": "Embralyn the Heartshroud",
+    "domain": "Love and Compassion",
+    "beliefs": [
+      "Kindness is the oldest magic",
+      "Love mends where swords cannot",
+      "Blood is family, but spirit is kin"
+    ],
+    "devotion_level": "High"
+  },
+  {
+    "deity": "Thalir, Hammer of Mercy",
+    "domain": "Justice and Protection",
+    "beliefs": [
+      "Stand between harm and the helpless",
+      "Justice must be swift, not cruel",
+      "Undeath is a defiance of balance"
+    ],
+    "devotion_level": "High"
+  },
+  {
+    "deity": "Sevrien the Quiet Flame",
+    "domain": "Wisdom and Arcana",
+    "beliefs": [
+      "Knowledge is sacred breath",
+      "Ignorance invites collapse",
+      "Magic obeys those who understand"
+    ],
+    "devotion_level": "Medium"
+  },
+  {
+    "deity": "Nirvalae of the Open Sky",
+    "domain": "Nature and Wind",
+    "beliefs": [
+      "The wild is a sacred mother",
+      "Air carries dreams and truth",
+      "Never silence the song of the earth"
+    ],
+    "devotion_level": "Medium"
+  },
+  {
+    "deity": "Zalgen the Forgestrider",
+    "domain": "Labor and Trade",
+    "beliefs": [
+      "Honor lives in honest hands",
+      "Greed poisons even golden deals",
+      "A day’s work is a day’s worth"
+    ],
+    "devotion_level": "Low"
+  },
+  {
+    "deity": "Therros, Crown of Flame",
+    "domain": "War and Dominion",
+    "beliefs": [
+      "Greatness is earned by iron",
+      "The divine lies within mortals",
+      "Stand proud; bend to no tyrant"
+    ],
+    "devotion_level": "Very High"
+  },
+  {
+    "deity": "Valcyra the Blade-Bride",
+    "domain": "Betrayal and Trials",
+    "beliefs": [
+      "Only the worthy endure betrayal",
+      "Strength is born in backstabs",
+      "Victory is never gifted"
+    ],
+    "devotion_level": "Medium"
+  },
+  {
+    "deity": "Nymira of the Dimming Veil",
+    "domain": "Dusk and Fate",
+    "beliefs": [
+      "Fate is a dream we keep forgetting",
+      "Twilight reveals hidden truths",
+      "All paths lead through shadow"
+    ],
+    "devotion_level": "Low"
+  },
+  {
+    "deity": "Selora the Unseen Muse",
+    "domain": "Secrets and Night",
+    "beliefs": [
+      "Darkness is not evil—it’s refuge",
+      "Silence guards truth",
+      "Every soul holds a secret name"
+    ],
+    "devotion_level": "High"
+  },
+  {
+    "deity": "Maezul the Emberlord",
+    "domain": "Ruin and Uprising",
+    "beliefs": [
+      "From ash, kingdoms rise",
+      "Destruction cleans the bones of the world",
+      "Only flame knows honesty"
+    ],
+    "devotion_level": "Low"
+  },
+  {
+    "deity": "Droskar, Chainfather",
+    "domain": "Domination and Pain",
+    "beliefs": [
+      "The strong wield others as tools",
+      "Pain is the seal of power",
+      "Chains are a language of gods"
+    ],
+    "devotion_level": "Low"
+  },
+  {
+    "deity": "Myrrak the Jester-King",
+    "domain": "Madness and Dreams",
+    "beliefs": [
+      "Madness is freedom’s disguise",
+      "Reality is a joke waiting to be heard",
+      "Laughter cuts deeper than daggers"
+    ],
+    "devotion_level": "Chaotic"
+  },
+  {
+    "deity": "Almereth the Radiant Vow",
+    "domain": "Light and Purity",
+    "beliefs": [
+      "Light burns away rot",
+      "The dead must sleep, not wander",
+      "Purity is not innocence—it is resolve"
+    ],
+    "devotion_level": "Medium"
+  },
+  {
+    "deity": "Velsarion the Maskmaker",
+    "domain": "Deals and Desires",
+    "beliefs": [
+      "Promises shape fate",
+      "Desire is the root of all power",
+      "Every mask is a truth forgotten"
+    ],
+    "devotion_level": "Low"
+  },
+  {
+    "deity": "Kaervuun of the Crimson Moon",
+    "domain": "Hunt and Beastform",
+    "beliefs": [
+      "The hunt is holy",
+      "The wild beast within is not shameful",
+      "Only those who run may rise"
+    ],
+    "devotion_level": "High"
+  }
+]

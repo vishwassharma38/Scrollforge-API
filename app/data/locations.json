@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Varkuun Hollow",
+    "description": "A smoldering land of obsidian cliffs and volcanic storms. The air crackles with ancient energies buried beneath blackened soil.",
+    "region_type": "Volcanic",
+    "environment": ["Ember Fields", "Sulfur Crags", "Crystal Spires"],
+    "major_places": [
+      "Khar Vessai",
+      "Molrend's Throat",
+      "Vel Atuur",
+      "Dravon's Hollow",
+      "Zhaal Crater",
+      "Ashen Hold",
+      "Ruins of Karnethi",
+      "Tel Mhur",
+      "Redmire Gate",
+      "Cindervault"
+    ]
+  },
+  {
+    "name": "Hjarnheim",
+    "description": "A frostbitten kingdom of thunder and stone, where ice giants walk among whispering blizzards and dragonbone peaks.",
+    "region_type": "Tundra",
+    "environment": ["Frozen Fjords", "Frostfang Peaks", "Ancient Cairns"],
+    "major_places": [
+      "Drelskar",
+      "Hailgrasp",
+      "Thurngard",
+      "Orrivorn",
+      "Skaltrund",
+      "Norrkael",
+      "Vaerwick",
+      "Yorndal",
+      "Fjorhollow",
+      "Icewatch"
+    ]
+  },
+  {
+    "name": "Zehrathel",
+    "description": "A dual-souled land of blistering dunes and whispering jungles, where moon-blessed tribes tend to sacred sands and citrus groves.",
+    "region_type": "Desert/Jungle",
+    "environment": ["Golden Dunes", "Moon-Touched Groves", "Spice Trails"],
+    "major_places": [
+      "Mirajhan",
+      "Orr'sai",
+      "Tethran Oasis",
+      "Shilnari",
+      "Dunari's Hollow",
+      "Nafael",
+      "Vel'Zhen",
+      "Xharneth Spires",
+      "Crescent Vale",
+      "Yavari’s Breath"
+    ]
+  },
+  {
+    "name": "Virellia",
+    "description": "A civilized heartland of golden plains and ornate cities, where diplomacy masks daggers and temples guard old lies.",
+    "region_type": "Temperate",
+    "environment": ["Velvet Meadows", "Cerulean Lakes", "Marbled Spires"],
+    "major_places": [
+      "Corvintal",
+      "Thalvain",
+      "Duskwatch",
+      "Rellamir",
+      "Chellora",
+      "Velgrande",
+      "Kaetor",
+      "Laurelis",
+      "Mirask",
+      "Vault of Oran"
+    ]
+  },
+  {
+    "name": "Drekmire",
+    "description": "A festering wilderness where the land breathes mist and the trees whisper secrets. Home to creatures born of fog and instinct.",
+    "region_type": "Swamp",
+    "environment": ["Fungal Groves", "Rotwood Paths", "Sunken Sanctuaries"],
+    "major_places": [
+      "Myrrkshade",
+      "Tross'Veen",
+      "Wyrmroot",
+      "Glenslough",
+      "Mourntree",
+      "Ashfen",
+      "Skir Hollow",
+      "Verdenswamp",
+      "Yorr'murk",
+      "Zarilith"
+    ]
+  },
+  {
+    "name": "Almathar Coast",
+    "description": "An isle of immortal light and ethereal sea-glass towers, where arcane winds sing through white cliffs and crystal chapels.",
+    "region_type": "Coastal/Island",
+    "environment": ["Aurora Bays", "Rune Gardens", "Skyglass Arches"],
+    "major_places": [
+      "Ilvandrel",
+      "Saelmarin",
+      "Shyvenae",
+      "Thalivare",
+      "Driselle",
+      "Elarith",
+      "Moondawn Reach",
+      "Vel Athein",
+      "Syl Verran",
+      "Tower of Embrith"
+    ]
+  },
+  {
+    "name": "Qamarra",
+    "description": "Sun-scorched and storm-born, Qamarra's nomads travel ancient roads of fallen empires and glimmering salt-river ports.",
+    "region_type": "Desert",
+    "environment": ["Shimmering Sands", "Runed Pillars", "Sunset Harbors"],
+    "major_places": [
+      "Sarnazir",
+      "Khaldrim",
+      "Vahtesh",
+      "Orram's Reach",
+      "Tenaraq",
+      "Salharad",
+      "Qynbar",
+      "Lazeen",
+      "Khurval",
+      "Azra's Embrace"
+    ]
+  },
+  {
+    "name": "Caelmir Reach",
+    "description": "A land of crumbling kingdoms and mist-kissed ruins, where bloodlines fight beneath starlit monoliths and rune-laced cliffs.",
+    "region_type": "Mountainous/Coastal",
+    "environment": ["Windworn Bluffs", "Forgotten Forts", "Sigil Stones"],
+    "major_places": [
+      "Myrreth",
+      "Kaelenford",
+      "Wyndrith",
+      "Esmoria",
+      "Brannoch",
+      "Shardhollow",
+      "Drelwyn's Veil",
+      "Thornmar",
+      "Arathwyn",
+      "Runescar Keep"
+    ]
+  },
+  {
+    "name": "Sylvaenroot",
+    "description": "An ancient rainforest, alive and aware, where tribes wander beneath colossal walking trees and whispering beasts guide fate.",
+    "region_type": "Rainforest",
+    "environment": ["Evergrowth", "Beast Tunnels", "Living Arbors"],
+    "major_places": [
+      "Thorncrest",
+      "Elmbarrow",
+      "Glimmernest",
+      "Hollowpath",
+      "Velwynd",
+      "Saeryn Grove",
+      "Brightbark",
+      "Druunshade",
+      "Vinelorn",
+      "Brayhollow"
+    ]
+  },
+  {
+    "name": "Kharnovar",
+    "description": "A mountainous forge-empire of flame-hardened clans and warbound smith-kings. Their hammers sing louder than their prayers.",
+    "region_type": "Mountain/Fortress",
+    "environment": ["Molten Forges", "Battle Keeps", "Cliff Bastions"],
+    "major_places": [
+      "Kharnovar Hold",
+      "Ghorfheim",
+      "Stonebraid Bastion",
+      "Drakka's Grasp",
+      "Rendspire",
+      "Torgak's Anvil",
+      "Veinmar",
+      "Mourngate",
+      "Helgrash Vault",
+      "The Ironhowl"
+    ]
+  }
+]

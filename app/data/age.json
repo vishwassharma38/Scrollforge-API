@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Young Adventurer",
+    "min": 18,
+    "max": 25,
+    "description": "Just stepping into the world, full of dreams, fire, and recklessness."
+  },
+  {
+    "label": "Seasoned Scout",
+    "min": 26,
+    "max": 35,
+    "description": "A balance of strength and caution, beginning to shape their legacy."
+  },
+  {
+    "label": "Veteran",
+    "min": 36,
+    "max": 49,
+    "description": "Hardened by countless trials, with scars that tell stories."
+  },
+  {
+    "label": "Elder",
+    "min": 50,
+    "max": 65,
+    "description": "Carries the wisdom of decades. Still capable, yet weary."
+  },
+  {
+    "label": "Ancient Soul",
+    "min": 66,
+    "max": 95,
+    "description": "A relic of bygone eras, their mere presence is a whisper of history."
+  }
+]

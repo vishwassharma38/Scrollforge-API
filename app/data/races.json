@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Vaelari",
+    "description": "Radiant skyborne elves who descend from starlit peaks. Known for their grace and ability to manipulate light, they shun arrogance for quiet divinity.",
+    "traits": ["Radiant Pulse", "Celestial Composure", "Lightweaving"]
+  },
+  {
+    "name": "Mirekin",
+    "description": "Reptilian folk from the murky deltas of Drekk's Hollow. Masters of tracking, disease-curing herbs, and diving deep into poisonous bogs.",
+    "traits": ["Swamp Survivalist", "Scent Tracker", "Bogborn Immunity"]
+  },
+  {
+    "name": "Thorneth",
+    "description": "Feral grovekin who reject bows in favor of claws, thorns, and beast-riding. Nature is not worshipped, but *commanded* through ancient pacts.",
+    "traits": ["Beastcaller", "Thornskin", "Predatory Instinct"]
+  },
+  {
+    "name": "Gryxen",
+    "description": "Arcane-born humans who wield raw energy through song and sigil. Descendants of elemental oaths, not elven mingling.",
+    "traits": ["Runesong Magic", "Wardskin", "Elemental Bond"]
+  },
+  {
+    "name": "Ashkai",
+    "description": "Ash-skinned seers born in volcanic catacombs. They thrive on flame and shadow, embracing loss and rebirth like rituals.",
+    "traits": ["Ember Soul", "Shadowstep", "Pain Kinship"]
+  },
+  {
+    "name": "Thalorin",
+    "description": "Silver-tongued cityfolk descended from empire-forgers. Less warriors, more tacticians, they sculpt nations with laws and secrets.",
+    "traits": ["Silver Tongue", "Coinwise", "Diplomatic Web"]
+  },
+  {
+    "name": "Canari",
+    "description": "Wolf-headed nomads of the Ember Plains. Agile, loyal, and blessed with keen senses, they run in packs and follow the Moonborn Code.",
+    "traits": ["Pack Instinct", "Moon Vision", "Quickfang"]
+  },
+  {
+    "name": "Brakyr",
+    "description": "Chill-hardened giants with hearts of fire, born under eternal snow. They see battle as duty, not glory, and hold ancient rites sacred.",
+    "traits": ["Coldblood Resolve", "Ancestor's Roar", "Glacierborn Might"]
+  },
+  {
+    "name": "Dravok",
+    "description": "Stoneblooded hulks with tusks and molten blood. They were shaped in furnaces, bred to be kings of war and forge alike.",
+    "traits": ["Molten Fury", "Ancestral Smithing", "Warplate Endurance"]
+  },
+  {
+    "name": "Sularin",
+    "description": "Desert-soul warriors with fluid grace and deadly blades. They dance like wind and endure like stone, favoring cunning over brute strength.",
+    "traits": ["Sandstepper", "Blade Dance", "Poison Veil"]
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "name": "The Hollow Coin",
+    "description": "A shadowy collective of smugglers, pickpockets, and black-market brokers who live by the creed of silence and silver.",
+    "alignment": "Chaotic Neutral",
+    "rivals": ["City Watch", "Crimson Pact"],
+    "allies": ["The Quiet Hand", "Nightshard Company"]
+  },
+  {
+    "name": "Crimson Pact",
+    "description": "A state-approved guild of executioners and duelists, operating under the ancient laws of blood and honor.",
+    "alignment": "Lawful Evil",
+    "rivals": ["The Quiet Hand", "The Hollow Coin", "Ashborn Rebellion"],
+    "allies": ["House Varyss", "Wardens of Virellia"]
+  },
+  {
+    "name": "Iron Kin",
+    "description": "An old warrior brotherhood built on oaths, brawls, and mead. They fight for coin and kin, with no flag above loyalty.",
+    "alignment": "Neutral Good",
+    "rivals": ["Nightshard Company"],
+    "allies": ["Ashborn Rebellion", "Oathblades"]
+  },
+  {
+    "name": "The Quiet Hand",
+    "description": "A cult of death-dealers and soul-cutters who follow a silent god and deliver red justice from the shadows.",
+    "alignment": "Chaotic Evil",
+    "rivals": ["Crimson Pact", "City Watch", "House Varyss"],
+    "allies": ["The Hollow Coin", "Gravediggers"]
+  },
+  {
+    "name": "Order of the Golden Sigil",
+    "description": "Scholars and spellwrights who maintain magical laws across the realm and safeguard ancient arcane lore.",
+    "alignment": "Lawful Neutral",
+    "rivals": ["Gravediggers", "House Veltharn", "The Emberlight Creed"],
+    "allies": ["Circle of Veil", "Order of Stillness"]
+  },
+  {
+    "name": "Steelmark Syndicate",
+    "description": "A professional guild of swords-for-hire and caravan protectors with roots in merchant militias.",
+    "alignment": "Neutral",
+    "rivals": ["Nightshard Company", "The Hollow Coin"],
+    "allies": ["Wardens of Virellia"]
+  },
+  {
+    "name": "Circle of Veil",
+    "description": "A secluded academy of arcanists who believe in subtlety, mystery, and the balance between seen and unseen forces.",
+    "alignment": "Neutral Good",
+    "rivals": ["Court Mystics", "The Emberlight Creed", "House Varyss"],
+    "allies": ["Order of the Golden Sigil", "Order of Stillness"]
+  },
+  {
+    "name": "Order of Stillness",
+    "description": "An ancient magical sect who study time, thought, and threads of fate, often intervening where others dare not.",
+    "alignment": "True Neutral",
+    "rivals": ["The Emberlight Creed", "Gravediggers"],
+    "allies": ["Order of the Golden Sigil", "Circle of Veil"]
+  },
+  {
+    "name": "Wardens of Virellia",
+    "description": "The military guardians of the heartland realm, sworn to uphold order through steel, law, and strategy.",
+    "alignment": "Lawful Neutral",
+    "rivals": ["Ashborn Rebellion", "Nightshard Company"],
+    "allies": ["Steelmark Syndicate", "Crimson Pact", "Oathblades"]
+  },
+  {
+    "name": "Ashborn Rebellion",
+    "description": "A rogue banner seeking freedom from imperial rule, forged in frost and fire. Fighters for a homeland they once lost.",
+    "alignment": "Chaotic Good",
+    "rivals": ["Wardens of Virellia", "Crimson Pact", "The Emberlight Creed"],
+    "allies": ["Iron Kin", "Thorneth Clans"]
+  },
+  {
+    "name": "Oathblades",
+    "description": "Former protectors of emperors, now wandering dragon-slayers and truth-seekers. Few remain, but their oath burns still.",
+    "alignment": "Lawful Good",
+    "rivals": ["The Emberlight Creed", "Nightshard Company"],
+    "allies": ["Wardens of Virellia", "Iron Kin"]
+  },
+  {
+    "name": "House Varyss",
+    "description": "A noble house of warrior-philosophers known for discipline, loyalty, and strict honor codes rooted in ancient rites.",
+    "alignment": "Lawful Good",
+    "rivals": ["House Veltharn", "The Quiet Hand", "Circle of Veil"],
+    "allies": ["Crimson Pact"]
+  },
+  {
+    "name": "House Veltharn",
+    "description": "An arcane noble family famed for their independence and eccentric magic, often seen as dangerous idealists.",
+    "alignment": "Chaotic Neutral",
+    "rivals": ["House Varyss", "Order of the Golden Sigil"],
+    "allies": ["Gravediggers", "Circle of Veil"]
+  },
+  {
+    "name": "Gravediggers",
+    "description": "A scattered cult of bone-singers and corpse-callers who bend life and death to their will. Feared, not forgotten.",
+    "alignment": "Neutral Evil",
+    "rivals": [
+      "Order of the Golden Sigil",
+      "Order of Stillness",
+      "The Emberlight Creed"
+    ],
+    "allies": ["House Veltharn", "The Quiet Hand"]
+  },
+  {
+    "name": "Nightshard Company",
+    "description": "A ruthless mercenary band with no code, no homeland, and no mercy. Known for sabotage, betrayal, and brutality.",
+    "alignment": "Chaotic Evil",
+    "rivals": [
+      "Steelmark Syndicate",
+      "Iron Kin",
+      "Oathblades",
+      "Wardens of Virellia"
+    ],
+    "allies": ["The Hollow Coin"]
+  },
+  {
+    "name": "The Emberlight Creed",
+    "description": "An extremist order of divine supremacists who seek to purge arcane heresy and restore the flame of the Firstborn.",
+    "alignment": "Lawful Evil",
+    "rivals": [
+      "Order of Stillness",
+      "Order of the Golden Sigil",
+      "Ashborn Rebellion",
+      "Oathblades",
+      "Circle of Veil",
+      "Gravediggers"
+    ],
+    "allies": ["Celestian Concord"]
+  }
+]

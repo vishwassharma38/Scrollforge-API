@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Ironblood",
+    "description": "Relentless close-range bruiser clad in steel and defiance. Every scar tells a story carved in bone and blade.",
+    "traits": ["Heavy Armor", "Weapon Mastery", "Stubborn Endurance"]
+  },
+  {
+    "name": "Runeweaver",
+    "description": "Manipulator of hidden laws and elemental tongues. Draws magic not from books, but from the breath between stars.",
+    "traits": ["Sigil Casting", "Arcane Channels", "Low Vitality"]
+  },
+  {
+    "name": "Whispercloak",
+    "description": "Master of silence and shadows, moving through the world like a forgotten thought. The coin always finds them.",
+    "traits": ["Shadowstep", "Silent Hands", "Critical Strikes"]
+  },
+  {
+    "name": "Veilpiercer",
+    "description": "Precision slayer who embraces death as devotion. They strike once, never twice.",
+    "traits": ["Toxic Blades", "Phantom Step", "Fatal Focus"]
+  },
+  {
+    "name": "Spelltyrant",
+    "description": "A battle-hardened wielder of blade and incantation, fusing physical might with elemental wrath.",
+    "traits": ["Mystic Blade", "Aegis Barrier", "Combat Magic"]
+  },
+  {
+    "name": "Pathstrider",
+    "description": "Lone scout of wild places, bonded to bow and beast. Nature speaks in every step they take.",
+    "traits": ["Wild Tracking", "Marksmanship", "Natural Camouflage"]
+  },
+  {
+    "name": "Gravedigger",
+    "description": "Keeper of forbidden rites, walking between the heartbeat and the silence. The dead know their name.",
+    "traits": ["Soulbinding", "Corpsecall", "Blightcraft"]
+  },
+  {
+    "name": "Lifebinder",
+    "description": "A healer blessed by the Song Below. They mend wounds and restore spirit with light, prayer, or pulse.",
+    "traits": ["Sanctuary Pulse", "Lifeward", "Cleansing Touch"]
+  }
+]
