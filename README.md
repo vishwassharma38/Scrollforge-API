@@ -1,4 +1,4 @@
-# 🪄 Scrollforge API
+# Scrollforge API
 
 Welcome to **Scrollforge** — an open-source, Elder Scrolls-inspired fantasy character generator API powered by original, rich lore, modular JSON data, and dynamic logic. It lets you conjure up fully fleshed-out characters with names, races, factions, classes, faiths, origins, and unique backstories — all with a single request.
 
