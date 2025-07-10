@@ -135,7 +135,7 @@ This project is covered under a **Custom Non-Commercial Attribution License**:
 * ❌ **Commercial use is strictly prohibited** unless you're **Creator**
 * 🗪 Must credit the original author in all uses and forks
 
-🔗 See the full [LICENSE](LICENSE) for legal terms.
+🔗 See the full [LICENSE](License) for legal terms.
 Contact [Vishwassharma741@gmail.com] for commercial use discussions.
 
 ---
