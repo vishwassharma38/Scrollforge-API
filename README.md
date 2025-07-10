@@ -107,7 +107,7 @@ Scrollforge automatically enforces lore logic — if your inputs are invalid or 
 git clone https://github.com/vishwassharma38/Scrollforge-API.git
 cd Scrollforge-API
 pip install -r requirements.txt
-python run.py
+python app.py
 ```
 
 Then visit: `http://localhost:5000/generate`
