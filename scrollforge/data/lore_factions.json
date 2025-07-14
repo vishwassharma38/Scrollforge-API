@@ -1,0 +1,705 @@
+[
+  {
+    "name": "The Hollow Coin",
+    "description": "A shadowy collective of smugglers, pickpockets, and black-market brokers who live by the creed of silence and silver.",
+    "story": "Long before the cities rose and the high towers glittered, a group of outcasts, debtors, and deserting soldiers formed a secret ring in the alley-ruins of Virellia. Bartering stolen relics, contraband herbs, and secrets, they called themselves only by the symbol they carved into the bricks— a coin etched with a hole in the center. The hole meant silence. The coin meant value. Their creed became law: \"Speak nothing. Take everything. Leave no debt unpaid.\" Today, The Hollow Coin is less a guild, more a subterranean network: smugglers, fences, pickpockets, master forgers, and shadow merchants. They operate through coded gestures, marked alley stones, and shifting hideouts—many hidden beneath the marketplaces of major cities.",
+    "alignment": "Chaotic Neutral",
+    "rivals": ["City Watch", "Crimson Pact"],
+    "allies": ["The Quiet Hand", "Nightshard Company"],
+    "structure": {
+      "guildmaster_title": "Coinmaster",
+      "roles": ["Silvertongues", "Cutshades", "Coinbinders"]
+    },
+    "notable_events": [
+      {
+        "name": "Year of the Silver Plague",
+        "year": 234,
+        "details": "A Hollow Coin alchemist spread scent-based poison via royal spice routes, then sold the antidote at a high price."
+      },
+      {
+        "name": "Black Ember Scandal",
+        "year": 271,
+        "details": "Sacred Ashkai relics were stolen and returned with extras—likely to send a message or forge favor."
+      },
+      {
+        "name": "The Gutter Pact",
+        "year": 303,
+        "details": "An agreement with the Canari tribes to stop trafficking sacred artifacts in exchange for underground tunnel access."
+      }
+    ],
+    "relationships": {
+      "Canari": "Respected trackers and oath-bound rogues under the 'Fang-for-Hire' pact.",
+      "Ashkai": "Employ radical flame-branders and whisperwalkers known as Cindershade.",
+      "Thalorin": "Disdained officially, but secretly fund and hire the guild.",
+      "Vaelari": "Sometimes manipulated through illusions and forged prophecy.",
+      "Mirekin": "Trusted smugglers of rare herbs and swamp passageways."
+    },
+    "symbols": {
+      "guild_mark": "Coin with a hollow center",
+      "hand_signals": {
+        "empty_left_hand": "Indicates debt to the guild",
+        "burned_silver": "Used in guild funerals"
+      }
+    }
+  },
+  {
+    "name": "Crimson Pact",
+    "description": "A state-approved guild of executioners and duelists, operating under the ancient laws of blood and honor.",
+    "story": "The Crimson Pact was born from the ashes of civil collapse in ancient Virellia, where chaos ruled and justice was decided by blade and flame. When courts failed and kings fell, a council of warrior-judges took up the mantle of blood-bound law. They became the Crimson Pact—executioners not by hatred, but by oath. Their duels settled disputes when courts dared not, and their masked judgments became both feared and honored. Today, they operate with chilling precision, their blades backed by royal decree. Each execution is a ritual, each duel a scripture etched in steel.",
+    "alignment": "Lawful Evil",
+    "rivals": ["The Quiet Hand", "The Hollow Coin", "Ashborn Rebellion"],
+    "allies": ["House Varyss", "Wardens of Virellia"],
+    "structure": {
+      "guildmaster_title": "Crimson Arbiter",
+      "roles": ["Bloodwrights", "Oathblades", "Iron Judges"]
+    },
+    "notable_events": [
+      {
+        "name": "The Duel Law Codex",
+        "year": 199,
+        "details": "The Crimson Pact formalized blood dueling as a legal method of conflict resolution across Virellia."
+      },
+      {
+        "name": "The Hollow Purge",
+        "year": 278,
+        "details": "Multiple Hollow Coin safehouses were uncovered and eliminated by sanctioned duelists during a citywide sweep."
+      },
+      {
+        "name": "The Ember Accord",
+        "year": 310,
+        "details": "An uneasy ceasefire was signed with the Ashkai following mutual blood sacrifices honoring old flame rites."
+      }
+    ],
+    "relationships": {
+      "Thalorin": "Crimson Pact enforces Thalorin noble law through ritual execution and sanctioned duels.",
+      "Ashkai": "Respected for their sacred flame duels, though past bloodshed has burned many bridges.",
+      "Canari": "Rarely trusted due to their instinct-driven honor—seen as incompatible with rigid duel codes.",
+      "Mirekin": "Viewed as lawless and uncivilized, often used as scapegoats or executed without trial.",
+      "Vaelari": "Esteemed for their elegance in magical duelcraft—duel tournaments often hosted in Vaelari cities."
+    },
+    "symbols": {
+      "guild_mark": "Twin crimson blades crossed over a bleeding circle",
+      "hand_signals": {
+        "blood_oath": "Signed in blood before a duel—death voids all debts.",
+        "veil_judgment": "Execution performed beneath a red veil as a symbol of impartial justice."
+      }
+    }
+  },
+  {
+    "name": "Iron Kin",
+    "description": "An old warrior brotherhood built on oaths, brawls, and mead. They fight for coin and kin, with no flag above loyalty.",
+    "story": "The Iron Kin trace their roots to the frost-bitten outposts of Hjarnheim, where ancient mercenary clans carved hearths from stone and honor from battle. When empires rose and fell, the Iron Kin endured—not for kings, but for each other. Bound by shared scars and forged tankards, they believe no banner is worth more than the blood spilled beside you. Veterans, wanderers, and blacksmith-warriors gather around firepits to trade tales, train younglings, and pledge themselves to causes they choose—not ones chosen for them. While they may fight for coin, their truest currency is trust, and betrayal is paid back in iron.",
+    "alignment": "Neutral Good",
+    "rivals": ["Nightshard Company"],
+    "allies": ["Ashborn Rebellion", "Oathblades"],
+    "structure": {
+      "guildmaster_title": "Forgefather",
+      "roles": ["Shieldbinders", "Meadblades", "Stonehearts"]
+    },
+    "notable_events": [
+      {
+        "name": "Siege of Blackspine Keep",
+        "year": 287,
+        "details": "The Iron Kin held the fortress for 40 days against an undead legion, armed only with salvaged weapons and stubborn grit."
+      },
+      {
+        "name": "The Broken Chain Revolt",
+        "year": 301,
+        "details": "They supported a slave uprising in the mines of Kharnovar, forging their allegiance with the Ashborn Rebellion."
+      },
+      {
+        "name": "The Meadfire Pact",
+        "year": 313,
+        "details": "A bond of brotherhood was struck between the Iron Kin and the Oathblades during a shared defense of the Emberwatch Highlands."
+      }
+    ],
+    "relationships": {
+      "Brakyr": "Kindred spirits in stone and honor—many Brakyr join the Kin after pilgrimage.",
+      "Dravok": "Respected rivals in forge and war, though tensions simmer over past mercenary betrayals.",
+      "Canari": "Earned trust through years of fighting side by side; often share fire and hunt.",
+      "Mirekin": "Seen as unpredictable, but their swamp-cunning is prized in Iron Kin scouting bands.",
+      "Sularin": "Difficult to bond with, though a few lone blades have earned kin-right through valor."
+    },
+    "symbols": {
+      "guild_mark": "A mug crossed with a warhammer over a shield",
+      "hand_signals": {
+        "knuckle-tap": "Greeting among members—one tap for peace, two for war.",
+        "iron-toast": "Raising a mug before battle to honor fallen kin."
+      }
+    }
+  },
+  {
+    "name": "The Quiet Hand",
+    "description": "A cult of death-dealers and soul-cutters who follow a silent god and deliver red justice from the shadows.",
+    "story": "When the first kings betrayed their oaths and the stars went silent for a night, a nameless blade was drawn in answer. From that moment, The Quiet Hand walked the dusk of every empire. They are not assassins for hire—they are punishers for balance. Bound to a voiceless god known only in breathless prayers, each member of the Quiet Hand trains in the art of bloodletting and soul-cutting. They believe silence is sacred, and that justice flows best when whispered, not shouted. They leave no warnings, only tokens—a black thread tied around the throat of the dead.",
+    "alignment": "Chaotic Evil",
+    "rivals": ["Crimson Pact", "City Watch", "House Varyss"],
+    "allies": ["The Hollow Coin", "Gravediggers"],
+    "structure": {
+      "guildmaster_title": "The Still One",
+      "roles": ["Veilcutters", "Bloodsilks", "Whispermarks"]
+    },
+    "notable_events": [
+      {
+        "name": "The Night Without Stars",
+        "year": 145,
+        "details": "The Quiet Hand claimed responsibility for the simultaneous deaths of 13 kings across five continents."
+      },
+      {
+        "name": "The Crimson Sundering",
+        "year": 280,
+        "details": "A decade-long shadow war with the Crimson Pact led to the loss of entire noble bloodlines on both sides."
+      },
+      {
+        "name": "The Whispering Sigil",
+        "year": 319,
+        "details": "An ethereal symbol appeared in every high court simultaneously—no entry, no sound, just death."
+      }
+    ],
+    "relationships": {
+      "Ashkai": "Respected for their pain rituals, though the Quiet Hand finds their fire too loud.",
+      "Thalorin": "Both secretive, but Thalorin prefer contracts; the Hand prefers finality.",
+      "Vaelari": "Their light is too blinding—targets for purification rather than alliance.",
+      "Mirekin": "Occasional allies in wet work and herb-venom trades.",
+      "Canari": "Too bonded to howl and honor—rarely suitable for silence."
+    },
+    "symbols": {
+      "guild_mark": "A black thread in the shape of a teardrop",
+      "hand_signals": {
+        "finger-to-throat": "A silent kill order.",
+        "blood-sash": "Worn diagonally when a soul-cutting has been performed."
+      }
+    }
+  },
+  {
+    "name": "Order of the Golden Sigil",
+    "description": "Scholars and spellwrights who maintain magical laws across the realm and safeguard ancient arcane lore.",
+    "story": "Founded in the ruins of the First Spire, the Order of the Golden Sigil rose from the ashes of chaos, sworn to prevent the misuse of magic ever again. Their members are scholars, judges, spellwrights, and arcanists who inscribe their lives into gilded tomes of arcane law. Every spell is recorded, every magical duel reviewed, every relic tracked. They serve no crown—only the Codex Aethernal, the legendary book of all sanctioned spellwork. Their citadels gleam with sigils and seals, where truth is etched in gold and sorcery bound by law. While many call them rigid or cold, others know they are the last line between the world and arcane anarchy.",
+    "alignment": "Lawful Neutral",
+    "rivals": ["Gravediggers", "House Veltharn", "The Emberlight Creed"],
+    "allies": ["Circle of Veil", "Order of Stillness"],
+    "structure": {
+      "guildmaster_title": "Grand Lexomancer",
+      "roles": ["Sigilwards", "Arcanum Scribes", "Chronoseals"]
+    },
+    "notable_events": [
+      {
+        "name": "Binding equilibration of the Skybrand",
+        "year": 212,
+        "details": "The Order sealed a rogue comet-mage who threatened to rewrite gravity with forbidden glyphs."
+      },
+      {
+        "name": "Trial of the Echoing Flame",
+        "year": 267,
+        "details": "An internal tribunal banished three high-ranking Sigilwards who attempted to monopolize time-magic."
+      },
+      {
+        "name": "Codex Concordance",
+        "year": 309,
+        "details": "A formal alliance of law-bound mages was signed between the Order and the Circle of Veil."
+      }
+    ],
+    "relationships": {
+      "Vaelari": "Revered for their luminous arcana—often collaborate on celestial spell regulation.",
+      "Gryxen": "Trusted as fellow keepers of harmonic order, though occasionally debate magical ethics.",
+      "Ashkai": "Watched closely—too volatile in flame and spirit for comfortable alliance.",
+      "Thalorin": "Respected but distrusted—their contracts bend truth too easily for lawful magic."
+    },
+    "symbols": {
+      "guild_mark": "A golden quill over an open codex, encircled by a radiant rune",
+      "hand_signals": {
+        "seal-gesture": "Drawn circle in the air to mark binding spells or laws.",
+        "codex-touch": "Placing fingers over the heart then brow—sign of magical integrity."
+      }
+    }
+  },
+  {
+    "name": "Steelmark Syndicate",
+    "description": "A professional guild of swords-for-hire and caravan protectors with roots in merchant militias.",
+    "story": "In the golden age of trade, when merchant lords ruled by coin and convoy, the Steelmark Syndicate was born—not in war, but in necessity. Bandits prowled the roads, and monstrous threats stalked the wild paths. To protect their profits and people, merchants pooled gold and armed veterans into disciplined escorts. Over time, the guild sharpened into an elite corps of mercenary protectors, bound not by honor nor law, but by the weight of contract. Steelmark blades are trained, branded, and oath-bound to defend what they’re paid to—no more, no less. They are common on trade roads, guarding spice caravans and gemstone runners, and are known to mediate border skirmishes if the coin is right. Loyalty may be rented—but betrayal is never tolerated.",
+    "alignment": "Neutral",
+    "rivals": ["Nightshard Company", "The Hollow Coin"],
+    "allies": ["Wardens of Virellia"],
+    "structure": {
+      "guildmaster_title": "Steel Marshal",
+      "roles": ["Bladebound", "Coinshields", "Wagonlords"]
+    },
+    "notable_events": [
+      {
+        "name": "Siege of the Salt Route",
+        "year": 239,
+        "details": "Steelmark forces held the vital salt route during a three-way conflict between rogue warlords, preserving trade and reputation."
+      },
+      {
+        "name": "The Hollow Betrayal",
+        "year": 276,
+        "details": "An ambush orchestrated by Hollow Coin smugglers led to the massacre of a Steelmark escort—sparking an ongoing vendetta."
+      },
+      {
+        "name": "The Steel Accord",
+        "year": 300,
+        "details": "Signed pact with the Wardens of Virellia to formalize trade-route defense across eastern provinces."
+      }
+    ],
+    "relationships": {
+      "Dravok": "Valued allies in heavy-lift convoys and siege reinforcement contracts.",
+      "Thalorin": "Frequent employers—though their contracts always have hidden lines.",
+      "Canari": "Employed as scouts and trackers, especially in wild territories.",
+      "Sularin": "Used sparingly for blade-dance escort duties, though trust is limited.",
+      "Mirekin": "Rarely hired—considered too independent and hard to discipline."
+    },
+    "symbols": {
+      "guild_mark": "A steel coin stamped with a crossed sword and shield",
+      "hand_signals": {
+        "blade-tap": "Tapping hilt twice on chest—ready for duty.",
+        "coin-flash": "Showing a steel-etched token to confirm syndicate authority."
+      }
+    }
+  },
+  {
+    "name": "Circle of Veil",
+    "description": "A secluded academy of arcanists who believe in subtlety, mystery, and the balance between seen and unseen forces.",
+    "story": "Hidden beneath the veiled peaks of Zehrathel lies the Circle of Veil—a mystic academy shrouded in mist, illusion, and layered enchantment. Founded by moonborn sages and forgotten seers, the Circle teaches that the strongest magic is that which is never seen. Their teachings blend philosophy with sorcery, urging students to listen to silence, interpret shadows, and speak only when all other options are exhausted. Members rarely leave the Circle’s grounds except on sacred errands of balance—restoring magical harmony where arrogance has tipped the scales. Though not secretive by nature, they believe power must always be veiled behind wisdom.",
+    "alignment": "Neutral Good",
+    "rivals": ["Court Mystics", "The Emberlight Creed", "House Varyss"],
+    "allies": ["Order of the Golden Sigil", "Order of Stillness"],
+    "structure": {
+      "guildmaster_title": "Veilwarden",
+      "roles": ["Mistbinders", "Echominds", "Sablehands"]
+    },
+    "notable_events": [
+      {
+        "name": "Veilfracture Reconciliation",
+        "year": 241,
+        "details": "Mediated a magical schism between two warring mage factions by weaving a veil that forced mutual dream-sharing."
+      },
+      {
+        "name": "The Moonlit Silence",
+        "year": 274,
+        "details": "A mass scrying ritual during a lunar eclipse revealed hidden corruption in the Court Mystics’ high ranks."
+      },
+      {
+        "name": "Codex Concordance",
+        "year": 309,
+        "details": "Formed a formal alliance with the Order of the Golden Sigil to uphold magical equilibrium and arcane law."
+      }
+    ],
+    "relationships": {
+      "Vaelari": "Respected allies in ritual refinement—often co-author celestial scrying ceremonies.",
+      "Gryxen": "Philosophical equals in balance and resonance, though style and tone often differ.",
+      "Sularin": "Their dance-magic is admired, though seen as dangerously flamboyant.",
+      "Ashkai": "Feared for their intensity; too often see mystery as something to burn away.",
+      "Thalorin": "Their manipulation of language and law runs counter to the Circle’s belief in silence."
+    },
+    "symbols": {
+      "guild_mark": "A crescent moon behind a drifting veil of stars",
+      "hand_signals": {
+        "veil-touch": "Two fingers brushed across lips and brow—invokes silent clarity.",
+        "mirror-palm": "Raised hand with fingers splayed, signaling intention to reveal a hidden truth."
+      }
+    }
+  },
+  {
+    "name": "Order of Stillness",
+    "description": "An ancient magical sect who study time, thought, and threads of fate, often intervening where others dare not.",
+    "story": "Before stars danced and clocks ticked, the Order of Stillness meditated beneath the Worldroots, listening to the rhythms of reality. They believe time is not a river, but a loom—and fate, its tapestry. Members of the Order are keepers of moments, historians of paradoxes, and unravellers of destiny. They rarely interfere, but when they do, it's with precision, weight, and patience sharpened by centuries of silence. Often misunderstood, they dwell in sanctums surrounded by stillwater and mirrored chambers, where minds stretch across timelines and truths. Their warnings are rare—but always heeded.",
+    "alignment": "True Neutral",
+    "rivals": ["The Emberlight Creed", "Gravediggers"],
+    "allies": ["Order of the Golden Sigil", "Circle of Veil"],
+    "structure": {
+      "guildmaster_title": "Chronarch",
+      "roles": ["Momentkeepers", "Threadwatchers", "Silent Chrones"]
+    },
+    "notable_events": [
+      {
+        "name": "The Broken Hourglass",
+        "year": 198,
+        "details": "A rogue time mage was stopped mid-spell, halting a timeline fracture that would've looped a city into endless war."
+      },
+      {
+        "name": "The Stillbirth Prophecy",
+        "year": 250,
+        "details": "Foretold a royal heir who would unmake fate—agents were dispatched to delay, not destroy, her path."
+      },
+      {
+        "name": "The Quiet Fold",
+        "year": 318,
+        "details": "Folded three doomed realities into one stable thread—costing the Order a generation of their own."
+      }
+    ],
+    "relationships": {
+      "Vaelari": "Deeply valued for their harmonic magic—often used as temporal anchors.",
+      "Gryxen": "Respected for their focus on universal resonance—partners in echo-weaving.",
+      "Ashkai": "Seen as dangerously volatile—rarely trusted with temporal influence.",
+      "Mirekin": "(speed up) Used occasionally as observers in forgotten wetlands—excellent for subtle interventions.",
+      "Thalorin": "Their obsession with control and contract stands opposed to the Order's fluidity."
+    },
+    "symbols": {
+      "guild_mark": "A suspended hourglass with threads spilling from both ends",
+      "hand_signals": {
+        "circle-pinch": "Thumb and forefinger forming a ring—denotes temporal pause.",
+        "mirror-still": "Hands pressed flat together, fingers aligned—used before fate-spinning rituals."
+      }
+    }
+  },
+  {
+    "name": "Wardens of Virellia",
+    "description": "The military guardians of the heartland realm, sworn to uphold order through steel, law, and strategy.",
+    "story": "Forged in the crucible of border wars and rebellion, the Wardens of Virellia are the disciplined backbone of the realm’s central authority. Tasked with defending the heartlands, securing trade routes, and crushing threats to stability, the Wardens operate like clockwork battalions carved from stone and duty. Their founding charter is etched in both marble and iron—every recruit learns it by heart. While others swear fealty to kings or gods, the Wardens serve order itself. From tower-garrisons to mobile war hosts, their strategies are studied across military colleges. Though often criticized for rigidity, their results speak in silence—the kind only lasting peace can bring.",
+    "alignment": "Lawful Neutral",
+    "rivals": ["Ashborn Rebellion", "Nightshard Company"],
+    "allies": ["Steelmark Syndicate", "Crimson Pact", "Oathblades"],
+    "structure": {
+      "guildmaster_title": "High Marshal",
+      "roles": ["Shieldbearers", "Battlewrights", "Lawsentinels"]
+    },
+    "notable_events": [
+      {
+        "name": "The Flamefront Suppression",
+        "year": 232,
+        "details": "Successfully quelled a rogue Ashkai uprising near the Embercoast, reinforcing dominion over flame-born magic zones."
+      },
+      {
+        "name": "Treaty of Halbrecht",
+        "year": 264,
+        "details": "Negotiated a peace between warring merchant cities under threat of Warden occupation."
+      },
+      {
+        "name": "Operation Iron Lash",
+        "year": 305,
+        "details": "Crushed a covert Nightshard Company cell aiming to destabilize northern provinces through assassination contracts."
+      }
+    ],
+    "relationships": {
+      "Dravok": "Relied upon as siege support and frontline enforcers—trusted with brute-force initiatives.",
+      "Brakyr": "Valued for their tunnel fortifications and resilience under pressure.",
+      "Vaelari": "Respected but kept distant—too unpredictable in times of strict command.",
+      "Ashkai": "Seen as an ever-smoldering threat; kept under heavy surveillance.",
+      "Canari": "Occasionally hired for tracking and rural scouting operations."
+    },
+    "symbols": {
+      "guild_mark": "A tower crossed by twin swords and ringed by laurels",
+      "hand_signals": {
+        "three-tap": "Three taps to the chest—oath to uphold order.",
+        "iron-ring": "A clenched fist over heart followed by open palm—signifies readiness to command or yield."
+      }
+    }
+  },
+  {
+    "name": "Ashborn Rebellion",
+    "description": "A rogue banner seeking freedom from imperial rule, forged in frost and fire. Fighters for a homeland they once lost.",
+    "story": "Born in the ashes of broken treaties and frozen borderlands, the Ashborn Rebellion began as a whisper among enslaved miners and scattered tribes. With frostbitten hands and hearts burning with rage, they took up arms not for conquest, but reclamation. The rebellion seeks to liberate the lands once called their own—now occupied by empires and patrolled by law-bound soldiers. United under a burning flag stitched with their ancestors’ bones, the Ashborn are a coalition of freedom-fighters, flamewalkers, outcast seers, and rebel warriors. They strike from mountain caves and ash-choked forests, their victories sung in hoarse battle cries and snow-melted mead.",
+    "alignment": "Chaotic Good",
+    "rivals": ["Wardens of Virellia", "Crimson Pact", "The Emberlight Creed"],
+    "allies": ["Iron Kin", "Thorneth Clans"],
+    "structure": {
+      "guildmaster_title": "Ashmarshal",
+      "roles": ["Flamebound", "Frostborne", "Bonehowlers"]
+    },
+    "notable_events": [
+      {
+        "name": "The Cinder March",
+        "year": 238,
+        "details": "A surprise winter assault drove out imperial forces from the Frostpeak Outposts, marking the rebellion's first major victory."
+      },
+      {
+        "name": "The Ash Oath",
+        "year": 253,
+        "details": "A sacred pact sealed in fire and blood among the rebellion’s scattered clans to never kneel again."
+      },
+      {
+        "name": "The Emberveil Raid",
+        "year": 311,
+        "details": "Staged a successful attack on a Crimson Pact supply convoy, using illusion magic and blizzard cover."
+      }
+    ],
+    "relationships": {
+      "Ashkai": "Kindred spirits in fire and suffering—many Ashkai have joined the cause.",
+      "Canari": "Trusted wilderness scouts and survivalists—vital to navigating imperial borders.",
+      "Brakyr": "Respected for their endurance and shared history of displacement.",
+      "Thorneth": "Staunch allies who provide guerrilla warfare support and deep-forest refuge.",
+      "Vaelari": "Some sympathize, others remain distant—torn between legacy and rebellion."
+    },
+    "symbols": {
+      "guild_mark": "A charred banner engulfed in flame and frost",
+      "hand_signals": {
+        "flame-touch": "A hand to the chest and then air—promise to protect the fallen.",
+        "ash-clasp": "Two hands cupped together then opened—symbolizing rebirth through resistance."
+      }
+    }
+  },
+  {
+    "name": "Oathblades",
+    "description": "Former protectors of emperors, now wandering dragon-slayers and truth-seekers. Few remain, but their oath burns still.",
+    "story": "Once clad in imperial silk and golden steel, the Oathblades were elite defenders of the sovereign line. When the empire crumbled beneath betrayal and dark prophecy, they did not disband—they vanished. Now they wander as sword-saints and dragon-slayers, guided by ancient oaths etched into their souls. Each Oathblade chooses a vow at initiation—truth, justice, mercy, or flame—and walks the path until death. Few remain, but their presence turns tides: in wars, in duels, and in matters of the heart. Though kingdoms offer gold and glory, they serve only their chosen vow—and woe to those who test its weight.",
+    "alignment": "Lawful Good",
+    "rivals": ["The Emberlight Creed", "Nightshard Company"],
+    "allies": ["Wardens of Virellia", "Iron Kin"],
+    "structure": {
+      "guildmaster_title": "High Vowkeeper",
+      "roles": ["Wyrmbinders", "Truthbearers", "Dawnwardens"]
+    },
+    "notable_events": [
+      {
+        "name": "The Last Stand of Virellian Gate",
+        "year": 229,
+        "details": "An Oathblade company defended the imperial palace against overwhelming odds, allowing the royal line to escape."
+      },
+      {
+        "name": "The Binding of Wyrmshard",
+        "year": 251,
+        "details": "A lone Dawnwarden slew the corrupted dragon Wyrmshard using a vowbound blade, ending a century of scorched skies."
+      },
+      {
+        "name": "The Sorrowed Pilgrimage",
+        "year": 308,
+        "details": "Three Oathblades crossed the deadlands to retrieve a broken relic tied to the fall of their order—and returned changed."
+      }
+    ],
+    "relationships": {
+      "Vaelari": "Admired for their ancient wisdom—often sought out for vow guidance.",
+      "Canari": "Share mutual respect in battle—both hold honor as sacred.",
+      "Dravok": "Sometimes fight side by side in dragon-hunts, though temperaments clash.",
+      "Ashkai": "A complex relationship—Oathblades respect their endurance but condemn reckless sacrifice.",
+      "Gryxen": "See them as philosophical allies in the search for universal truths."
+    },
+    "symbols": {
+      "guild_mark": "A blazing sword encircled by a golden oath-ring",
+      "hand_signals": {
+        "oath-touch": "Two fingers pressed to the lips, then heart—symbol of vow remembrance.",
+        "sword-hold": "Hands clasped in midair as if holding a blade—used before duels or sacred judgments."
+      }
+    }
+  },
+  {
+    "name": "House Varyss",
+    "description": "A noble house of warrior-philosophers known for discipline, loyalty, and strict honor codes rooted in ancient rites.",
+    "story": "House Varyss stands as a monolithic pillar of discipline in a world of shifting allegiances and fragile power. Founded during the Second Flame Accord, it has long upheld the belief that strength without wisdom is ruin, and wisdom without discipline is decay. Members of House Varyss train as both soldiers and sages from childhood, studying martial arts alongside history, ethics, and the sacred Rites of Bronze—a code of conduct dating back to the Age of Crowns. Their estates, nestled in the marble highlands of Iraleth, serve as both fortress and academy. They ally with those who value order, despise treachery, and view magic with measured respect. Those who break their oaths are not cast out—they are hunted.",
+    "alignment": "Lawful Good",
+    "rivals": ["House Veltharn", "The Quiet Hand", "Circle of Veil"],
+    "allies": ["Crimson Pact"],
+    "structure": {
+      "guildmaster_title": "Lord-Sentinel",
+      "roles": ["Bronzekin", "Philos-Binders", "Swordsteeped"]
+    },
+    "notable_events": [
+      {
+        "name": "The Rites of Binding Flame",
+        "year": 203,
+        "details": "Formalized their ancient honor code with blood-oath rituals—establishing philosophical courts within the House."
+      },
+      {
+        "name": "Trial of the Mirror Blood",
+        "year": 246,
+        "details": "A controversial duel between twin heirs set a precedent in the enforcement of honor over bloodline."
+      },
+      {
+        "name": "The Varyss Accord",
+        "year": 297,
+        "details": "Unified the Crimson Pact and House Varyss under a mutual doctrine of lawful intervention."
+      }
+    ],
+    "relationships": {
+      "Vaelari": "Regard their grace as beautiful but impractical—art must serve honor, not vanity.",
+      "Thalorin": "Share a mutual respect for structure, though differ in moral philosophy.",
+      "Dravok": "Occasionally clash due to Dravok impulsiveness, but honor warriors among them.",
+      "Ashkai": "Distrusted for their chaotic interpretation of sacrifice.",
+      "Gryxen": "View them as introspective kin—ideal allies in philosophical governance."
+    },
+    "symbols": {
+      "guild_mark": "A bronze helm flanked by open scrolls and crossed spears",
+      "hand_signals": {
+        "scroll-cross": "Two fingers crossed over the chest—symbol of judgment weighed.",
+        "helm-bow": "Closed fist to brow, followed by a downward nod—gesture of disciplined honor."
+      }
+    }
+  },
+  {
+    "name": "House Veltharn",
+    "description": "An arcane noble family famed for their independence and eccentric magic, often seen as dangerous idealists.",
+    "story": "House Veltharn was born not in war, but in wonder—its founders seers, elementalists, and starlit philosophers who turned their ancestral halls into crucibles of arcane exploration. Their estates hum with unstable ley lines, and their libraries contain living tomes that whisper secrets to the worthy. Veltharn mages are known for their eccentric rituals, blending the theatrical with the theoretical. Though many see them as reckless, they believe chaos births innovation, and freedom tempers greatness. They have no patience for rigid hierarchies or static truths, often butting heads with lawful orders—but their magical breakthroughs have changed realms. For better or worse.",
+    "alignment": "Chaotic Neutral",
+    "rivals": ["House Varyss", "Order of the Golden Sigil"],
+    "allies": ["Gravediggers", "Circle of Veil"],
+    "structure": {
+      "guildmaster_title": "Archdreamer",
+      "roles": ["Leybinders", "Echochanters", "Wildwrights"]
+    },
+    "notable_events": [
+      {
+        "name": "The Starfall Paradox",
+        "year": 219,
+        "details": "A Veltharn ritual intended to draw stellar energy caused a city-wide time lapse of three days—both a disaster and a discovery."
+      },
+      {
+        "name": "The Crystal Debate",
+        "year": 257,
+        "details": "A heated duel of magical theory with the Order of the Golden Sigil nearly escalated into a ley-crash."
+      },
+      {
+        "name": "Rite of Wild Harmony",
+        "year": 306,
+        "details": "Successfully tamed a chaos elemental through music, dreams, and nonlinear spell structure."
+      }
+    ],
+    "relationships": {
+      "Vaelari": "Celebrate their poetic elegance and often collaborate on dream-scrying.",
+      "Ashkai": "Kindred in intensity—admire their emotional magic, though find it exhausting.",
+      "Thalorin": "Avoided—see their legal contracts as creativity’s shackles.",
+      "Gryxen": "Respect their harmony magic but debate its limitations.",
+      "Circle of Veil": "Fellow seekers of unseen truths—deep magical alignment despite philosophical distance."
+    },
+    "symbols": {
+      "guild_mark": "A spiraled wand wrapped in flowing ribbons of light and ink",
+      "hand_signals": {
+        "spark-drift": "Flicked fingers followed by a spiraling motion—used to mark arcane insight.",
+        "dream-snap": "Thumb and middle finger snapped twice—calls attention to a shifting thought or vision."
+      }
+    }
+  },
+  {
+    "name": "Gravediggers",
+    "description": "A scattered cult of bone-singers and corpse-callers who bend life and death to their will. Feared, not forgotten.",
+    "story": "Where most fear the silence of graves, the Gravediggers hear music. This cult, fractured and secretive, formed in the aftermath of the Plague Wars, when the lines between life and death blurred. They study decay not as an end, but as a transformation—a portal. Their rites twist marrow and soul, singing to bones and calling forth memories buried beneath centuries. Forbidden in most cities, they operate in crypt-marked sanctuaries, harvesting what others fear to touch. Their art is vile to some, divine to others. But to the Gravediggers, they are simply keepers of the last truth: that death, too, has a voice.",
+    "alignment": "Neutral Evil",
+    "rivals": [
+      "Order of the Golden Sigil",
+      "Order of Stillness",
+      "The Emberlight Creed"
+    ],
+    "allies": ["House Veltharn", "The Quiet Hand"],
+    "structure": {
+      "guildmaster_title": "Warden of the Last Verse",
+      "roles": ["Bonechanters", "Gravetenders", "Echoveil Priests"]
+    },
+    "notable_events": [
+      {
+        "name": "The Ossuary Rebellion",
+        "year": 213,
+        "details": "The cult revealed itself during a mass uprising, animating the city’s fallen defenders to reclaim forgotten catacombs."
+      },
+      {
+        "name": "The Mourning Accord",
+        "year": 276,
+        "details": "A secret pact with House Veltharn ensured safe harbor for necrotic research under magical secrecy."
+      },
+      {
+        "name": "Silencing of Emberlight",
+        "year": 312,
+        "details": "Ritual sabotage collapsed a holy pyre of the Emberlight Creed—symbolically quenching its 'soulfire'."
+      }
+    ],
+    "relationships": {
+      "Ashkai": "Fearful rivals—each sees the other as a perversion of true death.",
+      "Mirekin": "Occasional collaborators in dark alchemy and grave-herb rites.",
+      "Thalorin": "Despised for their moral absolutism and pursuit of necromantic outlawing.",
+      "Circle of Veil": "Maintain a fragile alliance based on shared curiosity of what lies unseen.",
+      "Dravok": "Sometimes trade corpses or relics for tools—though never trusted."
+    },
+    "symbols": {
+      "guild_mark": "A black spade piercing a skull crowned in violets",
+      "hand_signals": {
+        "grave-palm": "Open palm downward over chest—invokes respect for the dead.",
+        "bone-hum": "A whispered note while covering the mouth—marks a rite in progress."
+      }
+    }
+  },
+  {
+    "name": "Nightshard Company",
+    "description": "A ruthless mercenary band with no code, no homeland, and no mercy. Known for sabotage, betrayal, and brutality.",
+    "story": "Wherever war festers and honor falters, the Nightshard Company finds profit. Born from deserters, broken bannermen, and exile-born killers, they are the embodiment of chaos in contract form. With no allegiance but coin, no oath but vengeance, they have burned villages to the ground one day and guarded kings the next. Their tactics are unorthodox—poisoned wells, rigged sieges, feigned retreats followed by butchery. They thrive on fear, and wear it like armor. Their sigil, often left carved into smoldering doors or enemy flesh, is the only warning most ever get. No prisoners. No honor. No remorse.",
+    "alignment": "Chaotic Evil",
+    "rivals": [
+      "Steelmark Syndicate",
+      "Iron Kin",
+      "Oathblades",
+      "Wardens of Virellia"
+    ],
+    "allies": ["The Hollow Coin"],
+    "structure": {
+      "guildmaster_title": "Shard Commander",
+      "roles": ["Ashhounds", "Ruinriders", "Veinblades"]
+    },
+    "notable_events": [
+      {
+        "name": "The Fall of Drosgate",
+        "year": 221,
+        "details": "Led a surprise night assault that leveled the fortress of Drosgate—no defenders survived."
+      },
+      {
+        "name": "The Red Coin Pact",
+        "year": 259,
+        "details": "Accepted simultaneous contracts from two enemy cities and orchestrated their mutual destruction."
+      },
+      {
+        "name": "Warden's Wake",
+        "year": 307,
+        "details": "Ambushed a Warden supply line and left no trace—except for a single branded helm."
+      }
+    ],
+    "relationships": {
+      "Dravok": "Share a brutal efficiency—often partner on high-risk raids where brute force is required.",
+      "Canari": "Sometimes used as trackers and scouts—though most Canari refuse repeat contracts.",
+      "Ashkai": "Despised for their spiritual codes—Nightshards mock their pain-bound rituals.",
+      "Steelmark Syndicate": "Bitter enemies—represent everything Nightshards reject: discipline, honor, order.",
+      "Iron Kin": "Resentful rivalry—Nightshards see them as relics, the Kin see them as rabid dogs."
+    },
+    "symbols": {
+      "guild_mark": "A jagged black shard piercing a blood-red sun",
+      "hand_signals": {
+        "scar-trace": "Two fingers dragged across the cheek—signals intent to kill.",
+        "coin-break": "Snapping a coin in half—end of contract, or beginning of betrayal."
+      }
+    }
+  },
+  {
+    "name": "The Emberlight Creed",
+    "description": "An extremist order of divine supremacists who seek to purge arcane heresy and restore the flame of the Firstborn.",
+    "story": "The Emberlight Creed believes the world has strayed too far from the sacred flame that once bound gods to mortals. Formed after the Revelation of the Cinder Scrolls, the Creed sees magic as a corruption—one that must be purged in holy fire. Its followers practice divine incantation, wielding sacred flame not as a tool, but as judgment. They burn what they call the 'false works': ancient arcana, heretical texts, and mages who refuse to bend the knee. Their temples rise like braziers on conquered ground, built upon the ashes of the unworthy. Their creed is simple: fire is truth, and all else must be cleansed.",
+    "alignment": "Lawful Evil",
+    "rivals": [
+      "Order of Stillness",
+      "Order of the Golden Sigil",
+      "Ashborn Rebellion",
+      "Oathblades",
+      "Circle of Veil",
+      "Gravediggers"
+    ],
+    "allies": ["Celestian Concord"],
+    "structure": {
+      "guildmaster_title": "High Pyremancer",
+      "roles": ["Flamebearers", "Ashpriests", "Inquisitors of the First Light"]
+    },
+    "notable_events": [
+      {
+        "name": "The Cinder Scroll Revelation",
+        "year": 218,
+        "details": "Discovery of divine scrolls in a forgotten ruin led to the formation of the Emberlight Creed’s doctrine."
+      },
+      {
+        "name": "Purge of the Hollow Archives",
+        "year": 266,
+        "details": "Laid siege to a mage library under protection of the Circle of Veil—burned it to the ground over three days."
+      },
+      {
+        "name": "The Ashen Concordat",
+        "year": 298,
+        "details": "Signed a non-aggression pact with the Celestian Concord to jointly combat necromantic cults."
+      }
+    ],
+    "relationships": {
+      "Ashkai": "Once revered for their fire-mysticism, now condemned as impure flamewalkers.",
+      "Vaelari": "Targeted for their magical artistry—seen as dangerous heresy in divine disguise.",
+      "Mirekin": "Hunted and often exterminated for their swamp-magic and soul-binding practices.",
+      "House Veltharn": "Viewed as blasphemers masquerading as nobles—frequently opposed on ideological grounds.",
+      "Crimson Pact": "Occasional partners in purges, though theological differences keep relations tense."
+    },
+    "symbols": {
+      "guild_mark": "A golden flame consuming a ring of black runes",
+      "hand_signals": {
+        "flame-rise": "Hand raised with three fingers extended—invocation of divine fire.",
+        "ember-oath": "Ash drawn across the brow—sign of allegiance and sanctification."
+      }
+    }
+  }
+]

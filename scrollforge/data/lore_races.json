@@ -1,0 +1,783 @@
+{
+  "Vaelari": {
+    "name": "Vaelari",
+    "origin": "Born from the celestial Aetherfall, woven into being by the Choir of the Still Moon. They are not evolved but descended—crafted from starlight and silent harmony.",
+    "physiology": "Tall, willowy beings with moonlike skin, glowing arcane eyes, and hair resembling light auras. Their bodies are adapted to high-altitude magic fields.",
+    "culture": "Vaelari culture centers on the Doctrine of Ascent: life as a ladder toward the Eternal Gleam. Silence, elegance, and restraint govern their every action. Their society is a lattice of rituals and expectations, from silent dining to trance learning in Light Cloisters.",
+    "native_land": "Almathar Coast",
+    "government": {
+      "structure": "Crystalline Oligarchy",
+      "ruling_body": "Radiant Assembly",
+      "council_details": {
+        "number_of_members": 9,
+        "trial_required": "Trial of the Nine Veils",
+        "philosophical_guides": [
+          "Balance",
+          "Light",
+          "Absence",
+          "Precision",
+          "Legacy",
+          "Reverence",
+          "Vision",
+          "Silence",
+          "Judgment"
+        ]
+      },
+      "political_view": "Intrigue and secrecy are refined arts; power is earned through ascension, not inheritance."
+    },
+    "magic": {
+      "affinity": [
+        "Light Manipulation",
+        "Wardcraft",
+        "Chronomancy",
+        "Mirror-Magic"
+      ],
+      "prodigy_rate": "Most children manifest magic before they can speak.",
+      "elite_spellcasters": "Luminarchs",
+      "language": {
+        "name": "Vael’aethryn",
+        "properties": "Partially sung, visualized, and felt. Cannot be fully learned without mind-alteration."
+      }
+    },
+    "appearance": {
+      "skin": "Moonlight-pale or shimmering marble",
+      "eyes": "Glow with magic, hue-shifting",
+      "hair": "Silver, gold, or light-toned; flows like mist or aura"
+    },
+    "architecture": {
+      "style": "Floating crystal towers, levitating gardens, mirrored gates, and rune-etched skybridges",
+      "location": "Skyglass Arches of Almathar Coast"
+    },
+    "customs": [
+      "Stargleam Meditation – nightly communion with astral echoes and glimpses of fate.",
+      "Rite of Silent Dawns – coming-of-age ceremony performed in silence atop the peaks.",
+      "Luminarch Communion – high mage rite where consciousnesses merge into a sentient spell-being."
+    ],
+    "beliefs": {
+      "primary_doctrine": "Doctrine of Ascent",
+      "afterlife": "Death is a shedding; rebirth is possible through astral intention.",
+      "view_on_divinity": "Divinity is an earned state of enlightened existence.",
+      "gods": "None worshipped. The self is a divine prototype."
+    },
+    "factions": ["Order of the Luminous Veil", "Choir of the Still Moon"],
+    "diplomacy": {
+      "view_of_other_races": {
+        "Undergrown": "Mirekin, Dravok – primitive but fascinating",
+        "Loudblooded": "Canari, Sularin – reckless dancers of fire",
+        "Imitators": "Thalorin – clever but shallow mimics",
+        "Respected": "Brakyr, Gryxen – spiritual or arcane equals"
+      },
+      "diplomatic_methods": "Influence through leyline trade, arcane contracts, and strategic alliance."
+    },
+    "internal_conflicts": {
+      "emerging_factions": {
+        "Solari": "Traditionalists who uphold purity and silence.",
+        "Nyreni": "Reformists who wish to adapt and reveal hidden truths."
+      },
+      "forbidden_relics": "Sundering Mirrors – show futures where the Vaelari become tyrants."
+    },
+    "summary": "A luminous and elegant race of magical aristocrats, crafted from light and silence. Inspired by Altmer, but recast in starborn robes. They are both brilliant and brittle, striving for divinity with every breath."
+  },
+
+  "Mirekin": {
+    "name": "Mirekin",
+    "origin": "Forged in the sunken wilds of Drekk’s Hollow, the Mirekin emerged not from divine light, but from the persistence of life in rot, fog, and mud. They are born of the swamp’s breath—scaled, silent, and watching.",
+    "physiology": "Short to medium in stature, the Mirekin have scaled skin in hues of moss, slate, or rusted bronze. Their eyes are lidless and adapted to low-light, and they possess a second, transparent nictitating membrane. Their digits are webbed, and their nostrils seal during deep dives.",
+    "culture": "Mirekin culture is rooted in survival, intuition, and ancestral memory passed through scent and symbol. Their oral traditions are minimal, replaced by olfactory markings, bloodpaint lore, and swamp chants passed through the reeds. Knowledge is practical, sacred, and tested by experience.",
+    "native_land": "Drekmire",
+    "government": {
+      "structure": "Elder Kin-Circles",
+      "ruling_body": "Circle of Scents",
+      "council_details": {
+        "number_of_members": "Varies by tribe",
+        "trial_required": "Scenting of the Deep Root",
+        "philosophical_guides": [
+          "Instinct",
+          "Preservation",
+          "Camouflage",
+          "Memory",
+          "Adaptation"
+        ]
+      },
+      "political_view": "Power flows through usefulness. The most experienced tracker, healer, or swamp-reader rises through deeds, not speech."
+    },
+    "magic": {
+      "affinity": [
+        "Herbcraft",
+        "Disease Purging",
+        "Swamp Shamanism",
+        "Mist Veiling"
+      ],
+      "prodigy_rate": "Few master magic; those who do are revered as Marshminds.",
+      "elite_spellcasters": "Fumechanters",
+      "language": {
+        "name": "Murrth’nal",
+        "properties": "Guttural, sibilant, with scent markers and throat clicks; rarely written."
+      }
+    },
+    "appearance": {
+      "skin": "Scaled, hues ranging from moss green to blackened bronze",
+      "eyes": "Lidless, reflective, adapted to fog and darkness",
+      "hair": "Sparse, sometimes replaced with frills or tendrils"
+    },
+    "architecture": {
+      "style": "Sunken dwellings of woven reed and stone, suspended above bogs or built into gnarled trees",
+      "location": "Fungal Groves and Rotwood Paths of Drekmire"
+    },
+    "customs": [
+      "Mudbirth Naming – newborns are submerged in sacred bog-pools and named by scent.",
+      "Fogwatch Feasts – communal gatherings where mists are read for omens before sharing fermented root-bread and fire-laced stew.",
+      "The Viper Trial – rite of passage where youths must retrieve fangfruit guarded by venomous fen-beasts."
+    ],
+    "beliefs": {
+      "primary_doctrine": "Survive in stillness, thrive in shadow.",
+      "afterlife": "The soul seeps into the swamp, feeding the next cycle. Ancestors speak through steam and bubbling fen.",
+      "view_on_divinity": "No gods—only the swamp, which rewards the clever and devours the proud.",
+      "gods": "None in form; reverence is given to ancestral mists and sentient bogs."
+    },
+    "factions": ["Scentwardens of Tross’Veen", "The Hollowfang Kin"],
+    "diplomacy": {
+      "view_of_other_races": {
+        "Vaelari": "Detached lights, too proud to smell danger.",
+        "Dravok": "Hot-blooded smiths—unsubtle, but useful in trade.",
+        "Canari": "Wolves with honor; worthy of swamp-blood pacts.",
+        "Thalorin": "Forked tongues dressed in silk—never trusted.",
+        "Brakyr": "Too loud, too large, but honest in intent."
+      },
+      "diplomatic_methods": "Trade of rare herbs and toxins, territorial pacts, and exchange of hunting rites."
+    },
+    "internal_conflicts": {
+      "emerging_factions": {
+        "Rootcallers": "Traditionalists who bind to ancestral moss and obey the old swamp spirits.",
+        "Fenwalkers": "Modernists who embrace outside alchemy and seek alliances for Mirekin security."
+      },
+      "forbidden_knowledge": "The Black Bloom – a parasitic plant rumored to grant long life but drain the soul into the bog-mind."
+    },
+    "summary": "Born in the fog and thriving in decay, the Mirekin are survivalists of the old world. With cunning minds and an unshakable bond to their land, they whisper to mists and walk where few dare tread. To know them is to survive where light cannot reach."
+  },
+
+  "Thorneth": {
+    "name": "Thorneth",
+    "origin": "Birthed in the ever-twisting groves of Sylvaenroot, the Thorneth rose not by prayer, but by pact. Spirits of fang and bark molded them in primal harmony, giving them claws for bows and roots for blood.",
+    "physiology": "Muscular and lithe, their bodies are wrapped in bark-striated skin, ranging in hues of dark wood to vine-green. Claws, fangs, and antler-like protrusions are common. Their eyes gleam with animal cunning, and some bear tattoos made of live moss.",
+    "culture": "Thorneth culture is feral yet sacred. It is governed by instinctual bonds and ancient oaths with forest spirits. They do not farm; they barter with the wild. Singing to beasts, dancing in moonlit groves, and forging pacts through blood are all part of daily life. Hierarchies are fluid, shaped by strength, wisdom, or beast-kinship.",
+    "native_land": "Sylvaenroot",
+    "government": {
+      "structure": "Totemic Confederacies",
+      "ruling_body": "The Circle of Beasts",
+      "council_details": {
+        "number_of_members": 7,
+        "trial_required": "The Beast Rite",
+        "philosophical_guides": [
+          "Wolf",
+          "Stag",
+          "Serpent",
+          "Bear",
+          "Hawk",
+          "Panther",
+          "Wyrm"
+        ]
+      },
+      "political_view": "A pact broken is a soul forfeit. Leadership must earn the favor of forest spirits and be tested in claw or fang."
+    },
+    "magic": {
+      "affinity": [
+        "Beastbonding",
+        "Nature Warping",
+        "Totemcraft",
+        "Thorn Invocation"
+      ],
+      "prodigy_rate": "Those touched by the Forest Wyrm are born howling and are marked early.",
+      "elite_spellcasters": "Grovespikers",
+      "language": {
+        "name": "Thurn’tel",
+        "properties": "Half spoken, half growled. Includes body signs, claw rhythms, and scent-casting."
+      }
+    },
+    "appearance": {
+      "skin": "Textured like bark or thornvine; brown, dark green, or mossy gray",
+      "eyes": "Feral gleam, golden or emerald in hue",
+      "hair": "Often dreadlocked, entwined with leaves, feathers, or bones"
+    },
+    "architecture": {
+      "style": "Living dens woven from roots, vines, and hollowed trees; homes move or grow over time",
+      "location": "Beast Tunnels and Evergrowth of Sylvaenroot"
+    },
+    "customs": [
+      "Bloodroot Binding – forming life-bonds with beasts through shared wounds.",
+      "The Wildrun – rite of passage where young Thorneth must track, tame, or slay a primal beast.",
+      "Moonhowl Convergence – a seasonal gathering where tribes summon the Great Totem spirits for guidance."
+    ],
+    "beliefs": {
+      "primary_doctrine": "Command the wild, but never betray it.",
+      "afterlife": "The worthy are reborn as guardian beasts or forest echoes. The unworthy are prey.",
+      "view_on_divinity": "Gods are spirits of claw, thorn, and sky—less worshipped, more bargained with.",
+      "gods": "Totemic spirits and the Forest Wyrm, an ancient, world-rooting entity."
+    },
+    "factions": ["Thorn Pact Dominion", "Beastlords of Brayhollow"],
+    "diplomacy": {
+      "view_of_other_races": {
+        "Vaelari": "Too airy to understand the dirt and blood of life.",
+        "Mirekin": "Cousins in cunning—worthy of respect, if distant.",
+        "Dravok": "Metal beasts; strong, but trapped by stone.",
+        "Sularin": "Quick blades, good dancers, but their roots are shallow.",
+        "Thalorin": "Tongues like vines—slippery and suffocating."
+      },
+      "diplomatic_methods": "Spirit pacts, beast-gift exchanges, territorial hunts."
+    },
+    "internal_conflicts": {
+      "emerging_factions": {
+        "Rootbinders": "Seek deeper communion with nature, even at cost of self.",
+        "Ironfangs": "Want to weaponize forest spirits to strike preemptively against foreign expansion."
+      },
+      "forbidden_rites": "The Thornwake – a war ritual that awakens the entire forest but risks burning all within."
+    },
+    "summary": "The Thorneth are wild-born pactmakers who stride beside beasts and wield nature not as prayer, but as blade. They are feral sages and primal tacticians, who answer only to the whisper of roots and roar of skyclaw. To provoke them is to rouse the wrath of a forest with memory."
+  },
+
+  "Gryxen": {
+    "name": "Gryxen",
+    "origin": "Born of arcane resonance and elemental covenant, the Gryxen trace their lineage to the first Song of Binding—an oath etched in fire and storm at the dawn of magic. They are not born, but awakened by sigil and chant.",
+    "physiology": "Human-like in stature, but with glowing sigils etched into their skin from birth. Their veins pulse with elemental hues—embers, frostlight, storm-blue. Eyes shimmer like molten crystal, and their voices carry residual harmonic resonance.",
+    "culture": "Their society is shaped around the Symphonium—a sacred synod of singers, mages, and scholars who keep balance between elemental forces. Rites are sung, not spoken; knowledge is passed through harmonics, not scrolls. Every Gryxen trains in at least one Elemental Verse before adulthood.",
+    "native_land": "Caelmir Reach",
+    "government": {
+      "structure": "Harmonic Synod",
+      "ruling_body": "Symphonium Circle",
+      "council_details": {
+        "number_of_members": 5,
+        "trial_required": "Trial of the Elemental Verse",
+        "philosophical_guides": [
+          "Resonance",
+          "Balance",
+          "Oath",
+          "Echo",
+          "Pulse"
+        ]
+      },
+      "political_view": "Power flows not through lineage, but clarity of harmonic attunement. The voice is both vote and verdict."
+    },
+    "magic": {
+      "affinity": [
+        "Runesong Magic",
+        "Elemental Invocation",
+        "Wardsinging",
+        "Sigilcraft"
+      ],
+      "prodigy_rate": "Most manifest a minor harmonic surge by age 3.",
+      "elite_spellcasters": "Choromancers",
+      "language": {
+        "name": "Vohraan",
+        "properties": "Multi-tonal and partially melodic. It must be performed, not merely spoken—often requires tuning forks or resonance crystals."
+      }
+    },
+    "appearance": {
+      "skin": "Marked with glowing sigils—bronze, sapphire, or ember-lit",
+      "eyes": "Elemental-colored and slightly luminescent",
+      "hair": "Dark with streaks reflecting their element: flame-red, frost-white, or storm-grey"
+    },
+    "architecture": {
+      "style": "Arcane amphitheaters, echoing halls, and sky-facing terraces laced with elemental channels",
+      "location": "Runescar Keep and the misted cliffs of Caelmir Reach"
+    },
+    "customs": [
+      "Binding Chorus – a group ritual where bonds of loyalty or kinship are sealed through harmonic resonance.",
+      "The First Echo – rite of attunement where the young harmonize with their elemental affinity.",
+      "Harmonist Duels – non-lethal contests of sonic and sigilic control for honor and hierarchy."
+    ],
+    "beliefs": {
+      "primary_doctrine": "All magic is resonance; harmony is the true divine.",
+      "afterlife": "Souls disperse into the elemental Aether, returning as echoes in new voices.",
+      "view_on_divinity": "Divinity is the perfect chord—an individual in absolute harmonic resonance.",
+      "gods": "They revere the First Note, an abstract force believed to have sung the world into motion."
+    },
+    "factions": ["Sigilbound Concord", "Voice of the Elemental Choir"],
+    "diplomacy": {
+      "view_of_other_races": {
+        "Vaelari": "Well-tempered but too detached from the raw song.",
+        "Dravok": "Bassline brute force—useful, but rarely subtle.",
+        "Canari": "Their rhythm is primal, yet intriguingly syncopated.",
+        "Mirekin": "Dissonant and strange, but their silence hides deep frequencies.",
+        "Ashkai": "Masters of the dirge and death-song—fascinating and feared."
+      },
+      "diplomatic_methods": "Harmonic contracts, elemental tribute, and resonance-based oaths."
+    },
+    "internal_conflicts": {
+      "emerging_factions": {
+        "Chordkeepers": "Traditionalists who preserve the old harmonics at any cost.",
+        "Resonant Unbound": "Radicals who explore dissonance and chaos as magical evolution."
+      },
+      "forbidden_relics": "The Discord Chalice – a shattered focus that amplifies magic through pain and corruption."
+    },
+    "summary": "The Gryxen are harmonic mages of elemental ancestry who wield magic through song, sigil, and resonance. Their power is not read—it is performed, felt, and echoed. Arcane, enigmatic, and attuned to the pulse of creation."
+  },
+
+  "Ashkai": {
+    "name": "Ashkai",
+    "origin": "Forged in volcanic wombs beneath Varkuun Hollow, the Ashkai are born of molten sorrow and sacred flame. Their ancestors made pacts with shadow-spirits and firelords, surviving the cataclysm that shattered the First Spire.",
+    "physiology": "Ashen-skinned with ember-glowing veins and coal-dark eyes. Their bodies radiate dry heat, and their breath sometimes steams in cold air. Horns of obsidian or brimstone sometimes sprout with age or rite.",
+    "culture": "Ashkai culture revolves around cycles: destruction and rebirth, loss and legacy. They record life through ritual scars and fireglyphs. Emotion is sacred—expressed through Flame Ordeals and Shadow Chants. Their seers guide villages through volcanic omens and the whispering dark.",
+    "native_land": "Varkuun Hollow",
+    "government": {
+      "structure": "Council of Embers",
+      "ruling_body": "Circle of the Cinder-Souled",
+      "council_details": {
+        "number_of_members": 7,
+        "trial_required": "Rite of Blistered Truth",
+        "philosophical_guides": [
+          "Sacrifice",
+          "Shadow",
+          "Ember",
+          "Survival",
+          "Ruin",
+          "Memory",
+          "Flame"
+        ]
+      },
+      "political_view": "Suffering tempers wisdom. Only those who have walked the firewalk may guide others."
+    },
+    "magic": {
+      "affinity": [
+        "Flame Binding",
+        "Shadowstep",
+        "Ember-Sight",
+        "Seerbrand Magic"
+      ],
+      "prodigy_rate": "Most undergo their first Ember Veil at age 5, awakening dormant magic.",
+      "elite_spellcasters": "Ashseers",
+      "language": {
+        "name": "Vel’Kurai",
+        "properties": "Graveled, breathy, and accented with heated consonants. Often written with scorchmarks and branded symbols."
+      }
+    },
+    "appearance": {
+      "skin": "Ash-grey to obsidian-black, often with emberlit patterns",
+      "eyes": "Coal-red, glowing amber, or smoky silver",
+      "hair": "Dark and coarse, with ember-tinted ends or streaks of soot hues"
+    },
+    "architecture": {
+      "style": "Subterranean stone sanctums, lava-fed forges, and open-air shrines built atop cinder vents",
+      "location": "Ashen Hold and molten caverns of Varkuun Hollow"
+    },
+    "customs": [
+      "Firewalk Rite – a ceremonial walk across coals to mark transitions in life.",
+      "Veil of Ash – mourning practice involving silent procession through falling cinders.",
+      "Scar-Painting – ritual storytelling by burning glyphs into skin using sacred brands."
+    ],
+    "beliefs": {
+      "primary_doctrine": "The soul must be reforged again and again to find truth.",
+      "afterlife": "Ashkai believe in the Crucible Beyond—a plane where souls burn away lies to return cleansed.",
+      "view_on_divinity": "Divinity lies in surviving the fire unchanged—or emerging stronger.",
+      "gods": "They honor primal fire spirits and shadow-gods—entities that neither demand worship nor offer mercy."
+    },
+    "factions": ["Ashen Rites of Vel Atuur", "Cindersworn Covenant"],
+    "diplomacy": {
+      "view_of_other_races": {
+        "Vaelari": "Beautiful, but brittle. They would break in our fire.",
+        "Gryxen": "Their song is old and deep—we listen, and sometimes answer.",
+        "Dravok": "Cousins of heat and hammer. We share the forge, if not the philosophy.",
+        "Mirekin": "Hidden like coal under water—potential, not yet ignited.",
+        "Thalorin": "Smooth tongues melt fast. We value truth blistered, not gilded."
+      },
+      "diplomatic_methods": "Oathbrands, ember-treaties, and fireborne sacrifice. Loyalty proven in flame."
+    },
+    "internal_conflicts": {
+      "emerging_factions": {
+        "Ashveiled": "Secretive mourners who believe pain must be private and sacred.",
+        "Flamekin Ascendants": "Radicals who seek literal apotheosis by merging with primal flame."
+      },
+      "forbidden_relics": "Tears of Azhaar – obsidian beads that feed on sorrow to spark uncontrollable infernos."
+    },
+    "summary": "The Ashkai are scarred seers and flamewalkers, born of volcano and shadow. They endure agony with reverence and emerge from every blaze stronger, wiser, and more fiercely alive. They are the memory of fire given voice."
+  },
+
+  "Thalorin": {
+    "name": "Thalorin",
+    "origin": "Descendants of empire-founders and diplomatic architects, the Thalorin emerged from the marbled cities of Virellia, refined by debate, law, and shadowed bargains. They were once vassals of a fallen imperial deity whose silence now echoes through their courts.",
+    "physiology": "Elegant, poised humanoids with sharp features and golden-burnished skin. Their eyes gleam like polished bronze, and their voices carry a persuasive timbre. Their presence seems cloaked in silk and secrets.",
+    "culture": "Thalorin culture is built on decorum, wit, and the pursuit of power through rhetoric and subterfuge. They host endless salons and symposia where alliances are brokered over poetry and wine. The greatest insult is vulgarity; the highest praise is silence amid tension.",
+    "native_land": "Virellia",
+    "government": {
+      "structure": "Civic Triumvirate",
+      "ruling_body": "The Silent Accord",
+      "council_details": {
+        "number_of_members": 3,
+        "trial_required": "The Oration of Chains",
+        "philosophical_guides": ["Subtlety", "Loyalty", "Discretion"]
+      },
+      "political_view": "Truth is a tool; the only crime is being caught. Power thrives in plausible deniability."
+    },
+    "magic": {
+      "affinity": [
+        "Contract Magic",
+        "Veilbinding",
+        "Memory Seals",
+        "Voicecraft"
+      ],
+      "prodigy_rate": "Every noble house fosters at least one political-mage by age 12.",
+      "elite_spellcasters": "Pactbinders",
+      "language": {
+        "name": "Velluraan",
+        "properties": "Soft, layered with double meanings. Most phrases are code; most greetings are gambits."
+      }
+    },
+    "appearance": {
+      "skin": "Polished gold, bronze, or copper tones",
+      "eyes": "Metallic brown, glinting amber, or opalescent hazel",
+      "hair": "Well-groomed and styled; usually chestnut, deep black, or platinum"
+    },
+    "architecture": {
+      "style": "Marble-columned palaces, secret gardens, mirrored vaults, and city plazas carved with oath-stones",
+      "location": "Cerulean Lakes and Velvet Meadows of Virellia"
+    },
+    "customs": [
+      "Webweaving – a ritual in which family alliances are reinforced with memory-sharing oaths.",
+      "Glassveil Masques – masked balls where secrets are traded for favors beneath layers of pageantry.",
+      "Trial of Echoes – a ceremonial argument where success is measured not by victory but by lasting impression."
+    ],
+    "beliefs": {
+      "primary_doctrine": "Order is sustained by what remains unspoken.",
+      "afterlife": "Thalorin believe in the Archive Eternal, a mirrored realm where souls are judged by echoes of their decisions.",
+      "view_on_divinity": "Divinity is the mastery of consequence without admission.",
+      "gods": "They venerate the Silent Pantheon—deities that observe but never intervene."
+    },
+    "factions": ["Consortium of Veiled Crowns", "Guild of Silent Accord"],
+    "diplomacy": {
+      "view_of_other_races": {
+        "Vaelari": "Too rigid in light, yet useful in ritual.",
+        "Canari": "Honest to a fault—dangerous unless leashed by law.",
+        "Ashkai": "Frighteningly devout. A fire you light once, and never again.",
+        "Mirekin": "Tools of shadow and scent. Effective, if unpleasant.",
+        "Gryxen": "Charming, but prone to resonance over reason."
+      },
+      "diplomatic_methods": "Long-term debt, oathcraft, binding contracts, blackmail-as-art."
+    },
+    "internal_conflicts": {
+      "emerging_factions": {
+        "Lexari": "Conservatives who guard the Old Codes with blood and ink.",
+        "Writ Unseen": "Radicals pushing for magical transparency and democratic veils."
+      },
+      "forbidden_relics": "The Mirror of Indictus – reveals every lie a person has ever spoken, and all the truths they buried."
+    },
+    "summary": "The Thalorin are silver-tongued manipulators who shape nations through words, contracts, and elegance. Beneath their polished smiles lies a labyrinth of agendas and unspoken power."
+  },
+
+  "Canari": {
+    "name": "Canari",
+    "origin": "Forged under moonlight on the Ember Plains, the Canari are wolf-headed nomads shaped by wild loyalty and the old howl of the Moonborn Code. Their blood remembers ancient hunts, and their hearts beat with packbound purpose.",
+    "physiology": "Canine-headed bipeds with muscular builds, padded feet, and sharp claws. Their eyes glow silver beneath the moon, and their sense of smell rivals any beast. Fur patterns vary by lineage and tribe.",
+    "culture": "Canari culture prizes loyalty, instinct, and communal strength. Each tribe roams under a lunar cycle, following old paths through desert and ash plains. Songs of the hunt, tale-marks carved in stone, and communal feasts beneath the stars form the lifeblood of their identity.",
+    "native_land": "Qamarra",
+    "government": {
+      "structure": "Tribal Confederation",
+      "ruling_body": "The Moonhowl Council",
+      "council_details": {
+        "number_of_members": 12,
+        "trial_required": "The Moonborn Trial",
+        "philosophical_guides": [
+          "Honor",
+          "Instinct",
+          "Balance",
+          "Memory",
+          "Fury",
+          "Mercy",
+          "Endurance",
+          "Loyalty",
+          "Unity",
+          "Hunt",
+          "Wander",
+          "Truth"
+        ]
+      },
+      "political_view": "All howl is heard, but only the wise lead. Elders remember, younglings run. The pack survives."
+    },
+    "magic": {
+      "affinity": [
+        "Lunarcraft",
+        "Beast Empathy",
+        "Packbinding",
+        "Dustsong Magic"
+      ],
+      "prodigy_rate": "Magical instincts stir at adolescence, often during the Rite of First Howl.",
+      "elite_spellcasters": "Moonbinders",
+      "language": {
+        "name": "Howlmark",
+        "properties": "A tonal, howled, and gestural tongue that mixes body movement with vocalization. Certain meanings only conveyed under moonlight."
+      }
+    },
+    "appearance": {
+      "skin": "Hidden beneath fur; ranges from ash-grey to warm sand-brown",
+      "eyes": "Moonlit silver, piercing amber, or glacier blue",
+      "hair": "Full-body fur; some style head fur into braids, knots, or markings"
+    },
+    "architecture": {
+      "style": "Mobile tents of fire-woven hide, bone totems, ceremonial bonfire rings, and stone memory-pillars along sacred trails",
+      "location": "The Ember Plains of Qamarra"
+    },
+    "customs": [
+      "Moonborn Trial – rite of passage under full moon involving a spiritual hunt.",
+      "Packsong Circles – communal howling and song-sharing around sacred flames.",
+      "Ashcarve Feasts – honoring fallen packmates through stories carved on bone and shared meals."
+    ],
+    "beliefs": {
+      "primary_doctrine": "The pack is eternal. The lone fades. The moon watches all.",
+      "afterlife": "They believe the worthy join the Moonmother in the skyhunt, chasing stars across the dark.",
+      "view_on_divinity": "Divinity is found in unity, in instinct honored, and in the eternal chase.",
+      "gods": "They revere the Moonmother and her Celestial Pack—spirits of the hunt and dusk."
+    },
+    "factions": ["Claw of the Moonborn", "The Emberpack Tribes"],
+    "diplomacy": {
+      "view_of_other_races": {
+        "Thalorin": "Their words twist like wind—do they ever hunt their own truth?",
+        "Vaelari": "Too still, too cold. But they have stars we once howled to.",
+        "Ashkai": "Their pain is noble, but they mourn too much to run.",
+        "Brakyr": "Slow, strong, and stubborn. Good allies when the mountain stirs.",
+        "Mirekin": "Hard to track, harder to trust. But they know silence like we do."
+      },
+      "diplomatic_methods": "Oathbones, blood pacts, and gift-circles. Alliances made under moonlight are sacred."
+    },
+    "internal_conflicts": {
+      "emerging_factions": {
+        "Starhowlers": "Seek to leave the land entirely and follow the moon into skypaths.",
+        "Bonecallers": "Preserve lost traditions too sacred for the waking world."
+      },
+      "forbidden_relics": "The Black Howl Drum – awakens rage in all who hear it, even kin."
+    },
+    "summary": "The Canari are wild-hearted, moon-guided nomads who value loyalty above law. With voices of howl and hearts of ember, they chase memory, honor, and the eternal rhythm of the hunt."
+  },
+
+  "Brakyr": {
+    "name": "Brakyr",
+    "origin": "Children of stone and frost, the Brakyr were born beneath Hjarnheim's icy crust, their spirits forged in frostfire rites and ancestral sacrifice. They walk with the strength of the mountain and the silence of falling snow.",
+    "physiology": "Towering, broad-shouldered humanoids with frost-calloused skin and glowing magma-veins beneath. Their breath steams even in summer, and their bones carry the hum of ancestral chants.",
+    "culture": "Brakyr culture holds honor above all, shaped by ancient epics, frost-oaths, and a belief in sacred burden. Knowledge is passed through chant-stone tablets and longfire gatherings. Their society is built on age-hierarchies and sworn oaths, with each individual expected to serve the mountain’s memory.",
+    "native_land": "Hjarnheim",
+    "government": {
+      "structure": "Eldertide Kinhold",
+      "ruling_body": "The Voice of the Rimeheart",
+      "council_details": {
+        "number_of_members": 7,
+        "trial_required": "The Trial of Flame and Ice",
+        "philosophical_guides": [
+          "Endurance",
+          "Sacrifice",
+          "Silence",
+          "Wrath",
+          "Remembrance",
+          "Duty",
+          "Kinship"
+        ]
+      },
+      "political_view": "Power is a weight to bear, not a privilege to wield. The strongest lift others. The wise remember."
+    },
+    "magic": {
+      "affinity": [
+        "Frostbinding",
+        "Volcanomancy",
+        "Runecraft",
+        "Echochant Magic"
+      ],
+      "prodigy_rate": "Rare, but respected—magical children are seen as mountain-touched and marked for leadership.",
+      "elite_spellcasters": "Flamerunes or Echochanters",
+      "language": {
+        "name": "Drumthaal",
+        "properties": "A guttural, rhythmic tongue often sung or drummed into stone. Some spells require chant resonance to activate."
+      }
+    },
+    "appearance": {
+      "skin": "Stone-hued with undertones of frost-blue or ember-red",
+      "eyes": "Solid color—glacial white, obsidian black, or molten gold",
+      "hair": "Braided like rope; often streaked with ash, silver, or flame dye"
+    },
+    "architecture": {
+      "style": "Stone-forged halls, magma-lit catacombs, fortress-cairns carved into ice-locked cliffs",
+      "location": "Deep within Hjarnheim’s Frostfang Peaks and glacier caves"
+    },
+    "customs": [
+      "The Emberwake – ceremonial firewalk during solstice to renew one’s life-purpose.",
+      "Stonechant Council – a gathering where tribal lore and judgment are sung aloud.",
+      "Kinshard Binding – binding of family legacy into carved ancestral stones."
+    ],
+    "beliefs": {
+      "primary_doctrine": "The mountain remembers. You must be worthy of that memory.",
+      "afterlife": "Spirits rest in the Flamehold beneath the ice, until called by ancestral drums.",
+      "view_on_divinity": "Gods are echoes—what remains when the great ones pass.",
+      "gods": "They honor elemental spirits of mountain, flame, and glacier—but never worship blindly."
+    },
+    "factions": ["Wardens of the Rimeheart", "Keepers of the Flame Oath"],
+    "diplomacy": {
+      "view_of_other_races": {
+        "Thalorin": "Too quick to twist words, but some speak with stone-sense.",
+        "Vaelari": "Dazzling, but brittle. May they never crack.",
+        "Ashkai": "Kindred in fire and burden. We understand their silence.",
+        "Canari": "Wild pups with honor in their eyes. Worthy of song.",
+        "Dravok": "Brothers of stone, though their fire burns wilder."
+      },
+      "diplomatic_methods": "Oath-braids, molten seals, and soulstone offerings. Alliances carved into cairns and sealed in shared trials."
+    },
+    "internal_conflicts": {
+      "emerging_factions": {
+        "Glacierbound": "Seek to retreat from the world, preserving tradition in isolation.",
+        "Emberforge": "Wish to teach the world Brakyr ways—dangerous, but noble."
+      },
+      "forbidden_relics": "The Crying Stone – said to hold the voice of a Brakyr god who wept once and never again."
+    },
+    "summary": "Brakyr are ancient, resilient, and resolute—giants forged in ice and flame. Their honor echoes in mountains, their songs in stone. They do not rush. They endure."
+  },
+
+  "Dravok": {
+    "name": "Dravok",
+    "origin": "Forged in the furnaces of Kharnovar by ancient elemental pacts, the Dravok were bred as kings of war and sovereigns of flame. Their blood carries the fire of creation and ruin.",
+    "physiology": "Massive, tusked humanoids with granite-like skin, glowing molten veins, and eyes that flicker like coals. Their blood simmers with internal heat, and their breath can steam iron.",
+    "culture": "Dravok culture is deeply bound to the forge, to battle, and to legacy. Every act must leave an imprint—on metal, memory, or myth. Strength is valued, but discipline defines leadership. They build lineage through trials, smith-rites, and war-feasts.",
+    "native_land": "Kharnovar",
+    "government": {
+      "structure": "Molten Thronedom",
+      "ruling_body": "The Anvil Council",
+      "council_details": {
+        "number_of_members": 6,
+        "trial_required": "Trial of the Warplate Flame",
+        "philosophical_guides": [
+          "Strength",
+          "Endurance",
+          "Discipline",
+          "Legacy",
+          "War-Honor"
+        ]
+      },
+      "political_view": "Rule is earned through scars, not blood. To lead, one must outlast flame and foe."
+    },
+    "magic": {
+      "affinity": [
+        "Forgemancy",
+        "Pyrokinetics",
+        "Battle-Enchantment",
+        "Stonebinding"
+      ],
+      "prodigy_rate": "Uncommon, but fiercely trained. Forgemages are rare and revered.",
+      "elite_spellcasters": "Moltenforged",
+      "language": {
+        "name": "Kharuum",
+        "properties": "Harsh, guttural, and rhythmic—used to command both warriors and flame."
+      }
+    },
+    "appearance": {
+      "skin": "Obsidian, charcoal, or cracked stone hues with glowing magma channels",
+      "eyes": "Molten orange, deep crimson, or ember-glow yellow",
+      "hair": "Often shaved or braided; styled with ash, iron beads, or coiled copper"
+    },
+    "architecture": {
+      "style": "Cavernous forgehalls, fire-lit bastions, stone cities carved into volcanic ranges",
+      "location": "Within the molten valleys and ashspires of Kharnovar"
+    },
+    "customs": [
+      "The Forgemark Rite – scars branded with runes that tell one's deeds.",
+      "Anvil Ascension – crafting one's warplate before claiming adulthood.",
+      "Cinderwake Duels – ceremonial duels to settle disputes before clanfire witnesses."
+    ],
+    "beliefs": {
+      "primary_doctrine": "From fire we rise, through forge we thrive.",
+      "afterlife": "To fall in glory is to join the Eternal Furnace where ancestors craft fate.",
+      "view_on_divinity": "Divinity is strength immortalized through steel and flame.",
+      "gods": "They honor no singular god, but revere the Flame Fathers—mythic smiths and warlords."
+    },
+    "factions": ["Forgebound Dominion", "Ironblood Legion"],
+    "diplomacy": {
+      "view_of_other_races": {
+        "Vaelari": "All light, no hammer. Elegant but fragile.",
+        "Brakyr": "True kin. Their silence sings truer than many voices.",
+        "Thalorin": "Words like daggers, rarely honest ones.",
+        "Mirekin": "Slippery, but cunning. Worth respect in the dark.",
+        "Ashkai": "Kindred of heat and sorrow. We'd share fire with them."
+      },
+      "diplomatic_methods": "Blood-forged treaties, flame-oath rituals, and smith-brotherhood alliances."
+    },
+    "internal_conflicts": {
+      "emerging_factions": {
+        "Cindermaws": "Warlords who believe conquest is the truest legacy.",
+        "Forgehearts": "Reformers seeking unity through craft and innovation."
+      },
+      "forbidden_relics": "The Anvil of Blackwake – said to reshape time through metal and memory."
+    },
+    "summary": "Dravok are a race of flame-wrought titans—part warrior, part smith, all fire-forged. Legacy burns in their bones, and history is hammered with their hands."
+  },
+
+  "Sularin": {
+    "name": "Sularin",
+    "origin": "Children of the wind and sand, the Sularin were born from the union of desert spirits and warrior exiles. Forged by sun and survival, they move like shadows and strike like serpents.",
+    "physiology": "Lean and agile with sun-bronzed skin, fluid musculature, and piercing, almond-shaped eyes that reflect shifting hues of the dunes. Their bodies endure extremes of heat and dehydration.",
+    "culture": "Sularin culture values cunning over brute force, grace over clamor. Storytelling through dance, bladework, and perfume is sacred. Their hierarchies are earned through trials of endurance, trickery, and poise.",
+    "native_land": "Zehrathel",
+    "government": {
+      "structure": "Clan-Sisterhoods and Bladelord Courts",
+      "ruling_body": "Council of the Shifting Silk",
+      "council_details": {
+        "number_of_members": 7,
+        "trial_required": "Dance of the Seven Scars",
+        "philosophical_guides": [
+          "Grace",
+          "Endurance",
+          "Deception",
+          "Memory",
+          "Wind",
+          "Venom",
+          "Freedom"
+        ]
+      },
+      "political_view": "A leader must never be predictable, never static. To rule is to weave shadows and blade in perfect rhythm."
+    },
+    "magic": {
+      "affinity": [
+        "Sandweaving",
+        "Illusion Craft",
+        "Poison Alchemy",
+        "Memory Dance"
+      ],
+      "prodigy_rate": "Rare, but those born under crescent moons often awaken with the Gift.",
+      "elite_spellcasters": "Duneveil Mystics",
+      "language": {
+        "name": "Sahariin",
+        "properties": "Lyrical, breathy, and rhythm-driven. Often danced as well as spoken."
+      }
+    },
+    "appearance": {
+      "skin": "Bronzed, sun-kissed, or cinnamon-toned",
+      "eyes": "Amber, teal, or silver—often kohl-lined",
+      "hair": "Dark, often braided or wrapped in silken scarves scented with desert oils"
+    },
+    "architecture": {
+      "style": "Silken pavilion cities, sandstone labyrinths, wind-carved cliffside dwellings",
+      "location": "Oases, hidden canyon enclaves, and moonlit bazaars of Zehrathel"
+    },
+    "customs": [
+      "Veil Duels – graceful blade-dances used to resolve disputes.",
+      "Sandsong Vigils – all-night storytelling with incense and memory wine.",
+      "Moonbind Ceremony – soul-pacts performed during lunar eclipses."
+    ],
+    "beliefs": {
+      "primary_doctrine": "The Blade Whispers – Only silence survives.",
+      "afterlife": "The Echoing Dunes – a realm of eternal dusk where every step recalls a memory.",
+      "view_on_divinity": "Gods are desert illusions, but faith in oneself never fades.",
+      "gods": "Some whisper to the Wind-Mother, others to the Sand Serpent, but few kneel."
+    },
+    "factions": ["Bladed Mirage", "Sisters of the Sand Veil"],
+    "diplomacy": {
+      "view_of_other_races": {
+        "Vaelari": "They chase stars, we chase breath. Let them float.",
+        "Thalorin": "Silver tongues hide poisoned teeth.",
+        "Canari": "Fierce. Noble. But predictable in their honor.",
+        "Ashkai": "Burn too close to shadow. Dangerous... like us.",
+        "Mirekin": "Too wet. But their secrets speak to us."
+      },
+      "diplomatic_methods": "Espionage through perfume merchants, blade-diplomats, and moonlit emissaries."
+    },
+    "internal_conflicts": {
+      "emerging_factions": {
+        "Duskborn": "Ascetics who abandon the blade for total memory mastery.",
+        "Sandfangs": "Rebels who crave desert dominion and open conquest."
+      },
+      "forbidden_relics": "The Mirror of Vel'Zhen – reflects not appearances, but truths one cannot escape."
+    },
+    "summary": "The Sularin are dancers, duelists, and whisperers of wind. Born to the sand and shaped by secrets, they survive not by strength, but by grace wielded like a knife."
+  }
+}
