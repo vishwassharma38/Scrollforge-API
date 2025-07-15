@@ -62,6 +62,25 @@ Generate a character with specific filters using query parameters:
 * `gender` – Male, Female or Non-Binary
 * `region` – like "Varkuun Hollow", "Esmoria", etc.
 
+### 📜 Lore Endpoints
+
+**GET /lore**
+Returns a random lore entry from either race or faction.
+
+**GET /lore/race**
+Returns a random race lore entry.
+
+**GET /lore/race/(racename)**
+Returns structured lore for a specific race.
+✔ Case-insensitive — /lore/race/ashkai, /lore/race/Ashkai, /lore/race/ASHKAI are all valid.
+
+**GET /lore/faction**
+Returns a random faction lore entry.
+
+**GET /lore/faction/(factionname)**
+Returns structured lore for a specific faction.
+✔ Case-insensitive — /lore/faction/the hollow coin, /lore/faction/The Hollow Coin, etc.
+
 Scrollforge automatically enforces lore logic — if your inputs are invalid or incompatible, it'll gracefully randomize or fallback.
 
 ---
