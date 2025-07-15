@@ -1,8 +1,7 @@
-from flask import Blueprint, request, Response
+from flask import Blueprint, request, Response, jsonify
 import logging
 import json
 import random
-from collections import OrderedDict
 from .generator import generate_character
 from .lore_utils import load_lore_file, format_race_lore_entry, format_faction_lore_entry
 
@@ -79,18 +78,10 @@ def random_lore():
         name = random.choice(list(lore_data.keys()))
         entry = lore_data[name]
         formatted = format_race_lore_entry(name, entry)
-
-    elif chosen_type == "faction":
+    else:
         entry = random.choice(lore_data)
         name = entry.get("name", "Unknown Faction")
         formatted = format_faction_lore_entry(name, entry)
-
-    else:
-        return Response(
-            json.dumps({"error": "Lore formatter not implemented."}, indent=2),
-            mimetype="application/json",
-            status=500
-        )
 
     return Response(
         json.dumps(formatted, indent=2, ensure_ascii=False, sort_keys=False),
@@ -98,7 +89,9 @@ def random_lore():
     )
 
 
+# 🌿 Handles both /lore/race and /race
 @main.route('/lore/race', methods=['GET'])
+@main.route('/race', methods=['GET'])
 def random_race():
     lore_data = load_lore_file("race")
     if not lore_data or not isinstance(lore_data, dict):
@@ -118,7 +111,9 @@ def random_race():
     )
 
 
+# 🌿 Handles both /lore/race/<name> and /race/<name>
 @main.route('/lore/race/<name>', methods=['GET'])
+@main.route('/race/<name>', methods=['GET'])
 def lore_race(name):
     lore_data = load_lore_file("race")
     entry = next((v for k, v in lore_data.items() if k.lower() == name.lower()), None)
@@ -138,6 +133,7 @@ def lore_race(name):
     )
 
 
+# 🌿 Handles both /lore/faction and /faction
 @main.route('/lore/faction', methods=['GET'])
 @main.route('/faction', methods=['GET'])
 def random_faction():
@@ -160,7 +156,9 @@ def random_faction():
     )
 
 
+# 🌿 Handles both /lore/faction/<name> and /faction/<name>
 @main.route('/lore/faction/<name>', methods=['GET'])
+@main.route('/faction/<name>', methods=['GET'])
 def lore_faction(name):
     lore_data = load_lore_file("faction")
 
@@ -180,3 +178,8 @@ def lore_faction(name):
         json.dumps(formatted, indent=2, ensure_ascii=False, sort_keys=False),
         mimetype="application/json"
     )
+
+
+@main.route('/status', methods=['GET'])
+def status():
+    return jsonify({"status": "ok", "version": "v1"})
