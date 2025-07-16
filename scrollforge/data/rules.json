@@ -725,7 +725,14 @@
   "class_restrictions": {
     "Ironblood": ["Canari", "Thorneth", "Vaelari", "Gryxen", "Miraken"],
     "Runeweaver": ["Brakyr", "Dravok", "Sularin", "Thalorin"],
-    "Whispercloak": ["Thalorin", "Brakyr", "Dravok", "Sularin", "Gryxen"],
+    "Whispercloak": [
+      "Thalorin",
+      "Brakyr",
+      "Dravok",
+      "Sularin",
+      "Gryxen",
+      "Vaelari"
+    ],
     "Veilpiercer": ["Vaelari", "Thalorin", "Gryxen"],
     "Spelltyrant": ["Brakyr", "Dravok", "Sularin"],
     "Pathstrider": ["Thorneth", "Sularin", "Mirekin"],
