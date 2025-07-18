@@ -164,17 +164,15 @@ def generate_character(overrides=None):
                 location = next((loc for loc in filtered_locations if loc["name"] == overrides.get("region")), None)
                 if not location:
                     location = get_random_item(filtered_locations if filtered_locations else locations)
-                place = get_compatible_place(location, race, rules) or random.choice(["a remote village", "an ancient ruin", "a forgotten outpost"])
+                    place = get_compatible_place(location, race, rules) or random.choice(["a remote village", "an ancient ruin", "a forgotten outpost"])
 
             filtered_names = filter_names_by_race(race, names_data)
             name = overrides.get("name") or random.choice(filtered_names)
             gender = next((g for g in genders if g["label"] == overrides.get("gender")), None) or get_random_item(genders)
 
-            class_allowed_factions = rules["class_faction_allowed"].get(char_class["name"], [])
-            race_invalid_factions = rules["invalid_race_faction"].get(race["name"], [])
-            preferred_factions = [f for f in factions if f["name"] in class_allowed_factions and f["name"] not in race_invalid_factions]
-            fallback_factions = [f for f in factions if f["name"] in class_allowed_factions]
-            valid_faction_candidates = preferred_factions if preferred_factions else fallback_factions
+            class_allowed_factions = rules["preferred_class_factions"].get(char_class["name"], [])
+            preferred_race_factions = rules["preferred_race_factions"].get(race["name"], [])
+            valid_faction_candidates = [f for f in factions if f["name"] in class_allowed_factions and (not preferred_race_factions or f["name"] in preferred_race_factions)]
 
             faction = next((f for f in factions if f["name"] == overrides.get("faction")), None)
             if not faction:
