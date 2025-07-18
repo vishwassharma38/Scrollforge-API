@@ -102,13 +102,24 @@ def select_faction(race, char_class, factions, rules, override_faction_name=None
         if override:
             return override
 
+    if not candidates:
+        # Optional: Log a warning for debugging
+        logger.warning(f"No valid faction candidates found for race {race['name']} and class {char_class['name']}")
+        return {
+            "name": "Unaffiliated",
+            "description": "A lone wanderer with no faction ties.",
+            "symbol": "⚪",
+            "neutral": True
+        }
+
     random.shuffle(candidates)
     used_names = [f["name"] for f in candidates]
     for candidate in candidates:
         if not is_faction_conflicted(candidate["name"], used_names):
             return candidate
 
-    return random.choice(factions)
+    return random.choice(candidates)  # fallback ONLY within valid candidates
+
 
 def get_compatible_place(location, race, rules):
     # Hook for future location-level filtering (e.g., sub-place restrictions)
