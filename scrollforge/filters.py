@@ -59,7 +59,7 @@ def filter_valid_classes(race, classes, rules):
 
 def filter_deities_by_race(race, deities, rules):
     race_name = race.get("name")
-    allowed = set(deity.lower() for deity in rules.get("preferred_race_dieties", {}).get(race_name, []))
+    allowed = set(deity.lower() for deity in rules.get("preferred_race_deities", {}).get(race_name, []))
     return [d for d in deities if d.get("deity", "").lower() in allowed]
 
 def filter_names_by_race(race, names_data):
@@ -77,6 +77,38 @@ def get_faction_relationships(faction_name, factions):
             }
     logger.warning(f"Faction '{faction_name}' not found in data.")
     return {"allies": [], "rivals": []}
+
+def get_valid_faction_candidates(race, char_class, factions, rules):
+    race_name = race.get("name")
+    class_name = char_class.get("name")
+
+    class_allowed = set(rules.get("preferred_class_factions", {}).get(class_name, []))
+    race_preferred = set(rules.get("preferred_race_factions", {}).get(race_name, []))
+
+    if race_preferred:
+        return [f for f in factions if f["name"] in class_allowed and f["name"] in race_preferred]
+    return [f for f in factions if f["name"] in class_allowed]
+
+
+def is_faction_conflicted(faction_name, selected_factions):
+    return faction_name in selected_factions
+
+
+def select_faction(race, char_class, factions, rules, override_faction_name=None):
+    candidates = get_valid_faction_candidates(race, char_class, factions, rules)
+
+    if override_faction_name:
+        override = next((f for f in factions if f["name"] == override_faction_name), None)
+        if override:
+            return override
+
+    random.shuffle(candidates)
+    used_names = [f["name"] for f in candidates]
+    for candidate in candidates:
+        if not is_faction_conflicted(candidate["name"], used_names):
+            return candidate
+
+    return random.choice(factions)
 
 def get_compatible_place(location, race, rules):
     # Hook for future location-level filtering (e.g., sub-place restrictions)

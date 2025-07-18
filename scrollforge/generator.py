@@ -5,6 +5,7 @@ import logging
 from collections import OrderedDict
 from pathlib import Path
 from functools import lru_cache
+from .filters import select_faction
 
 from .filters import (
     load_rules,
@@ -19,7 +20,6 @@ from .filters import (
 
 logger = logging.getLogger(__name__)
 
-# SAFER PATH HANDLING
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / 'data'
 
@@ -105,17 +105,6 @@ def generate_height_weight(race_name, class_name, gender_label="Unknown"):
 
     return height, weight
 
-def is_faction_conflicted(faction_name, selected_factions):
-    factions_data = load_factions()
-    faction = next((f for f in factions_data if f["name"] == faction_name), None)
-    if not faction:
-        return False
-    rivals = set(faction.get("rivals", []))
-    for other in factions_data:
-        if faction_name in other.get("rivals", []):
-            rivals.add(other["name"])
-    return any(r in selected_factions for r in rivals)
-
 def find_region_by_place(locations, place_name):
     place_name_lower = place_name.lower()
     for loc in locations:
@@ -181,21 +170,11 @@ def generate_character(overrides=None):
             name = overrides.get("name") or random.choice(filtered_names)
             gender = next((g for g in genders if g["label"] == overrides.get("gender")), None) or get_random_item(genders)
 
-            class_allowed_factions = rules["preferred_class_factions"].get(char_class["name"], [])
-            preferred_race_factions = rules["preferred_race_factions"].get(race["name"], [])
-            valid_faction_candidates = [f for f in factions if f["name"] in class_allowed_factions and (not preferred_race_factions or f["name"] in preferred_race_factions)]
-
-            faction = next((f for f in factions if f["name"] == overrides.get("faction")), None)
-            if not faction:
-                random.shuffle(valid_faction_candidates)
-                faction = next((f for f in valid_faction_candidates if not is_faction_conflicted(f["name"], [x["name"] for x in valid_faction_candidates])), None)
-                if not faction:
-                    faction = get_random_item(factions)
-
             filtered_followers = filter_deities_by_race(race, followers, rules)
             follower = next((f for f in filtered_followers if f["deity"] == overrides.get("deity")), None) if overrides.get("deity") else (get_random_item(filtered_followers) if filtered_followers else get_random_item(followers))
 
             height_cm, weight_kg = generate_height_weight(race["name"], char_class["name"], gender["label"])
+            faction = select_faction(race, char_class, factions, rules, overrides.get("faction"))
 
             age = int(overrides.get("age", -1))
 
