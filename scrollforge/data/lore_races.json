@@ -467,7 +467,7 @@
     "origin": "Forged under moonlight on the Ember Plains, the Canari are wolf-headed nomads shaped by wild loyalty and the old howl of the Moonborn Code. Their blood remembers ancient hunts, and their hearts beat with packbound purpose.",
     "physiology": "Canine-headed bipeds with muscular builds, padded feet, and sharp claws. Their eyes glow silver beneath the moon, and their sense of smell rivals any beast. Fur patterns vary by lineage and tribe.",
     "culture": "Canari culture prizes loyalty, instinct, and communal strength. Each tribe roams under a lunar cycle, following old paths through desert and ash plains. Songs of the hunt, tale-marks carved in stone, and communal feasts beneath the stars form the lifeblood of their identity.",
-    "native_land": "Qamarra",
+    "native_land": "Zehrathel",
     "government": {
       "structure": "Tribal Confederation",
       "ruling_body": "The Moonhowl Council",
@@ -707,7 +707,7 @@
     "origin": "Children of the wind and sand, the Sularin were born from the union of desert spirits and warrior exiles. Forged by sun and survival, they move like shadows and strike like serpents.",
     "physiology": "Lean and agile with sun-bronzed skin, fluid musculature, and piercing, almond-shaped eyes that reflect shifting hues of the dunes. Their bodies endure extremes of heat and dehydration.",
     "culture": "Sularin culture values cunning over brute force, grace over clamor. Storytelling through dance, bladework, and perfume is sacred. Their hierarchies are earned through trials of endurance, trickery, and poise.",
-    "native_land": "Zehrathel",
+    "native_land": "Qamarra",
     "government": {
       "structure": "Clan-Sisterhoods and Bladelord Courts",
       "ruling_body": "Council of the Shifting Silk",
@@ -747,7 +747,7 @@
     },
     "architecture": {
       "style": "Silken pavilion cities, sandstone labyrinths, wind-carved cliffside dwellings",
-      "location": "Oases, hidden canyon enclaves, and moonlit bazaars of Zehrathel"
+      "location": "Oases, hidden canyon enclaves, and moonlit bazaars of Qamarra"
     },
     "customs": [
       "Veil Duels – graceful blade-dances used to resolve disputes.",
