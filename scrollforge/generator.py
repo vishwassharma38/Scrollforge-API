@@ -157,14 +157,25 @@ def generate_character(overrides=None):
                 continue
 
             place = overrides.get("place")
-            location = find_region_by_place(locations, place) if place else None
+            region_name = overrides.get("region")
 
-            if not location:
+            # 1. If 'place' is specified, find region by place
+            if place:
+                location = find_region_by_place(locations, place)
+            # 2. If 'region' is specified, find that exact region (case-insensitive)
+            elif region_name:
+                location = next((loc for loc in locations if loc["name"].lower() == region_name.lower()), None)
+            # 3. Otherwise, fallback to valid origin regions
+            else:
                 filtered_locations = filter_valid_origins(race, locations, rules)
-                location = next((loc for loc in filtered_locations if loc["name"] == overrides.get("region")), None)
-                if not location:
-                    location = get_random_item(filtered_locations if filtered_locations else locations)
-                    place = get_compatible_place(location, race, rules) or random.choice(["a remote village", "an ancient ruin", "a forgotten outpost"])
+                location = get_random_item(filtered_locations if filtered_locations else locations)
+
+            # 4. Get place inside the selected region if not provided
+            if not place:
+                place = get_compatible_place(location, race, rules) or random.choice([
+                    "a remote village", "an ancient ruin", "a forgotten outpost"
+                ])
+
 
             filtered_names = filter_names_by_race(race, names_data)
             name = overrides.get("name") or random.choice(filtered_names)
