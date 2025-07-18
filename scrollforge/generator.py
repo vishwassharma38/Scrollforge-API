@@ -197,12 +197,18 @@ def generate_character(overrides=None):
 
             height_cm, weight_kg = generate_height_weight(race["name"], char_class["name"], gender["label"])
 
-            selected_age_group = next((a for a in ages_data if a["label"] == overrides.get("age_label")), None)
-            if not selected_age_group:
-                young_groups = [a for a in ages_data if a["max"] < 50]
-                elder_groups = [a for a in ages_data if a["max"] >= 50]
-                selected_age_group = random.choice(young_groups if random.random() < 0.85 else elder_groups)
-            age = int(overrides.get("age", random.randint(selected_age_group["min"], selected_age_group["max"])))
+            age = int(overrides.get("age", -1))
+
+            if 0 <= age:
+                # Match age to correct label range
+                selected_age_group = next(
+                    (a for a in ages_data if a["min"] <= age <= a["max"]),
+                    random.choice(ages_data)
+                )
+            else:
+                # Fall back to random label first, then sample age from it
+                selected_age_group = random.choice(ages_data)
+                age = random.randint(selected_age_group["min"], selected_age_group["max"])
 
             celestial_mark = next((cm for cm in celestial_marks if cm["name"] == overrides.get("celestial_mark")), None) or get_random_item(celestial_marks)
             class_fighting_styles = fighting_styles.get(char_class["name"], [])
