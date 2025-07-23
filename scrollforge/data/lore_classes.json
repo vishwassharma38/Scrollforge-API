@@ -1,0 +1,245 @@
+[
+  {
+    "name": "Ironblood",
+    "description": "A relentless close-range bruiser clad in steel and defiance. Every scar tells a story carved in bone and blade. Ironbloods are forged in the furnace of war, where fear breaks, but they remain. Their will is an anvil, their body the hammer's echo.",
+    "story": "The Ironbloods were born not in halls of splendor, but amidst the burning outposts of Hjarnheim, where wind howls like the wail of dying kin and frost clings to every breath. Here, when the world turned to ice and screams, a band of warriors held Blackspine Keep for forty nights against an undead tide with nothing but broken shields and binding oaths. Survivors of that siege bound their veins in molten ink and named themselves Ironbloods—brothers and sisters in marrow, not merely name. Many are veterans of the Iron Kin, a brawling warrior brotherhood who trade stories, scars, and cups of mead as currency. Each Ironblood carries not just weapons, but the memory of those who fell beside them.Even today, Ironbloods walk into battle not as champions, but as anchors—unyielding, immovable. Where others scream, they grit. Where others fall, they rise again. Theirs is not a glorious tale, but one of stubborn endurance and soul-forged might.",
+    "alignment": "Neutral Good",
+    "merits": {
+      "Combat Mastery": "Bonus damage with axes, warhammers, and greatswords",
+      "Stubborn Endurance": "Take reduced damage when below 25% health",
+      "Environmental Resistance": "Natural resilience to cold and frostbite",
+      "Crafting Expertise": "Skilled in smithing and armor repair",
+      "Tactical Edge": "Increased threat generation; foes target you over allies",
+      "Resourceful Survival": "Slower stamina drain while blocking or sprinting",
+      "Roleplay Boons": "Gain favor with mercenary groups and soldiers",
+      "Lore-Bound Powers": "Can invoke “Blood of the Bastion” once per day to stand unshaken by fear, pain, or knockback",
+      "Heavy Armor Mastery": "Movement penalties from armor are halved",
+      "Initiate’s Charge": "Bonus to first strike after exiting a sprint"
+    },
+
+    "demerits": {
+      "Skill Limitations": "Poor affinity with stealth, alchemy, and subtle magics",
+      "Social Stigma": "Viewed as brutes or thugs in noble and scholarly circles",
+      "Elemental Vulnerability": "Takes extra damage from lightning and mind-based attacks",
+      "Armor Dependency": "Suffers penalties when not wearing heavy armor.",
+      "Limited Multiclassing": "Cannot learn advanced spellcasting trees",
+      "Reputation Bound": "Their powers scale with renown—unknown Ironbloods lack full benefits",
+      "Geographic Weakness": "Movement is hindered in swamp and jungle biomes",
+      "Moral Code": " Breaking a battle-oath (e.g., abandoning allies mid-fight) inflicts penalties until retribution is paid",
+      "Passive Drain": "Slight stamina drain during prolonged peace (they thrive in strife)",
+      "Blunt Honesty": "Cannot lie well, persuasion fails if deception is required"
+    }
+  },
+
+  {
+    "name": "Runeweaver",
+    "description": "Manipulator of hidden laws and elemental tongues, the Runeweaver does not study magic—she converses with it. Her sigils hum with primordial memory, and her incantations thread the breath between stars. Vulnerable in flesh, yet vast in essence, she is a vessel for truths older than gods.",
+    "story": "In the obsidian storms of Varkuun Hollow, beneath the Crystal Spires, they say the first Runeweaver etched a glyph into fire itself—and fire answered. These early weavers were not taught, but chosen—drawn to ancient stones, dreaming in forgotten languages.The Circle of Veil whispers that Runeweavers descend from those who cracked reality’s mirror and peered through. Others claim they are echoes of the Gryxen's First Note—those who learned to write what the world could only sing. To be a Runeweaver is to listen more than to speak, to shape reality by embedding symbols within it. They cast sigils mid-battle, trace runes through air or ink, and open Arcane Channels—invisible conduits between places, powers, and possible futures.But their brilliance is costly. Magic eats their lifeforce. Their sleep is short, their skin cold, and their shadows sometimes twitch before they do. The deeper they delve into lawless arcana, the more their soul hums like a taut string, always on the verge of snapping.",
+    "alignment": "Lawful Neutral",
+    "merits": {
+      "Spell Specialization": "Enhanced efficiency with glyph-based and elemental magic",
+      "Exclusive Skills or Spells": "Gains access to “Sigil Vault,” allowing the storage of three prepared runes for quick cast",
+      "Lore-Bound Powers": "Can read and manipulate ancient structures, artifacts, or dormant magics",
+      "Tactical Edge": "Glyph of Anticipation grants bonus initiative and foresight in battle",
+      "Roleplay Boons": "Respected by arcanist factions like the Order of the Golden Sigil and Circle of Veil",
+      "Environmental Resistance": "Resistant to time-altering or illusion-based spells",
+      "Crafting Expertise": "Can craft runes, scrolls, and magical seals with enhanced potency",
+      "Stealth & Utility": "Able to trace invisible glyphs only visible to the caster",
+      "Combat Mastery": "Sigils can be embedded into weapons or terrain for surprise effects",
+      "Arcane Conduction": "Recharge mana faster when surrounded by magical phenomena"
+    },
+    "demerits": {
+      "Low Vitality": "Fragile body; lower base health and resistance to physical damage",
+      "Passive Drains": "Using Arcane Channels slowly drains stamina or sanity unless anchored",
+      "Resource Dependency": "Requires prepared sigils, rare inks, or arc-stones to reach full potential",
+      "Limited Multiclassing": "Cannot use healing or necromantic schools effectively",
+      "Armor or Weapon Restrictions": "Can’t use heavy armor or two-handed weapons",
+      "Elemental Vulnerability": "Susceptible to void or anti-magic effects",
+      "Social Stigma": "Distrusted by superstitious folk and rigid law-keepers",
+      "Geographic Weakness": "Power weakens in magic-dead zones like “The Hollow Fold",
+      "Skill Limitations": "Poor in melee combat and stealth-heavy scenarios",
+      "Reputation Bound": "If caught misusing sigils, may be hunted by the Order of the Golden Sigil"
+    }
+  },
+
+  {
+    "name": "Whispercloak",
+    "description": "A master of silence and shadows, the Whispercloak moves like a forgotten thought—neither truly seen, nor fully remembered. Where others clash, they glide. Where others knock, they slip in. To be a Whispercloak is to become myth in motion: the ghost behind the locked door, the chill before the blade.",
+    "story": "Before gold had kings, before streets had names, there was silence—and from silence, the Whispercloak was born. In the alley-ruins beneath Virellia, among broken coins and blood-soaked parchment, the Hollow Coin carved out an underworld empire. From that cradle of crime came those who would never raise their voice, but always raise their price.The first Whispercloaks were orphans, deserters, and runaways—trained in codes, shadows, and deadly grace. Over time, they became something more. With steps that made no sound and hearts that beat in silence, they whispered their way into legend. Some now work for the Quiet Hand, dealing death as divine justice. Others sell secrets across borders, slipping past guards, kings, and gods alike. All Whispercloaks bear a sacred truth: in the end, even a scream must fall silent.",
+    "alignment": "Chaotic Neutral",
+    "merits": {
+      "Stealth & Utility": "Shadowstep allows short-range teleportation from shadow to shadow",
+      "Critical Strikes": "Increased critical hit chance when undetected or striking from behind",
+      "Roleplay Boons": "Access to hidden black markets, exclusive quests, and forbidden informants",
+      "Environmental Resistance": "Natural resistance to sound-based detection or mental scanning",
+      "Exclusive Skills or Spells": "Unlocks “Veil Cloak,” a brief phase that nullifies one attack",
+      "Tactical Edge": "Bonus initiative in dark or dimly lit environments",
+      "Combat Mastery": "Proficient in daggers, short blades, throwing knives, and light crossbows",
+      "Lore-Bound Powers": "Can decode secret runes, old thieves’ cant, and vault glyphs",
+      "Resourceful Survival": "Gains stamina while hidden; reduced stamina cost for climbing or sprinting",
+      "Crafting Expertise": " Enhanced trap-making, poison-brewing, and lockpicking"
+    },
+    "demerits": {
+      "Skill Limitations": "Poor with heavy armor, loud magic, or brute strength",
+      "Social Stigma": "Distrusted by noble houses, guards, and religious factions",
+      "Resource Dependency": "Needs darkness, concealment, or silence to access full powers",
+      "Elemental Vulnerability": "Takes extra damage from radiant/light-based magic",
+      "Armor or Weapon Restrictions": "Cannot wear medium or heavy armor",
+      "Geographic Weakness": "Less effective in brightly lit, open spaces like deserts or courts",
+      "Passive Drains": "Suffers slight health loss if exposed for too long in direct sunlight",
+      "Moral Code": "Killing innocents or breaking guild codes brings curses or faction penalties",
+      "Limited Multiclassing": "Cannot use divine or nature-based magic trees",
+      "Reputation Bound": "Known Whispercloaks are hunted by the Crimson Pact and Wardens of Virellia"
+    }
+  },
+  {
+    "name": "Veilpiercer",
+    "description": "The Veilpiercer is a blade given thought, a shadow given purpose. Precision incarnate, they embrace death not as cruelty, but as ceremony. To strike twice is shame. To hesitate is sin. Their presence is rarely seen—but their departure is always marked by silence... and stillness.",
+    "story": "When the stars wept blood and the first kings broke their vows, a silent god was born from sorrow and justice. To this deity—the God of Quiet Ends—a cult rose: the Quiet Hand, whose children were chosen to end imbalance, blade-first. The Veilpiercer is the most sacred of these disciples. Trained in the arts of toxin, stillness, and soul-cutting, a Veilpiercer does not kill for coin—they kill for balance. Each slaying is a ritual, each target a thread unravelled from the tapestry of fate. When a Veilpiercer enters a city, the wind forgets to blow. When they depart, the graveyards whisper thanks. They walk through shadow using Phantom Step, strike with Toxic Blades laced in griefroot or widow's venom, and never blink during the kill. Some wear no armor, only threadbare robes stitched with names of the silenced. Others brand each confirmed kill into their own flesh—a scripture written in wounds. Many serve the Quiet Hand, while rogue Veilpiercers follow personal codes or forgotten gods. All, however, are bound by one vow: 'Strike once. Never twice.'",
+    "alignment": "Lawful Evil",
+    "merits": {
+      "Combat Mastery": "Triple critical damage on first strike with daggers, spears, or throwing needles",
+      "Exclusive Skills or Spells": "Veilbreak” causes time to slow for one second during a fatal strike",
+      "Tactical Edge": "Guaranteed initiative advantage when undetected",
+      "Stealth & Utility": "Gains “Phantom Step,” phasing briefly through solid surfaces",
+      "Spell Specialization": "Can imbue weapons with venomous aether or silence spells",
+      "Environmental Resistance": "Immune to fear, sleep, and paralysis effects",
+      "Lore-Bound Powers": "Can commune briefly with souls of those they’ve slain for cryptic visions",
+      "Roleplay Boons": "Respected (and feared) by factions like The Quiet Hand and Gravediggers",
+      "Resourceful Survival": "Uses minimal stamina for assassination maneuvers",
+      "Crafting Expertise": "Create rare toxins, soul-poisons, and silence bombs"
+    },
+    "demerits": {
+      "Moral Code": "Forbidden to kill the same target twice. Breaking this rule weakens their soulbound skills",
+      "Social Stigma": "Hunted or shunned by most lawful factions, especially the Crimson Pact and Order of the Golden Sigil",
+      "Resource Dependency": "Requires access to rare poisons and soulmetal for peak damage",
+      "Armor or Weapon Restrictions": "Cannot wear medium or heavy armor; cannot use two-handed weapons",
+      "Elemental Vulnerability": "Weak to radiant/light-based magic and healing fields",
+      "Reputation Bound": "Loses access to special techniques if their name becomes too well-known",
+      "Limited Multiclassing": "Cannot bond with divine or druidic paths",
+      "Passive Drains": "Gradual soulburn when idle or at peace for too long",
+      "Geographic Weakness": "Veilpiercers are less effective in sanctified or consecrated ground",
+      "Skill Limitations": "Inept at crowd control, healing, or defense-based tactics"
+    }
+  },
+  {
+    "name": "Spelltyrant",
+    "description": "The Spelltyrant is a force of blended destruction—neither warrior nor mage, but a sovereign of both. Their blade sings with arcane flame, and their shield hums with warded runes. They dominate the battlefield with the might of swordplay and the fury of the elements. Where others must choose, they conquer both paths.",
+    "story": "The first Spelltyrants rose from the burning cliffs of Varkuun Hollow, where fire met fury and battle was law. Outcast war-mages of the Ashkai, exiled for refusing to kneel before tradition, carved spells into steel and called themselves Wrathwrights. They became walking sieges—grinding through spellfire, sword, and smoke. Eventually, their legacy was reborn in the towers of the Order of the Golden Sigil, where ambitious students sought power beyond parchment. But the Sigil disowned them, fearing imbalance. Thus, the Spelltyrant became outlaw, legend, and living storm. Today, Spelltyrants walk paths none dare follow. Some are battlemasters of the Crimson Pact, enforcing arcane law with iron fists. Others are mercenary-lords or lone champions—feared by necromancers, revered by soldiers. Each Spelltyrant inscribes runes into their own flesh or armor, turning their very body into a battleground of will.",
+    "alignment": "Neutral",
+    "merits": {
+      "Combat Mastery": "Bonus damage when casting spells immediately before or after melee strikes",
+      "Spell Specialization": "Reduced cooldown and increased efficiency with elemental combat spells",
+      "Exclusive Skills or Spells": "Unlocks “Mystic Blade,” a fusion attack that channels spell damage through weapon strikes",
+      "Tactical Edge": "Can cast while moving; interrupts are less likely to stagger them",
+      "Aegis Barrier": "Passive shield that activates when casting, absorbing a portion of incoming damage",
+      "Roleplay Boons": "Feared and respected by militant factions like Crimson Pact and Wardens of Virellia",
+      "Crafting Expertise": "Can imbue weapons and armor with battle glyphs or warded enchantments",
+      "Lore-Bound Powers": "Can activate “Runeburst,” discharging built-up spell energy in a shockwave",
+      "Resourceful Survival": "pell-augmented stamina and quicker mana regeneration when near combat",
+      "Environmental Resistance": "Half damage from elemental attacks of same school (e.g., fire if wielding fire magic)"
+    },
+    "demerits": {
+      "Limited Multiclassing": "Cannot access illusion or necromantic magic paths",
+      "Armor Restrictions": "Best used with medium armor; heavy armor reduces casting efficiency",
+      "Resource Dependency": "Relies on enchanted gear and magical catalysts to maintain combat potential",
+      "Elemental Vulnerability": "Vulnerable to anti-magic zones and silencing effects",
+      "Passive Drains": "Health slowly decays if spells are not cast for a period of time (they are sustained by conflict)",
+      "Reputation Bound": "Untrusted by pure mages and pure warriors alike—seen as heretical",
+      "Skill Limitations": "Struggles with stealth, diplomacy, and scholarly rituals",
+      "Geographic Weakness": "Power diminished in high-altitude or leyline-dead zones",
+      "Social Stigma": "Banned in academic arcane circles like the Order of Stillness",
+      "Moral Code": "Binding their own weapons with soul-glyphs means they suffer when disarmed—literal pain"
+    }
+  },
+  {
+    "name": "Pathstrider",
+    "description": "The Pathstrider is a solitary shadow among branches, the silent breath between the heartbeat of prey. A master of wild terrain, keen-eyed and windbound, bonded to bow and beast. They do not conquer nature—they converse with it, walking the forgotten paths of the earth where no map dares trace.",
+    "story": "Born under moonlight and raised by rustling canopies, Pathstriders are often found where maps end and myth begins. From the shifting thickets of Sylvaenroot to the wind-scoured crags of Caelmir Reach, they walk not for conquest, but clarity. Many are raised by the Thorneth or trained under tutelage of beasts, not humans.They whisper to owls. They argue with the rain. The Pathstriders were once called Ghosts of the Greenwood, messengers of the forest gods, bringing both omen and arrow. Now, in a world of steel cities and broken skies, they are rare—but not gone. You may not see a Pathstrider, but you will feel them in the sudden hush of a grove, or the unexplainable absence of a predator's tracks. Their beasts are not pets—they are kin. Their bows are not tools—they are promises",
+    "alignment": "Neutral Good",
+    "merits": {
+      "Stealth & Utility": "Gains “Natural Camouflage,” increasing concealment in wild terrains",
+      "Combat Mastery": "Bonus to ranged attacks and critical strikes at long distance",
+      "Lore-Bound Powers": "Can bond with a beast companion; each has unique traits and skills",
+      "Environmental Resistance": "Resistant to terrain debuffs in forest, swamp, and mountain biomes",
+      "Exclusive Skills or Spells": "“Hunter’s Mark” reveals and weakens a targeted enemy over time",
+      "Tactical Edge": "Can set terrain-based traps or slow foes in natural zones",
+      "Crafting Expertise": "Skilled in fletching, herbalism, and tracking potions",
+      "Roleplay Boons": "Revered by wild tribes, druids, and beast-worshipping cults",
+      "Resourceful Survival": "Gains stamina regeneration when not in combat or when tracking prey",
+      "Spell Specialization": "Can use nature-based spells like rootbinding, wind-leap, or scent masking"
+    },
+    "demerits": {
+      "Armor Restrictions": "Cannot wear metal armor; leather or natural armor only",
+      "Social Stigma": "Viewed as wildlings or outcasts in urban settings like Virellia or Velgrande",
+      "Skill Limitations": "Poor at formal magic, heavy melee, or crowd-based combat",
+      "Geographic Weakness": "Loses stealth and bonuses in urban or artificial environments",
+      "Limited Multiclassing": "Cannot bond with arcane or divine magic schools",
+      "Passive Drains": "Loses stamina in areas where no life thrives (e.g., catacombs, arcane ruins)",
+      "Elemental Vulnerability": "Weak against fire-based magic or scorched terrains",
+      "Reputation Bound": "If beast companion is killed, suffers morale and stat penalty until ritually honored",
+      "Resource Dependency": "Relies on natural terrain, beast bond, and herbal kits for survival",
+      "Moral Code": "Forbidden from harming sacred beasts or desecrating wild lands—punished with loss of abilities"
+    }
+  },
+  {
+    "name": "Gravedigger",
+    "description": "A keeper of forbidden rites and forgotten truths, the Gravedigger walks the boundary between heartbeat and silence. They are not merely necromancers, but soul-guides, bone-binders, and blight-brewers. The dead whisper to them not in agony—but in trust. When the veil stirs, the Gravedigger answers.",
+    "story": "It is said that long ago, when the Moon of Orros split the sky and the dead refused to rest, a lone mourner dug a hundred graves in a night of fire. They sang names over each one. That song became a prayer. That prayer became a rite. And that rite became the first Gravedigger. Their legacy now lies buried in the crypt-monasteries of the Obsidian Choir and the plague-haunted catacombs beneath Gathuun, where acolytes whisper to bones and bind the restless with runes of respect. Unlike necromancers who twist the dead for power, Gravediggers preserve balance—ensuring that souls do not wander, and the forgotten are not lost. But their rituals come at a cost: fear, exile, and the constant temptation to command rather than commune. Wielding Blightcraft, they poison the living and purge the undead. With Corpsecall, they summon revenants who remember their names. Their art is as old as sorrow, and as necessary as breath. The world fears them. The dead do not.",
+    "alignment": "True Neutral",
+    "merits": {
+      "Lore-Bound Powers": "Can speak with the dead, gaining visions or lost secrets",
+      "Exclusive Skills or Spells": "“Corpsecall” raises a temporary undead with the memory of its final skill",
+      "Spell Specialization": "Bonus power with blight, decay, and necrotic magic",
+      "Environmental Resistance": "Immune to poison, disease, and minor death effects",
+      "Crafting Expertise": "Can brew rot-elixirs, create bone charms, and harvest essence from corpses",
+      "Combat Mastery": "Damage bonus against undead, ghosts, or plagueborn",
+      "Roleplay Boons": "Feared but needed in towns plagued by spirits or cursed dead",
+      "Resourceful Survival": "Can heal by siphoning from corpses or soul remnants",
+      "Stealth & Utility": "Can create silent zones by deadening ambient life",
+      "Tactical Edge": "Gains bonuses when fighting in graveyards, crypts, or battlefields"
+    },
+    "demerits": {
+      "Social Stigma": "Hated or hunted by religious factions, especially the Order of the Golden Sigil",
+      "Skill Limitations": "Poor in holy or radiant environments; cannot use light-based spells",
+      "Elemental Vulnerability": "Weak against fire, consecrated ground, or purifying light",
+      "Geebographic Weakness": "Loses effectiveness in untouched wilderness or sacred groves",
+      "Passive Drains": "Suffers slow mana drain in areas with no recent death or decay",
+      "Moral Code": "Forbidden from raising a soul without name or burial—violating this causes soul-rift backlash",
+      "Limited Multiclassing": "Cannot blend with divine or druidic paths",
+      "Resource Dependency": "Requires fresh corpses or gravedust to cast powerful spells",
+      "Reputation Bound": "Known Gravediggers may be denied entry into cities or temples",
+      "Armor or Weapon Restrictions": "Forbidden from wielding holy weapons or wearing radiant gear"
+    }
+  },
+  {
+    "name": "Lifebinder",
+    "description": "The Lifebinder is a vessel of renewal—a radiant healer blessed by the Song Below, the ancient resonance that thrums beneath root and ruin. They weave warmth from prayer, pulse, or pure will, mending broken flesh, banishing rot, and uplifting weary spirits. They are not just healers… they are hope given form.",
+    "story": "Before the gods had names, before war stained stone, there was a hum in the earth—a Song Below, deep and divine, said to rise from the dreaming heart of the world. Those who could hear it were called Lifebinders, rare and revered. The first Lifebinder walked alone through the Plague Reaches, where even gods turned their faces. Yet, with only a staff, a smile, and the Song in their soul, they healed a thousand wounds and silenced a thousand curses. Temples crumbled, but groves grew in their wake. Lifebinders are trained in the Wells of Orendi, cloistered sanctums carved into living stone, where they learn to channel lifeforce through the Sanctuary Pulse, conjure shields of harmony with Lifeward, and strip corruption with a single Cleansing Touch. They are often found where suffering festers—tending to lepers in hidden valleys, blessing water in war-torn towns, or standing firm as the sole shield between a child and a charging beast. Though gentle in aura, their presence is a radiant wall no darkness easily breaks.",
+    "alignment": "Lawful Good",
+    "merits": {
+      "Spell Specialization": "Increased potency and reduced cooldown of healing and purification spells",
+      "Exclusive Skills or Spells": " “Sanctuary Pulse” creates an aura that heals allies and repels curses in a radius",
+      "Lore-Bound Powers": " Can attune to sacred groves or shrines to amplify healing and gain visions",
+      "Roleplay Boons": "Loved by commoners, clerics, and wounded factions; may gain sanctuary in conflict zones",
+      "Environmental Resistance": "Immune to fear, charm, and corruption effects",
+      "Crafting Expertise": "Can brew potent elixirs, balm-satchels, and holy water from herbs or relic dust",
+      "Combat Mastery": "Gains defensive bonuses when near injured allies",
+      "Resourceful Survival": "Heals faster when meditating near nature, light, or sacred ground",
+      "Stealth & Utility": "May sense hidden wounds, poisoned food, or cursed objects through intuition",
+      "Tactical Edge": "“Lifeward” shields an ally, auto-reviving them once if they fall in battle"
+    },
+    "demerits": {
+      "Skill Limitations": "Poor offensive capability; healing costs are high in mana and time",
+      "Resource Dependency": "Requires soulstones, relics, or sacred herbs to access high-level spells",
+      "Armor Restrictions": "Cannot wear metal armor; robes or light vestments only",
+      "Limited Multiclassing": "Cannot blend with necromancy, shadow, or blood-based magic paths",
+      "Elemental Vulnerability": "Weak to void, death magic, and unholy curses",
+      "Moral Code": "Forbidden from taking a life directly—breaking this vow can shatter their healing bond",
+      "Reputation Bound": "If they abandon a dying ally or fail to honor a healing oath, they lose divine favor",
+      "Passive Drains": "Absorbs the pain of others; may suffer random debuffs after intense healing",
+      "Geographic Weakness": "Less effective in corrupted, blighted, or magic-dead lands",
+      "Social Stigma": "Envied or undermined by militant factions and arcane purists"
+    }
+  }
+]

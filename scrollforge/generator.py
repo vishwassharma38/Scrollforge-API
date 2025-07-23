@@ -132,36 +132,30 @@ def generate_character(overrides=None):
 
         overrides = overrides or {}
         MAX_ATTEMPTS = 10
-
         force_random = overrides.get("allow_randomness") == True
 
         for attempt in range(MAX_ATTEMPTS):
             is_lore_compliant = not force_random and random.random() < 0.90
 
             race = next((r for r in races if r["name"] == overrides.get("race")), None) or get_random_item(races)
-            char_class = next((c for c in classes if c["name"] == overrides.get("class")), None) or get_random_item(classes)
 
-            if is_lore_compliant:
-                filtered_classes = filter_valid_classes(race, classes, rules)
-                filtered_origins = filter_valid_origins(race, locations, rules)
-                filtered_followers = filter_deities_by_race(race, followers, rules)
-            else:
-                filtered_classes = classes
-                filtered_origins = locations
-                filtered_followers = followers
+            char_class_name = overrides.get("class")
+            char_class = next((c for c in classes if c["name"] == char_class_name), None)
 
-            if char_class not in filtered_classes:
+            if not char_class:
+                filtered_classes = filter_valid_classes(race, classes, rules) if is_lore_compliant else classes
                 char_class = get_random_item(filtered_classes)
 
-            place = overrides.get("place")
-            region_name = overrides.get("region")
+            filtered_origins = filter_valid_origins(race, locations, rules) if is_lore_compliant else locations
+            filtered_followers = filter_deities_by_race(race, followers, rules) if is_lore_compliant else followers
 
-            if place:
-                location = find_region_by_place(locations, place)
-            elif region_name:
-                location = next((loc for loc in locations if loc["name"].lower() == region_name.lower()), None)
-            else:
-                location = get_random_item(filtered_origins)
+            region_name = overrides.get("region")
+            place = overrides.get("place")
+
+            location = find_region_by_place(locations, place) if place else (
+                next((loc for loc in locations if loc["name"].lower() == region_name.lower()), None)
+                if region_name else get_random_item(filtered_origins)
+            )
 
             if not place:
                 place = get_compatible_place(location, race, rules) or random.choice([
@@ -172,17 +166,19 @@ def generate_character(overrides=None):
             name = overrides.get("name") or random.choice(filtered_names)
             gender = next((g for g in genders if g["label"] == overrides.get("gender")), None) or get_random_item(genders)
 
-            follower = next((f for f in filtered_followers if f["deity"] == overrides.get("deity")), None) if overrides.get("deity") else (get_random_item(filtered_followers))
+            deity_override = overrides.get("deity")
+            follower = next((f for f in followers if f["deity"] == deity_override), None) if deity_override else get_random_item(filtered_followers)
 
             height_cm, weight_kg = generate_height_weight(race["name"], char_class["name"], gender["label"])
-            faction = select_faction(race, char_class, factions, rules, overrides.get("faction"))
+
+            faction_override = overrides.get("faction")
+            faction = next((f for f in factions if f["name"] == faction_override), None)
+            if not faction:
+                faction = select_faction(race, char_class, factions, rules)
 
             age = int(overrides.get("age", -1))
             if 0 <= age:
-                selected_age_group = next(
-                    (a for a in ages_data if a["min"] <= age <= a["max"]),
-                    random.choice(ages_data)
-                )
+                selected_age_group = next((a for a in ages_data if a["min"] <= age <= a["max"]), random.choice(ages_data))
             else:
                 selected_age_group = random.choice(ages_data)
                 age = random.randint(selected_age_group["min"], selected_age_group["max"])

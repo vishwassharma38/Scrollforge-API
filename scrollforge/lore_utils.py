@@ -126,6 +126,26 @@ def format_race_lore_entry(name, entry):
         ("lore", ordered_lore)
     ])
 
+
+def format_class_lore_entry(name, entry):
+    """
+    Format and order a class lore entry for elegant output.
+    """
+    ordered_lore = OrderedDict([
+        ("description", entry.get("description", "")),
+        ("story", entry.get("story", "")),
+        ("alignment", entry.get("alignment", "")),
+        ("merits", entry.get("merits", [])),
+        ("demerits", entry.get("demerits", []))
+    ])
+
+    return OrderedDict([
+        ("name", name),
+        ("type", "class"),
+        ("lore", ordered_lore)
+    ])
+
+
 def format_faction_lore_entry(name, entry):
     """
     Format and order a faction lore entry for clean output.

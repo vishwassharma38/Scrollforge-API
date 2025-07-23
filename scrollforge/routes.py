@@ -3,7 +3,7 @@ import logging
 import json
 import random
 from .generator import generate_character
-from .lore_utils import load_lore_file, format_race_lore_entry, format_faction_lore_entry
+from .lore_utils import load_lore_file, format_race_lore_entry, format_faction_lore_entry, format_class_lore_entry
 
 logger = logging.getLogger(__name__)
 main = Blueprint('main', __name__)
@@ -63,7 +63,7 @@ def custom_generate():
 
 @main.route('/lore', methods=['GET'])
 def random_lore():
-    lore_types = ["race", "faction"]
+    lore_types = ["race", "faction", "class",]
     chosen_type = random.choice(lore_types)
     lore_data = load_lore_file(chosen_type)
 
@@ -78,6 +78,10 @@ def random_lore():
         name = random.choice(list(lore_data.keys()))
         entry = lore_data[name]
         formatted = format_race_lore_entry(name, entry)
+    elif chosen_type == "class":
+        name = random.choice(list(lore_data.keys()))
+        entry = lore_data[name]
+        formatted = format_class_lore_entry(name, entry)
     else:
         entry = random.choice(lore_data)
         name = entry.get("name", "Unknown Faction")
@@ -89,7 +93,6 @@ def random_lore():
     )
 
 
-# 🌿 Handles both /lore/race and /race
 @main.route('/lore/race', methods=['GET'])
 @main.route('/race', methods=['GET'])
 def random_race():
@@ -111,7 +114,6 @@ def random_race():
     )
 
 
-# 🌿 Handles both /lore/race/<name> and /race/<name>
 @main.route('/lore/race/<name>', methods=['GET'])
 @main.route('/race/<name>', methods=['GET'])
 def lore_race(name):
@@ -132,8 +134,48 @@ def lore_race(name):
         mimetype="application/json"
     )
 
+@main.route('/lore/class', methods=['GET'])
+@main.route('/class', methods=['GET'])
+def random_class():
+    lore_data = load_lore_file("class")
+    if not lore_data or not isinstance(lore_data, list):
+        return Response(
+            json.dumps({"error": "No class lore available."}, indent=2),
+            status=404,
+            mimetype="application/json"
+        )
 
-# 🌿 Handles both /lore/faction and /faction
+    entry = random.choice(lore_data)
+    name = entry.get("name", "Unknown Class")
+    formatted = format_class_lore_entry(name, entry)
+
+    return Response(
+        json.dumps(formatted, indent=2, ensure_ascii=False, sort_keys=False),
+        mimetype="application/json"
+    )
+
+@main.route('/lore/class/<name>', methods=['GET'])
+@main.route('/class/<name>', methods=['GET'])
+def lore_class(name):
+    lore_data = load_lore_file("class")
+
+    entry = next((c for c in lore_data if c.get("name", "").lower() == name.lower()), None)
+    proper_name = entry["name"] if entry else name
+
+    if not entry:
+        return Response(
+            json.dumps({"error": f"No class found named '{name}'"}, indent=2),
+            status=404,
+            mimetype="application/json"
+        )
+
+    formatted = format_class_lore_entry(proper_name, entry)
+
+    return Response(
+        json.dumps(formatted, indent=2, ensure_ascii=False, sort_keys=False),
+        mimetype="application/json"
+    )
+
 @main.route('/lore/faction', methods=['GET'])
 @main.route('/faction', methods=['GET'])
 def random_faction():
@@ -155,8 +197,6 @@ def random_faction():
         mimetype="application/json"
     )
 
-
-# 🌿 Handles both /lore/faction/<name> and /faction/<name>
 @main.route('/lore/faction/<name>', methods=['GET'])
 @main.route('/faction/<name>', methods=['GET'])
 def lore_faction(name):
