@@ -47,7 +47,8 @@
     "They say when {name} dreams, the weapons of {faction} hum in resonance. {pronouns[subject]} claims {deity} sharpens them in sleep. No one dares question it.",
     "During {age[label]}, {name} carved {pronouns[possessive]} destiny into the rock of {place}. That carving glows when war is near. The {faction} waits, breath held, eyes wide.",
     "A storm once tried to claim {name} at sea. When lightning struck {pronouns[possessive]} blade, it screamed. Now, the {faction} keeps that sword locked in seven chains—only {pronouns[subject]} holds the key.",
-    "Every tale from {region} ends with this line: ‘And then {name} arrived.’ What happens next is never the same. But it always ends in blood, and a whisper of {deity}."
+    "Every tale from {region} ends with this line: ‘And then {name} arrived.’ What happens next is never the same. But it always ends in blood, and a whisper of {deity}.",
+    "Once a smith in {place}, {name} forged blades so sharp they were said to slice through moonlight. But when raiders of the {faction} destroyed {pronouns[possessive]} home, {pronouns[subject]} turned hammer into weapon. Guided only by {deity}, {pronouns[subject]} set forth as a wandering {class}, seeking vengeance. In the taverns of {region}, travelers still tell the tale of when {name} fought off a dozen warriors while eating {favorite_dish} with the other hand. They say that after the last enemy fell, {pronouns[subject]} simply wiped the blood from {pronouns[possessive]} lips and whispered a prayer. Now, even generals of the {faction} bow their heads when {name} enters the room, for fear that the gods themselves march at {pronouns[possessive]} side."
   ],
 
   "Runeweaver": [
@@ -98,7 +99,8 @@
     "Every eclipse, {name} disappears into {place}. When {pronouns[subject]} returns, the air smells like stardust and regret.",
     "No one remembers teaching {name} magic. Some suspect {pronouns[subject]} was a spell made flesh. The {faction} avoids asking questions they can't unhear.",
     "{name}'s wand is made from a branch of {deity}'s dreamtree. It hums in libraries and purrs in battle.",
-    "The moon once blinked. Just once. Scholars in {faction} believe {name} did it to make a point. {pronouns[subject]} refuses to comment."
+    "The moon once blinked. Just once. Scholars in {faction} believe {name} did it to make a point. {pronouns[subject]} refuses to comment.",
+    "Born in the hidden forges of {place}, {name} was raised by the {faction}, who saw in the child a spark of destiny. Even as a youth of {age[label]}, {pronouns[subject]} carved ancient runes into stone, whispering fervent prayers to {deity}. The villagers feared {pronouns[object]}, for whispers said {celestial_mark} burned upon {pronouns[possessive]} skin, marking {pronouns[subject]} as both blessed and cursed. But the battlefield welcomed {pronouns[object]}. With a blade forged in moonlight, {name} fought using the forbidden art of {fighting_style}, moving with both grace and fury. They called {pronouns[object]} “the living omen,” for wherever {name} stood, the enemies of the {faction} crumbled into dust."
   ],
 
   "Whispercloak": [
@@ -205,7 +207,8 @@
     "Even {name}'s shadow kills. Once, it strangled a man mid-duel. {pronouns[subject]} apologized. The duel was boring.",
     "{name} wears {favorite_dish} scent when hunting—said it confuses dogs, lovers, and death itself.",
     "To dine with {name} is a risk. Every bite could be a goodbye. {deity} always finishes their plate first.",
-    "{name} doesn’t kill for coin. {pronouns[subject]} kills for closure. The {faction} still hasn’t figured out what chapter {pronouns[subject]} is on."
+    "{name} doesn’t kill for coin. {pronouns[subject]} kills for closure. The {faction} still hasn’t figured out what chapter {pronouns[subject]} is on.",
+    "Born of the wandering {race} clans, {name} never felt at home among the nobles of {region}. At {age[value]}, under the glow of the {celestial_mark}, {pronouns[subject]} swore loyalty not to a king, but to {deity}. When the {faction} mocked {pronouns[object]} for dreaming of glory, {pronouns[subject]} trained in silence, learning both the art of {fighting_style} and the discipline of prayer. One night, the skies opened, and a vision crowned {name} with the title of {title}, a mantle once reserved for rulers. Now the {class} wanders from {place} to {region}, blade in hand, carrying both hope and terror in equal measure. To some, {pronouns[object]} is a savior. To others, a nightmare given flesh."
   ],
 
   "Spelltyrant": [
@@ -258,7 +261,9 @@
     "{name} dreams in duels—each night ending with flame, steel, and the name of {deity} whispered from bloodstained lips.",
     "The {celestial_mark} gave {name} talent. {deity} gave purpose. The {faction}? They gave fear.",
     "{name} once taught an ogre to cast spells—with a punch. The spell was pain. The ogre learned quickly.",
-    "{name} is the line between war and wizardry. Cross it—and you’ll know why {pronouns[subject]} walks alone."
+    "{name} is the line between war and wizardry. Cross it—and you’ll know why {pronouns[subject]} walks alone.",
+    "Legends speak of the day a storm tore open the skies above {region}, and a newborn was found beneath the charred ruins of {place}. That child was {name}, destined for greatness. At {age[value]}, {pronouns[subject]} was already shattering shields with bare hands, guided by visions whispered from {deity}. When the {faction} came to recruit {pronouns[object]}, they found a warrior already clad in flame, wielding a sword marked with {celestial_mark}. Yet, despite {pronouns[possessive]} power, {name} never sought war. Instead, {pronouns[subject]} longed to taste simple joys—like a humble bowl of {favorite_dish} shared by a fire. But the world would not let {pronouns[subject]} rest. Now the {class} marches under stormlit skies, a herald of both destruction and hope.",
+    "In the holy city of {place}, {name} was born under the rare sign of the {celestial_mark}, believed to be the mark of the gods. Trained by the priesthood of {deity}, {pronouns[subject]} was a prodigy—able to summon visions with a single prayer. But envy grew within the {faction}, and whispers spread that {name} was dangerous. Banished into the wilds of {region}, {pronouns[subject]} survived not through faith alone, but through skill in {fighting_style}, often fighting for scraps of {favorite_dish} among wandering mercenaries. At {age[label]}, {pronouns[subject]} returned, no longer a priest, but a feared {class}, sword gleaming with the will of {deity}. To the faithful, {pronouns[object]} is a prophet. To the fearful, a heretic. To the world, a storm cloaked in flesh."
   ],
 
   "Pathstrider": [

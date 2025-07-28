@@ -137,11 +137,29 @@ def generate_character(overrides=None):
         for attempt in range(MAX_ATTEMPTS):
             is_lore_compliant = not force_random and random.random() < 0.90
 
-            race = next((r for r in races if r["name"] == overrides.get("race")), None) or get_random_item(races)
+        # --- Normalize all override values to support case-insensitivity ---
+        normalized_overrides = {k.lower(): v for k, v in overrides.items()}
 
-            char_class_name = overrides.get("class")
-            char_class = next((c for c in classes if c["name"] == char_class_name), None)
+        # Also ensure all string values are properly cased if expected
+        def match_case_insensitive(options, target):
+            if not target:
+                return None
+            target_lower = target.lower()
+            return next((opt for opt in options if opt["name"].lower() == target_lower), None)
 
+        def match_label_case_insensitive(options, target):
+            if not target:
+                return None
+            target_lower = target.lower()
+            return next((opt for opt in options if opt.get("label", "").lower() == target_lower), None)
+
+        for attempt in range(MAX_ATTEMPTS):
+            is_lore_compliant = not force_random and random.random() < 0.90
+
+            race = match_case_insensitive(races, normalized_overrides.get("race")) or get_random_item(races)
+
+            char_class_name = normalized_overrides.get("class")
+            char_class = match_case_insensitive(classes, char_class_name)
             if not char_class:
                 filtered_classes = filter_valid_classes(race, classes, rules) if is_lore_compliant else classes
                 char_class = get_random_item(filtered_classes)
@@ -149,8 +167,8 @@ def generate_character(overrides=None):
             filtered_origins = filter_valid_origins(race, locations, rules) if is_lore_compliant else locations
             filtered_followers = filter_deities_by_race(race, followers, rules) if is_lore_compliant else followers
 
-            region_name = overrides.get("region")
-            place = overrides.get("place")
+            region_name = normalized_overrides.get("region")
+            place = normalized_overrides.get("place")
 
             location = find_region_by_place(locations, place) if place else (
                 next((loc for loc in locations if loc["name"].lower() == region_name.lower()), None)
@@ -163,35 +181,33 @@ def generate_character(overrides=None):
                 ])
 
             filtered_names = filter_names_by_race(race, names_data)
-            name = overrides.get("name") or random.choice(filtered_names)
-            gender = next((g for g in genders if g["label"] == overrides.get("gender")), None) or get_random_item(genders)
+            name = normalized_overrides.get("name") or random.choice(filtered_names)
+            gender = match_label_case_insensitive(genders, normalized_overrides.get("gender")) or get_random_item(genders)
 
-            deity_override = overrides.get("deity")
-            follower = next((f for f in followers if f["deity"] == deity_override), None) if deity_override else get_random_item(filtered_followers)
+            deity_override = normalized_overrides.get("deity")
+            follower = next((f for f in followers if f["deity"].lower() == deity_override.lower()), None) if deity_override else get_random_item(filtered_followers)
 
             height_cm, weight_kg = generate_height_weight(race["name"], char_class["name"], gender["label"])
 
-            faction_override = overrides.get("faction")
-            faction = next((f for f in factions if f["name"] == faction_override), None)
-            if not faction:
-                faction = select_faction(race, char_class, factions, rules)
+            faction_override = normalized_overrides.get("faction")
+            faction = match_case_insensitive(factions, faction_override) or select_faction(race, char_class, factions, rules)
 
-            age = int(overrides.get("age", -1))
+            age = int(normalized_overrides.get("age", -1))
             if 0 <= age:
                 selected_age_group = next((a for a in ages_data if a["min"] <= age <= a["max"]), random.choice(ages_data))
             else:
                 selected_age_group = random.choice(ages_data)
                 age = random.randint(selected_age_group["min"], selected_age_group["max"])
 
-            celestial_mark = next((cm for cm in celestial_marks if cm["name"] == overrides.get("celestial_mark")), None) or get_random_item(celestial_marks)
+            celestial_mark = match_case_insensitive(celestial_marks, normalized_overrides.get("celestial_mark")) or get_random_item(celestial_marks)
             class_fighting_styles = fighting_styles.get(char_class["name"], [])
-            fighting_style = overrides.get("fighting_style") or (get_random_item(class_fighting_styles) if class_fighting_styles else "Improvised brawling")
-            dish = overrides.get("favorite_dish") or get_random_item(favorite_dishes)
+            fighting_style = normalized_overrides.get("fighting_style") or (get_random_item(class_fighting_styles) if class_fighting_styles else "Improvised brawling")
+            dish = normalized_overrides.get("favorite_dish") or get_random_item(favorite_dishes)
             class_quotes = [q["quote"] for q in quotes if q.get("class") == char_class["name"]]
-            quote = overrides.get("quote") or (get_random_item(class_quotes) if class_quotes else "...")
+            quote = normalized_overrides.get("quote") or (get_random_item(class_quotes) if class_quotes else "...")
             class_title_key = char_class["name"].capitalize()
             title_pool = titles.get(class_title_key, [])
-            title = overrides.get("title") or (get_random_item(title_pool) if title_pool else "The Nameless")
+            title = normalized_overrides.get("title") or (get_random_item(title_pool) if title_pool else "The Nameless")
 
             relationships = get_faction_relationships(faction["name"], factions)
             character_id = str(uuid.uuid4())

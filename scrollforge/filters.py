@@ -19,6 +19,7 @@ def load_factions():
     with path.open('r', encoding='utf-8') as file:
         return json.load(file)
 
+
 def is_valid_combo(race, faction, location, rules):
     race_name = race.get("name")
     faction_name = faction.get("name")
@@ -36,12 +37,14 @@ def is_valid_combo(race, faction, location, rules):
 
     return True
 
+
 def filter_valid_factions(race, factions, rules):
     race_name = race.get("name")
     preferred_factions = set(rules.get("preferred_race_factions", {}).get(race_name, []))
     if preferred_factions:
         return [f for f in factions if f["name"] in preferred_factions]
     return factions
+
 
 def filter_valid_origins(race, locations, rules):
     race_name = race.get("name")
@@ -50,6 +53,7 @@ def filter_valid_origins(race, locations, rules):
         return [l for l in locations if l["name"] in preferred_origins]
     return locations
 
+
 def filter_valid_classes(race, classes, rules):
     race_name = race.get("name")
     preferred_classes = rules.get("preferred_race_class", {}).get(race_name, [])
@@ -57,15 +61,18 @@ def filter_valid_classes(race, classes, rules):
         return [c for c in classes if c["name"] in preferred_classes]
     return classes
 
+
 def filter_deities_by_race(race, deities, rules):
     race_name = race.get("name")
     allowed = set(deity.lower() for deity in rules.get("preferred_race_deities", {}).get(race_name, []))
     return [d for d in deities if d.get("deity", "").lower() in allowed]
 
+
 def filter_names_by_race(race, names_data):
     race_name = race.get("name")
     names = names_data.get(race_name, [])
     return names if names else ["Nameless Wanderer"]
+
 
 def get_faction_relationships(faction_name, factions):
     """Extracts allies and rivals for a given faction from the faction data."""
@@ -77,6 +84,7 @@ def get_faction_relationships(faction_name, factions):
             }
     logger.warning(f"Faction '{faction_name}' not found in data.")
     return {"allies": [], "rivals": []}
+
 
 def get_valid_faction_candidates(race, char_class, factions, rules):
     race_name = race.get("name")

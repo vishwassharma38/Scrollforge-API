@@ -14,7 +14,16 @@
       "Ruins of Karnethi",
       "Tel Mhur",
       "Redmire Gate",
-      "Cindervault"
+      "Cindervault",
+      "Obsidian Crown",
+      "The Pyre Sanctum",
+      "Shaalgar's Spine",
+      "Emberwake Bastion",
+      "The Lavasoul Crypts",
+      "Thiruun Cauldron",
+      "Vulkrath's Maw",
+      "The Charred Spire",
+      "Skarnwatch Keep"
     ]
   },
   {
@@ -32,7 +41,17 @@
       "Vaerwick",
       "Yorndal",
       "Fjorhollow",
-      "Icewatch"
+      "Icewatch",
+      "Grimhaven Reach",
+      "Bjarnholt",
+      "Kragfell",
+      "The Everthrone",
+      "Wyrmrest Fissure",
+      "Mournspire Hold",
+      "Ulvengar",
+      "Driftskorn Sanctum",
+      "The Shiverdeep",
+      "Skeld's Lantern"
     ]
   },
   {
@@ -50,7 +69,17 @@
       "Vel'Zhen",
       "Xharneth Spires",
       "Crescent Vale",
-      "Yavari’s Breath"
+      "Yavari’s Breath",
+      "Zunqar's Mirage",
+      "The Emberveil Bazaar",
+      "Lohraquen",
+      "Thazuun's Garden",
+      "The Saffron Vault",
+      "Kavreshil",
+      "Qirathi Wellspring",
+      "The Whisperroots",
+      "Sandmother's Embrace",
+      "Azuram Hollow"
     ]
   },
   {
@@ -68,7 +97,17 @@
       "Kaetor",
       "Laurelis",
       "Mirask",
-      "Vault of Oran"
+      "Vault of Oran",
+      "Elarien’s Hollow",
+      "Gildemeir",
+      "The Rosecourt",
+      "Varnessa Hall",
+      "Silkreach",
+      "Ivorthal",
+      "The Ministry of Echoes",
+      "Cael'Vareth",
+      "The Weeping Plaza",
+      "Orradel Spire"
     ]
   },
   {
@@ -86,7 +125,17 @@
       "Skir Hollow",
       "Verdenswamp",
       "Yorr'murk",
-      "Zarilith"
+      "Zarilith",
+      "Bramblewake",
+      "The Gurgling Narrows",
+      "Veyrath Sink",
+      "Oozebloom Hovel",
+      "Nirrvale",
+      "The Crooked Maw",
+      "Drullfen Mire",
+      "Cowlshade Hollow",
+      "Widdershank Fen",
+      "The Lurking Cradle"
     ]
   },
   {
@@ -104,7 +153,17 @@
       "Moondawn Reach",
       "Vel Athein",
       "Syl Verran",
-      "Tower of Embrith"
+      "Tower of Embrith",
+      "Lyrenesse",
+      "The Argent Veil",
+      "Caelune Harbor",
+      "Virellin's Lament",
+      "Auremara",
+      "The Opaline Steps",
+      "Nael'ythar Grove",
+      "Selenith Spire",
+      "Hymreth Shoals",
+      "Isle of the Aetherborn"
     ]
   },
   {
@@ -122,7 +181,17 @@
       "Qynbar",
       "Lazeen",
       "Khurval",
-      "Azra's Embrace"
+      "Azra's Embrace",
+      "Thiremah Dunes",
+      "Bastion of Vahlun",
+      "Iqarra'tesh",
+      "The Sable Stair",
+      "Nimrathi Wells",
+      "Jalhura Gate",
+      "Zahir's Drift",
+      "Dunes of Silent Brass",
+      "The Shattercoast",
+      "Ithariel's Crown"
     ]
   },
   {
@@ -140,7 +209,17 @@
       "Drelwyn's Veil",
       "Thornmar",
       "Arathwyn",
-      "Runescar Keep"
+      "Runescar Keep",
+      "Valgareth Tor",
+      "The Mourning Crags",
+      "Cairn of Veyndar",
+      "Ashvane Hold",
+      "Sablemere",
+      "Tarn Vaelwyn",
+      "The Wyrdfane Bastion",
+      "Cryndelspire",
+      "Galdren’s Fall",
+      "The Echoing Court"
     ]
   },
   {
@@ -158,7 +237,17 @@
       "Brightbark",
       "Druunshade",
       "Vinelorn",
-      "Brayhollow"
+      "Brayhollow",
+      "Lorithal Canopy",
+      "The Mawroot Hollow",
+      "Feygrove Harth",
+      "Wendara's Coil",
+      "Grallfen Reach",
+      "Mosswhisper Dell",
+      "The Verdant Shrine",
+      "Kyrinth's Roost",
+      "The Hollowlight Steps",
+      "Briarveil Heart"
     ]
   },
   {
@@ -176,7 +265,17 @@
       "Veinmar",
       "Mourngate",
       "Helgrash Vault",
-      "The Ironhowl"
+      "The Ironhowl",
+      "Brimshard Gate",
+      "The Emberdeep Crucible",
+      "Dreadhollow Foundry",
+      "Kragmourn Rise",
+      "Vault of the Nine Rings",
+      "Ashthane Hold",
+      "Skarnveil Watch",
+      "Thulgrim’s Pyre",
+      "Gravemaul Steps",
+      "The Redstone Accord"
     ]
   }
 ]

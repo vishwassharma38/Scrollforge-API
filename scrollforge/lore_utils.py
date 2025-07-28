@@ -7,6 +7,7 @@ import json
 logger = logging.getLogger(__name__)
 LORE_DIR = Path(__file__).resolve().parent / 'data'
 
+
 @lru_cache(maxsize=8)
 def load_lore_file(lore_type):
     """
@@ -34,6 +35,7 @@ def load_lore_file(lore_type):
     except Exception as e:
         logger.exception(f"Failed to load lore file '{filename}': {e}")
         return {}
+
 
 def format_race_lore_entry(name, entry):
     """
@@ -179,3 +181,22 @@ def format_faction_lore_entry(name, entry):
         ("type", "faction"),
         ("lore", ordered_lore)
     ])
+
+
+def load_location_lore():
+    return load_lore_file("location")
+
+def format_location_lore_entry(entry: dict) -> dict:
+    return {
+        "region_name": entry.get("region_name"),
+        "description": entry.get("description"),
+        "lore": entry.get("lore"),
+        "region_type": entry.get("region_type"),
+        "environment": entry.get("environment"),
+        "native_race": entry.get("native_race"),
+        "history": entry.get("history"),
+        "culture": entry.get("culture"),
+        "major_events": entry.get("major_events"),
+        "major_places": entry.get("major_places"),
+        "current_state": entry.get("current_state")
+    }

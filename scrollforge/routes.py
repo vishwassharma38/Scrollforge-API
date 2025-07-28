@@ -2,8 +2,16 @@ from flask import Blueprint, request, Response, jsonify
 import logging
 import json
 import random
+from collections import OrderedDict
 from .generator import generate_character
-from .lore_utils import load_lore_file, format_race_lore_entry, format_faction_lore_entry, format_class_lore_entry
+from .lore_utils import (
+    load_lore_file,
+    format_race_lore_entry,
+    format_faction_lore_entry,
+    format_class_lore_entry,
+    load_location_lore,
+    format_location_lore_entry
+)
 
 logger = logging.getLogger(__name__)
 main = Blueprint('main', __name__)
@@ -63,34 +71,44 @@ def custom_generate():
 
 @main.route('/lore', methods=['GET'])
 def random_lore():
-    lore_types = ["race", "faction", "class",]
-    chosen_type = random.choice(lore_types)
-    lore_data = load_lore_file(chosen_type)
+    try:
+        lore_type = random.choice(['race', 'class', 'faction', 'location'])
 
-    if not lore_data:
+        if lore_type == "race":
+            data = load_lore_file("race")
+            name = random.choice(list(data.keys()))
+            entry = data[name]
+            formatted = format_race_lore_entry(name, entry)
+
+        elif lore_type == "class":
+            data = load_lore_file("class")
+            entry = random.choice(data)
+            name = entry.get("name", "Unknown Class")
+            formatted = format_class_lore_entry(name, entry)
+
+        elif lore_type == "faction":
+            data = load_lore_file("faction")
+            entry = random.choice(data)
+            name = entry.get("name", "Unknown Faction")
+            formatted = format_faction_lore_entry(name, entry)
+
+        elif lore_type == "location":
+            data = load_location_lore()
+            entry = random.choice(data)
+            formatted = format_location_lore_entry(entry)
+
         return Response(
-            json.dumps({"error": "Lore data not found."}, indent=2),
-            mimetype="application/json",
-            status=404
+            json.dumps({lore_type: formatted}, indent=2, ensure_ascii=False, sort_keys=False),
+            mimetype="application/json"
         )
 
-    if chosen_type == "race":
-        name = random.choice(list(lore_data.keys()))
-        entry = lore_data[name]
-        formatted = format_race_lore_entry(name, entry)
-    elif chosen_type == "class":
-        name = random.choice(list(lore_data.keys()))
-        entry = lore_data[name]
-        formatted = format_class_lore_entry(name, entry)
-    else:
-        entry = random.choice(lore_data)
-        name = entry.get("name", "Unknown Faction")
-        formatted = format_faction_lore_entry(name, entry)
-
-    return Response(
-        json.dumps(formatted, indent=2, ensure_ascii=False, sort_keys=False),
-        mimetype="application/json"
-    )
+    except Exception as e:
+        logger.exception("Uncaught error during /lore")
+        return Response(
+            json.dumps({"error": "Internal server error"}, indent=2),
+            mimetype="application/json",
+            status=500
+        )
 
 
 @main.route('/lore/race', methods=['GET'])
@@ -134,6 +152,7 @@ def lore_race(name):
         mimetype="application/json"
     )
 
+
 @main.route('/lore/class', methods=['GET'])
 @main.route('/class', methods=['GET'])
 def random_class():
@@ -153,6 +172,7 @@ def random_class():
         json.dumps(formatted, indent=2, ensure_ascii=False, sort_keys=False),
         mimetype="application/json"
     )
+
 
 @main.route('/lore/class/<name>', methods=['GET'])
 @main.route('/class/<name>', methods=['GET'])
@@ -176,6 +196,7 @@ def lore_class(name):
         mimetype="application/json"
     )
 
+
 @main.route('/lore/faction', methods=['GET'])
 @main.route('/faction', methods=['GET'])
 def random_faction():
@@ -196,6 +217,7 @@ def random_faction():
         json.dumps(formatted, indent=2, ensure_ascii=False, sort_keys=False),
         mimetype="application/json"
     )
+
 
 @main.route('/lore/faction/<name>', methods=['GET'])
 @main.route('/faction/<name>', methods=['GET'])
@@ -220,6 +242,101 @@ def lore_faction(name):
     )
 
 
+@main.route('/lore/location', methods=['GET'])
+@main.route('/location', methods=['GET'])
+def get_random_location():
+    data = load_location_lore()
+    if not data:
+        return jsonify({"error": "No location lore data found."}), 404
+    selected = random.choice(data)
+    formatted = format_location_lore_entry(selected)
+    return Response(
+        json.dumps(formatted, indent=2, ensure_ascii=False, sort_keys=False),
+        mimetype="application/json"
+    )
+
+
+@main.route('/lore/location/<string:location_name>', methods=['GET'])
+def get_location_by_name(location_name):
+    try:
+        data = load_location_lore()
+        for loc in data:
+            if loc["name"].lower().replace(" ", "") == location_name.lower().replace(" ", ""):
+                formatted = format_location_lore_entry(loc)
+                return Response(
+                    json.dumps(formatted, indent=2, ensure_ascii=False, sort_keys=False),
+                    mimetype="application/json"
+                )
+        return jsonify({"error": f"Location '{location_name}' not found."}), 404
+    except Exception as e:
+        logger.error(f"Error fetching location '{location_name}': {str(e)}")
+        return jsonify({"error": "Failed to load location data."}), 500
+
+
+
+@main.route('/generate/bulk', methods=['GET'])
+def generate_bulk_from_query():
+    try:
+        args = request.args.to_dict()
+        count_str = args.pop("count", "4")
+
+        # Safely convert count
+        try:
+            count = int(count_str)
+            if count < 1 or count > 100:
+                raise ValueError
+        except ValueError:
+            return jsonify({"error": "Count must be an integer between 1 and 100"}), 400
+
+        # Parse comma-separated values and normalize keys/values to lowercase
+        parsed_overrides = {}
+        for key, value in args.items():
+            norm_key = key.lower()  # Normalize the parameter name
+            values = [v.strip().lower() for v in value.split(",")]  # Normalize values
+            parsed_overrides[norm_key] = values
+
+        generated = []
+
+        for i in range(count):
+            overrides = {}
+            for key, values in parsed_overrides.items():
+                if i < len(values):
+                    val = values[i]
+                else:
+                    val = random.choice(values)
+
+                # Convert age if applicable
+                if key == "age":
+                    try:
+                        overrides[key] = int(val)
+                    except ValueError:
+                        continue
+                else:
+                    overrides[key] = val
+
+            character = generate_character(overrides)
+            generated.append(character)
+
+        response_data = OrderedDict([
+            ("count", count),
+            ("overrides_pool", parsed_overrides),
+            ("generated", generated)
+        ])
+
+        return Response(
+            json.dumps(response_data, indent=2),
+            mimetype='application/json'
+        )
+
+    except Exception as e:
+        logger.exception("Advanced bulk generation failed.")
+        return jsonify({"error": "Something went wrong"}), 500
+
+    except Exception as e:
+        logger.exception("Advanced bulk generation failed.")
+        return jsonify({"error": "Something went wrong"}), 500
+
+
 @main.route('/status', methods=['GET'])
 def status():
-    return jsonify({"status": "ok", "version": "v1"})
+    return jsonify({"status": "I'm Alive!", "version": "v1"})
